@@ -1,0 +1,17 @@
+.search-bar-container {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+textarea {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: auto;
+  width: 50%;
+}

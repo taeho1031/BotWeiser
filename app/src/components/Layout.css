@@ -1,0 +1,19 @@
+/* src/components/Layout.css */
+
+.layout {
+  max-width: 100%;
+  margin: 100px auto 0; /* Add 20px margin to the top, auto for horizontal centering */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  overflow-y: auto; /* Allow the layout to scroll vertically if content overflows */
+}
+
+.response-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+}
