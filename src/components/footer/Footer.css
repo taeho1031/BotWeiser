@@ -1,0 +1,17 @@
+.link { 
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px; 
+    font-size: 1.4rem; 
+} 
+  
+/* Changing the color */
+.link:hover { 
+    color: red; 
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
