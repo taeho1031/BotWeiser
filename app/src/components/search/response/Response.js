@@ -321,7 +321,20 @@ export const Response = ({ userInput, isFirstResponse }) => {
           break;
 
         default:
-          setResponseText("Default response");
+          setResponseText(
+            <div>
+              <p>Commands:</p>
+              <p>
+                "Describe what me what the Detection Bot: Victim & Loss
+                Identifier does" : Ask the Bot to describe specific bot.
+              </p>
+              <p>
+                "Give me the list of the Forta Detection Bots that can help with
+                spam detection" : Ask the Bot for List of Bots related to Scam
+                Detector
+              </p>
+            </div>
+          );
           break;
       }
     }

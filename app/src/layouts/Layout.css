@@ -32,10 +32,7 @@ header {
 }
 
 footer {
-  padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #2c3e50; /* Example color */
   color: white;
 }

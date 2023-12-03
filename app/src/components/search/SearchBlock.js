@@ -1,13 +1,10 @@
-// components/SearchBlock.tsx
 import React, { useState } from "react";
-import "./SearchBlock.css";
-import { UserResponse } from "./response/UserResponse";
 import { SearchBar } from "./searchbar/SearchBar";
-import { Response } from "./response/Response";
 import { ResponseList } from "./response/ResponseList"; // Import the new ResponseList component
+import "./SearchBlock.css";
 
 export const SearchBlock = ({ onUserInput }) => {
-  const [userInput, setUserInput] = useState("");
+  const [, setUserInput] = useState("");
   const [responses, setResponses] = useState([]);
 
   const handleUserInput = (input) => {
@@ -21,7 +18,7 @@ export const SearchBlock = ({ onUserInput }) => {
   };
 
   return (
-    <div className="container">
+    <div className="search-block-container">
       <div className="response-container">
         <ResponseList responses={responses} />
       </div>
