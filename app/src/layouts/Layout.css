@@ -24,6 +24,13 @@ main {
   justify-content: center;
 }
 
+header {
+  display: fixed;
+  height: 9vh;
+  background-color: #000000; /* Example color */
+  color: white;
+}
+
 footer {
   padding: 0;
   display: flex;
