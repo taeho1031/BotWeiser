@@ -19,8 +19,9 @@ main {
 }
 
 header {
+  display: fixed;
   height: 9vh;
-  background-color: #3498db; /* Example color */
+  background-color: #000000; /* Example color */
   color: white;
 }
 
