@@ -1,4 +1,4 @@
-.link { 
+.footer-link { 
     color: #ffffff80; 
     text-decoration: none; 
     padding: 10px; 
@@ -6,11 +6,17 @@
 } 
   
 /* Changing the color */
-.link:hover { 
+.footer-link:hover { 
     color: rgb(255, 255, 255); 
 }
 
-.row{
+.footer-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
     display: flex;
     justify-content: center;
     align-items: center;
