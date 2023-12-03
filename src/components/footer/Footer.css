@@ -1,0 +1,17 @@
+.link { 
+    color: #ffffff80; 
+    text-decoration: none; 
+    padding: 10px; 
+    font-size: 1.0rem; 
+} 
+  
+/* Changing the color */
+.link:hover { 
+    color: rgb(255, 255, 255); 
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
