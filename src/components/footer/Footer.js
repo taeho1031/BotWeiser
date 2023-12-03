@@ -13,35 +13,23 @@ const Footer=()=>{
                         
                     </div>
 
-                    <div className="col">
+                    {/* <div className="col">
                         <a href="https://app.forta.network/bots" className="link">Explore Bots</a>
-                    </div>
+                    </div> */}
 
-                    <div className="col">
+                    <div className="col-left">
                         <a href="https://discord.gg/KACdTEutQq" className="link">Discord</a>
                     </div>
 
-                    <div className="col">
+                    <div className="col-left">
                         <a href="https://forta.org/legal/" className="link">Term of Use</a>
                     </div>
 
-                    <div className="col">
+                    <div className="col-left">
                         <a href="https://forta.org/privacy/" className="link">Privacy Policy</a>
                     </div>
 
                 </div>
-                {/* <ul className="footerMenu">
-                    <li>
-                        <a href="http://forta.org" className="link">
-                            &copy;{new Date().getFullYear()} Forta Foundation
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://forta.org" className="link">
-                            Full Bot List
-                        </a>
-                    </li>
-                </ul> */}
                 <div className="row">
                     {/* <h4>next page</h4> */}
                 </div>
