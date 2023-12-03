@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  background-color: red;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: left;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 20vh;
+  padding: 10px;
+}
+
+.searchbar-container {
+  padding: 10px;
+  background-color: blue;
+  width: 90%;
+  display: flex;
+}

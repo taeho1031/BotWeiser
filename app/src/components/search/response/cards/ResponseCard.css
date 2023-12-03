@@ -1,0 +1,8 @@
+.response-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px 5px 16px 5px;
+  margin-bottom: 12px;
+  background-color: yellow;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
