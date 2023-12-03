@@ -14,23 +14,24 @@ header,
 footer,
 main {
   width: 100%;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 10px; /* Adjust padding as needed */
   box-sizing: border-box;
 }
 
 header {
-  height: 9vh;
+  height: 8vh;
   background-color: #3498db; /* Example color */
   color: white;
 }
 
 main {
   flex-grow: 1;
-  background-color: #ecf0f1; /* Example color */
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-  height: 5vh;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
