@@ -4,13 +4,12 @@
   align-items: center;
   width: 80%;
   height: 100%;
-  background-color: red;
+  color: white;
 }
 
 .response-container {
   display: flex;
   flex-direction: column;
-  background-color: beige;
   flex-grow: 1;
   width: 100%;
   justify-content: left;
@@ -21,7 +20,22 @@
 
 .searchbar-container {
   padding: 10px;
-  background-color: blue;
   width: 90%;
   display: flex;
+}
+
+/* Style the scrollbar track */
+.response-container::-webkit-scrollbar {
+  width: 3px; /* Set the width of the scrollbar */
+}
+
+/* Style the scrollbar handle */
+.response-container::-webkit-scrollbar-thumb {
+  background-color: #9fd3c7; /* Set the color of the scrollbar handle */
+  border-radius: 6px; /* Optional: Add rounded corners to the scrollbar handle */
+}
+
+/* Style the scrollbar track on hover */
+.response-container::-webkit-scrollbar-track:hover {
+  background-color: transparent; /* Set the color of the scrollbar track on hover */
 }

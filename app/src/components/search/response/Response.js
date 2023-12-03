@@ -9,51 +9,70 @@ export const Response = ({ userInput, isFirstResponse }) => {
   useEffect(() => {
     // Check if it's the first response
     if (isFirstResponse) {
-      setResponseText("Welcome");
+      setResponseText(
+        <div>
+          <p>Welcome: This page is going through test.</p>
+          <p>Commands:</p>
+          <p>
+            "Provide me with Bots that are used for scam detection": Ask the Bot
+            for List of Bots related to Scam Detector
+          </p>
+          <p>
+            "Give me the summary of this Detection Bot:": Ask for the summary of
+            the specific bot
+          </p>
+        </div>
+      );
     } else {
       // Handle subsequent responses based on user input
-      if (userInput === "1") {
-        setResponseText(
-          "This bot was created a year ago and currently supports 7 networks. Over the past 7 days, it has emitted 383995 alerts and 767564 labels. The last update was made 5 months ago."
-        );
-      } else if (userInput === "2") {
-        // Assuming you have some bot info
-        const botInfo = {
-          id: 1,
-          name: "BotName",
-          description: "BotDescription",
-        };
-        setResponseText(
-          <>
-            <BotCard
-              id={botInfo.id}
-              name={botInfo.name}
-              description={botInfo.description}
-            />
-            <BotCard
-              id={botInfo.id}
-              name={botInfo.name}
-              description={botInfo.description}
-            />
-            <BotCard
-              id={botInfo.id}
-              name={botInfo.name}
-              description={botInfo.description}
-            />
-            <BotCard
-              id={botInfo.id}
-              name={botInfo.name}
-              description={botInfo.description}
-            />
-            <BotCard
-              id={botInfo.id}
-              name={botInfo.name}
-              description={botInfo.description}
-            />
-          </>
-        );
-      } else {
-        setResponseText("Default response");
+      switch (userInput) {
+        case "Give me the summary of this Detection Bot:":
+          setResponseText(
+            "This bot was created a year ago and currently supports 7 networks. Over the past 7 days, it has emitted 383995 alerts and 767564 labels. The last update was made 5 months ago."
+          );
+          break;
+
+        case "Provide me with Bots that are used for scam detection":
+          // Assuming you have some bot info
+          const botInfo = {
+            id: 1,
+            name: "BotName",
+            description: "BotDescription",
+          };
+          setResponseText(
+            <>
+              <BotCard
+                id={botInfo.id}
+                name={botInfo.name}
+                description={botInfo.description}
+              />
+              <BotCard
+                id={botInfo.id}
+                name={botInfo.name}
+                description={botInfo.description}
+              />
+              <BotCard
+                id={botInfo.id}
+                name={botInfo.name}
+                description={botInfo.description}
+              />
+              <BotCard
+                id={botInfo.id}
+                name={botInfo.name}
+                description={botInfo.description}
+              />
+              <BotCard
+                id={botInfo.id}
+                name={botInfo.name}
+                description={botInfo.description}
+              />
+            </>
+          );
+          break;
+
+        default:
+          setResponseText("Default response");
+          break;
       }
     }
   }, [userInput, isFirstResponse]);

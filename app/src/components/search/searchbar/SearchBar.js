@@ -28,7 +28,7 @@ export const SearchBar = ({ onUserInput }) => {
 
   return (
     <TextareaAutosize
-      placeholder="Type something here..."
+      placeholder="Ask the Assistant..."
       value={userInput}
       onChange={handleChange}
       onKeyDown={handleKeyPress}
@@ -36,11 +36,16 @@ export const SearchBar = ({ onUserInput }) => {
       maxRows={maxRows}
       style={{
         fontSize: "0.9rem",
+        color: "white",
         width: "100%",
         padding: "7px",
         resize: "none",
         overflowY: isOverflowing ? "scroll" : "hidden",
+        border: "2px solid white", // Add your border color here
+        borderRadius: "5px", // Optional: Add border-radius for rounded corners
+        transition: "border 0.3s",
       }}
+      onBlur={(e) => (e.target.style.outline = "none")}
     />
   );
 };
