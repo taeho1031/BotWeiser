@@ -6,12 +6,14 @@ import "./ResponseList.css";
 export const ResponseList = ({ responses }) => {
   const conversationEndRef = useRef(null);
   useEffect(() => {
-    console.log("conversationEndRef.current:", conversationEndRef.current);
-    conversationEndRef.current?.scrollIntoView();
+    conversationEndRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+    });
   }, [responses]);
 
   return (
-    <div>
+    <>
       <div className="response-block">
         <Response isFirstResponse={true} />
       </div>
@@ -22,6 +24,6 @@ export const ResponseList = ({ responses }) => {
         </div>
       ))}
       <div ref={conversationEndRef}></div>
-    </div>
+    </>
   );
 };

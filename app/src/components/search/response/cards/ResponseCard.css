@@ -1,8 +1,33 @@
 .response-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px 5px 16px 5px;
-  margin-bottom: 12px;
-  background-color: yellow;
+  padding: 16px 2px 16px 2px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  display: flex;
+  font-size: 1em;
+}
+
+.icon-image {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  padding-left: 10px;
+}
+
+.response-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.response-card.bot {
+  background-color: transparent; /* Add your bot color here */
+}
+
+.response-card.user {
+  background-color: #f0f0f0; /* Add your user color here */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.response-card-body {
+  padding-left: 20px;
 }

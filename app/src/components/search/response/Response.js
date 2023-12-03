@@ -24,11 +24,33 @@ export const Response = ({ userInput, isFirstResponse }) => {
           description: "BotDescription",
         };
         setResponseText(
-          <BotCard
-            id={botInfo.id}
-            name={botInfo.name}
-            description={botInfo.description}
-          />
+          <>
+            <BotCard
+              id={botInfo.id}
+              name={botInfo.name}
+              description={botInfo.description}
+            />
+            <BotCard
+              id={botInfo.id}
+              name={botInfo.name}
+              description={botInfo.description}
+            />
+            <BotCard
+              id={botInfo.id}
+              name={botInfo.name}
+              description={botInfo.description}
+            />
+            <BotCard
+              id={botInfo.id}
+              name={botInfo.name}
+              description={botInfo.description}
+            />
+            <BotCard
+              id={botInfo.id}
+              name={botInfo.name}
+              description={botInfo.description}
+            />
+          </>
         );
       } else {
         setResponseText("Default response");
