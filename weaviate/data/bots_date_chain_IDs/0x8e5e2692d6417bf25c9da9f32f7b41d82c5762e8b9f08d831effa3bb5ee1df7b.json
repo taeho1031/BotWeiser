@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0x9C8ED6c23c26dECE8484D56617f807A32636Df00",
+        "name": "EthX Forta Bot",
+        "description": "EthX Forta Bot",
+        "longDescription": "EthX Forta Bot",
+        "agentId": "ethx-forta-bot",
+        "agentIdHash": "0x8e5e2692d6417bf25c9da9f32f7b41d82c5762e8b9f08d831effa3bb5ee1df7b",
+        "version": "0.0.3",
+        "timestamp": "Mon, 18 Sep 2023 08:15:31 GMT",
+        "imageReference": "bafybeifmg2fyauavxtcarjndoy6pityegmq7y3y3v2iwdfqqj3rj7e6lhy@sha256:d2971772f93ecf467bfe4b73e61271d40340dac4509deaa8c9ca16dd2e2098b6",
+        "documentation": "QmTFUpTLDTx72eAKXrnzriVuzzBcVcu93FaRR8DPp4WxSX",
+        "repository": "https://github.com/stader-labs/forta-bots",
+        "licenseUrl": "https://github.com/stader-labs/forta-bots/blob/master/starter-project/LICENSE.md",
+        "promoUrl": "https://www.staderlabs.com/eth",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.36"
+    },
+    "signature": "0x407c0f11308f3a12dcf3988644d342d142224d60816d26ae17afee8a673e867027092cfd0d6d4b3658db9c871736c52460a9ea0b8b89ef4a85d7a14a54b92e8a1b"
+}

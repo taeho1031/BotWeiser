@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Ice Phishing Detection ",
+        "agentId": "Ice Phishing Detection ",
+        "agentIdHash": "0xd9fe61cfe875470b80318a96cc0a94ba3adbe1eb4a14827fa018f14925e7da64",
+        "version": "0.0.6",
+        "timestamp": "Thu, 02 Jun 2022 09:13:42 GMT",
+        "imageReference": "bafybeibkvwcsvzfffk2vmiactix2yh54l7nq4eloenispobj2fvbxzcddq@sha256:436b25b632cc61041ee20598e63f02c0f7ac7b88f972bb265f92f4941d8f60a3",
+        "documentation": "QmdJZ2bSvkavdsXUT7CUduxoxUkmrrQF7CUCdP2fjbZoTP",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x1c92fc80c5e7fb5ff8bf9d69dcf5c662aef03372d19c0bf5c9809d7618531f44460b5f736df046126ec298adf13313433b4ac22d7ace031a81931e5fb4874ea01c"
+}

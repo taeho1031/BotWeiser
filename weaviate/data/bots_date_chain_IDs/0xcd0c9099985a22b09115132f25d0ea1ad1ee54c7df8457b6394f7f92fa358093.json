@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Compound v3 Reserves Monitor",
+        "agentId": "Compound v3 Reserves Monitor",
+        "agentIdHash": "0xcd0c9099985a22b09115132f25d0ea1ad1ee54c7df8457b6394f7f92fa358093",
+        "version": "0.0.1",
+        "timestamp": "Mon, 03 Jul 2023 19:36:43 GMT",
+        "imageReference": "bafybeicvlzffx2gwodqfcaybq43nujwqbujyt6ec2z56pdulauolpfm33i@sha256:139796dbc0a1c28515e9f3e248094f79e01f7e351ad3a91e5997f5647c80f0e7",
+        "documentation": "QmRwjeEfTSDYXEsYEu1JzpYds8EJT7nV9vJnofeXrFpxSz",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/CompoundV3-Bots/Reserves-Monitor",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x77698bb0181b87a46b4542188527023f27d8249383495e6a052f8bd0ee8a319e300074a91c11faa9c2df47cca19305a83e974e3bf71232ca248ba9165749305f1c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x2DD872C6f7275DAD633d7Deb1083EDA561E9B96b",
+        "name": "alperp-unusual-perp-pnl-tx ",
+        "agentId": "alperp-unusual-perp-pnl-tx ",
+        "agentIdHash": "0x22ac2c8c6269a0876cd9f9110f693399ea9b6d687e216eaff93e0e1070e1a546",
+        "version": "0.0.2",
+        "timestamp": "Thu, 09 Mar 2023 11:07:17 GMT",
+        "imageReference": "bafybeiayrpgqfslmon4wyave7ssc6morzyszgukuyxpjapnmcbo5244awq@sha256:0509b8e82be365aa0c4fb84f0f2a73910c120fc87e32e645f654a7a257d0bfc0",
+        "documentation": "QmTepCnnux6hLabK4HRtKbSiBoCQuJvTCcsx7ZSYJZd7YB",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x300bf39af0f38d90189515a778daecfc12f03911e326c2b0a65c0df001d633d93b30713541782963b3d178a56a0cf070a47b034248fb9514ba1e2dfd7b6ba6bf1b"
+}

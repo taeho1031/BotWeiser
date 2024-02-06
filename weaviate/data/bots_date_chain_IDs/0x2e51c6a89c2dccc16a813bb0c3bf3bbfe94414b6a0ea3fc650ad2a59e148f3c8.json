@@ -1,0 +1,30 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "anomalous-token-transfers-detection-ml",
+        "description": "ML Anomaly Detection of Transactions with Token Transfers",
+        "agentId": "anomalous-token-transfers-detection-ml",
+        "agentIdHash": "0x2e51c6a89c2dccc16a813bb0c3bf3bbfe94414b6a0ea3fc650ad2a59e148f3c8",
+        "version": "1.2.0",
+        "timestamp": "Sat, 16 Dec 2023 15:08:05 GMT",
+        "imageReference": "bafybeig24yb4xuki6gyarrycgm5bwiyamytgxzc45s3c3d3lwms5v5pepy@sha256:c2ff13d884ba5e1af948ff81a24cb85588de26a3854a545f0e2f1c6c10cfccd6",
+        "documentation": "QmQUU6cnDuELMtvVh2N6cHiGRtcYDYfLgFNnSmCBenZvxX",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/anomalous-token-transfers-ml-py#anomalous-transaction-with-token-transfers",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 6,
+                "target": 2
+            },
+            "default": {
+                "shards": 2,
+                "target": 2
+            }
+        }
+    },
+    "signature": "0x3f1b198a0f73cd4471fbf764c842eee28b59da3be15b199269ea9f533f841dea5fc0119f4783785065ab5810574070bc4b7fe6b760280dcc84bb82f706e00edd1b"
+}

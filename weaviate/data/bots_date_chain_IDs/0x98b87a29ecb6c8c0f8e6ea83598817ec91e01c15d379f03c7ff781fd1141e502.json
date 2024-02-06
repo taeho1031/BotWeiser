@@ -1,0 +1,44 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "Address Poisoning Detector",
+        "description": "Bot detecting address poisoning - zero value, low value, and fake token phishing transfers",
+        "agentId": "address-poisoning-detector",
+        "agentIdHash": "0x98b87a29ecb6c8c0f8e6ea83598817ec91e01c15d379f03c7ff781fd1141e502",
+        "version": "0.4.2",
+        "timestamp": "Mon, 04 Dec 2023 08:28:00 GMT",
+        "imageReference": "bafybeiex6n2hecgcnddfnlkymywmqpz2gpxz6w4waod2em2ooyu2zhor5u@sha256:41dd2cfbfc12a010e68da1e53c9df137ab5bd8fa2bb09edf1d5a542cde93d1b6",
+        "documentation": "QmeYpTj2K8w8BiABSyPQnuZ8mZUtQup5t8NTE39U6o8bVo",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/address-poisoning-py",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 15,
+                "target": 3
+            },
+            "56": {
+                "shards": 28,
+                "target": 3
+            },
+            "137": {
+                "shards": 30,
+                "target": 3
+            },
+            "default": {
+                "shards": 8,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x3ac36e0360c5339618485e2f7d7f32bde2f81eef1534d813c7a5f65516ad7382000bb4e19070344ffcffe00e653c6cacb95f5df2a4391ed063f2ca2aea7bc8ee1b"
+}

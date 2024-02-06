@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Across Ethereum SpokePool",
+        "agentId": "Large Balance Decrease - Across Ethereum SpokePool",
+        "agentIdHash": "0xd2520a2b0f6dbbf815ba33376f36a406393508e709d8f50e13d4ebad43490a59",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:24:28 GMT",
+        "imageReference": "bafybeifs2vmvvwm7naef2ool4pgxvtpcqxwn4amvaaxyjjk3674qtkm3hy@sha256:8f248b21fc59a5ce949d0cda4cb1d220844b9df9037bcaf81d0fed4b48802a98",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x9a4d3e6f0fb9ef3220123e234e52af7d58b64d95d7ccfda31cab9910650a943f37c3cbea547f16f94d66507e048bc6fba2c8656e983ae7e1dfe0248fc1b8f2e61b"
+}

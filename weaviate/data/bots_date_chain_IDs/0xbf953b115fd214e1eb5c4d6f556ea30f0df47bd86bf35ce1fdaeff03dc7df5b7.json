@@ -1,0 +1,29 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "High Value Transaction",
+        "description": "Forta bot that monitors transactions that have high value",
+        "longDescription": "The bot identifies transactions characterized by anomalous transaction values that surpass a predefined threshold. Its primary role involves actively monitoring transactional activities to pinpoint instances where the transaction value exceeds the established threshold.",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "High Value Transaction",
+        "agentIdHash": "0xbf953b115fd214e1eb5c4d6f556ea30f0df47bd86bf35ce1fdaeff03dc7df5b7",
+        "version": "0.2.2",
+        "timestamp": "Fri, 18 Aug 2023 11:28:36 GMT",
+        "imageReference": "bafybeigtwca33sxcwidpljnjyiedkuirbopeq37y6vxznb73h672kdem7m@sha256:ab84bde7afa3ceb146c21d3588f9e437e5a2b9a0ec6078407192bef79db4c329",
+        "documentation": "QmcpECssMGm159ZcvCvMGkctEPKrM42HvtQgsL6qcYYTYi",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/anomalous-tx-value",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta App 0.1.0"
+    },
+    "signature": "0x2e917963722c3f56f0c3f028b11836b3350844c7d91d2d47e56368f2f386b6f50acf8c1ac8c83e83bc59b3377a948b02e70f388fd7a34021be91a7ece5fb2f0a1c"
+}

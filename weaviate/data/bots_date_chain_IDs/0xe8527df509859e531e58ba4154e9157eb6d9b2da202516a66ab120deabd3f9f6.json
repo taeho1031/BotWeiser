@@ -1,0 +1,59 @@
+{
+    "manifest": {
+        "from": "0x183d13c4fCb5133EA52345A9037C9c25A5Aa139D",
+        "name": "attack-simulation-bot",
+        "description": "The bot detects the deployment of smart contracts that contain exploit functions by simulating their execution within a sandbox environment.",
+        "agentId": "attack-simulation-bot",
+        "agentIdHash": "0xe8527df509859e531e58ba4154e9157eb6d9b2da202516a66ab120deabd3f9f6",
+        "version": "0.0.20",
+        "timestamp": "Mon, 05 Jun 2023 19:12:52 GMT",
+        "imageReference": "bafybeicc6ce3dnvjjfbrljtxuzncg2np76qkw5xq3w4af5x2c3m2nivwb4@sha256:5cf63050b113ce2df2a106b20d420c6687d30c28ed98cd42498f46475f642458",
+        "documentation": "QmdFtzYRC17oQoKeEcS2hpd6EQDxiZG6ekA2bt1743pMxZ",
+        "repository": "https://github.com/kovart/forta-attack-simulation",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.32",
+        "chainSettings": {
+            "1": {
+                "shards": 1,
+                "target": 22
+            },
+            "10": {
+                "shards": 1,
+                "target": 20
+            },
+            "56": {
+                "shards": 1,
+                "target": 20
+            },
+            "137": {
+                "shards": 1,
+                "target": 20
+            },
+            "250": {
+                "shards": 1,
+                "target": 22
+            },
+            "42161": {
+                "shards": 1,
+                "target": 22
+            },
+            "43114": {
+                "shards": 1,
+                "target": 22
+            },
+            "default": {
+                "shards": 1,
+                "target": 20
+            }
+        }
+    },
+    "signature": "0x1a5a365a57a11f8fa72c715872d185408a428ae4b86dc231fe8b99a2b266142c1dbcee5edd7ad0bddfd59948515eae76d7b1bc4c30dc4b66f5a5b797bf974f911b"
+}

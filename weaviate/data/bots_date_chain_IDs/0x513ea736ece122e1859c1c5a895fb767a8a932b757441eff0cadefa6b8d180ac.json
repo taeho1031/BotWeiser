@@ -1,0 +1,43 @@
+{
+    "manifest": {
+        "from": "0x6Ec4b84aEB75eE330876FFFecA65cB635b41ED76",
+        "name": "scammer-nft-trader",
+        "description": "Index NFT trades and detect scammer accounts. Supports OpenSea, LooksRare and Blur",
+        "agentId": "scammer-nft-trader",
+        "agentIdHash": "0x513ea736ece122e1859c1c5a895fb767a8a932b757441eff0cadefa6b8d180ac",
+        "version": "1.0.0",
+        "timestamp": "Fri, 30 Jun 2023 18:19:02 GMT",
+        "imageReference": "bafybeidvuqtobjattiubturqa2zlgt3oui4enhmrqauru4rzk2tghhdirm@sha256:2c4ef56394ecaca06f2f39b2b7c15430baa87f8f2361af5e7cdcd34ba38fa3d1",
+        "documentation": "QmdBBbS4HBzzniasQnzXKPZYVeCuGdMxUwwRayCAx7oD98",
+        "repository": "https://github.com/Kayaba-Attribution/scammer-nft-trader",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.31",
+        "chainSettings": {
+            "1": {
+                "shards": 2,
+                "target": 2
+            },
+            "56": {
+                "shards": 4,
+                "target": 1
+            },
+            "137": {
+                "shards": 3,
+                "target": 2
+            },
+            "default": {
+                "shards": 1,
+                "target": 1
+            }
+        }
+    },
+    "signature": "0x747fefd2988801b6799353f7511c15be25c0f911a2cb0e4a59a459cce83b6d163439228ebb91a28ecc6a283ade55066276e522228847fc2a8eda63a20fa846ab1b"
+}

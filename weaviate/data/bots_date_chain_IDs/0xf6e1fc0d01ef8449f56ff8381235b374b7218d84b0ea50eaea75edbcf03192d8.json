@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xe90BCAEE86D8aF5C120f9E99cd0050Ba63a42494",
+        "name": "perp88-1-detect-large-open-and-increase-position",
+        "description": "Detects the opening of a large positon and increase of an existing large position",
+        "agentId": "perp88-1-detect-large-open-and-increase-position",
+        "agentIdHash": "0xf6e1fc0d01ef8449f56ff8381235b374b7218d84b0ea50eaea75edbcf03192d8",
+        "version": "0.0.1",
+        "timestamp": "Tue, 13 Dec 2022 07:27:08 GMT",
+        "imageReference": "bafybeihgisqnozpmmjzpr573j4gvora4heoyccnsut7ldiln2i2xpjlfke@sha256:d18d4e9f4a9b87409b7c39210e3d07af19c488fbced858c8e972905725098a79",
+        "documentation": "QmXLW869f5TkhBxWBd6nWg5saMxo46195Eo7fjHpnhVkMJ",
+        "repository": "",
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.13"
+    },
+    "signature": "0x7c9cb54449c3c120f691f62ba55fd48894d0ca6b174a13502453604f75b8a8ca3834473f565a82705557c84f56e07f4f405c770d8b169cc433f7abc8a459ba3e1b"
+}

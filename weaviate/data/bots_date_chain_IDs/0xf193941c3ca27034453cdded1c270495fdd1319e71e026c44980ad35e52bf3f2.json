@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Lido Optimism L1 ERC20 Token Bridge",
+        "agentId": "Large Balance Decrease - Lido Optimism L1 ERC20 Token Bridge",
+        "agentIdHash": "0xf193941c3ca27034453cdded1c270495fdd1319e71e026c44980ad35e52bf3f2",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:04:55 GMT",
+        "imageReference": "bafybeickaukdbdgqxrfoyh6jby5axtddp7rgl4aqqlignwcegjw2shqvmu@sha256:a1a6affc5a022dd76bda84e04e5dcf32e6c356decbe86bc1cc6336fedb2effb2",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x2e5222004424e333b9808b432ec8eaf1ed1af57c810be63aa4a569b9e7616cc173626a78f04609135ae78a4a322583e3837c6966baea2c687652d4734eb1a3d01c"
+}

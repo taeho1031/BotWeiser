@@ -1,0 +1,30 @@
+{
+    "manifest": {
+        "from": "0x183d13c4fCb5133EA52345A9037C9c25A5Aa139D",
+        "name": "Token Spam Detector",
+        "description": "Identify spam tokens and NFTs.",
+        "longDescription": "This bot detects spam tokens (ERC20, 721 and 1155) using advanced algorithms that consider token metadata analysis, compliance with declared token standards, distribution rationality and analysis of token creator and recipient behavior.",
+        "promoUrl": "",
+        "licenseUrl": "https://github.com/kovart/forta-spam-detector/blob/main/LICENSE",
+        "agentId": "Token Spam Detector",
+        "agentIdHash": "0xd45f7183783f5893f4b8e187746eaf7294f73a3bb966500d237bd0d5978673fa",
+        "version": "0.0.27",
+        "timestamp": "Mon, 27 Nov 2023 18:21:24 GMT",
+        "imageReference": "bafybeidwhdzfj2bv2zkxxsscxz2eh5itx6xqh6yorqnmcd7e4p5ymy2uoy@sha256:afa8b42687fbab4d61b02390febd2ce016eca41b423e66539d85685bfa317416",
+        "documentation": "QmVNsbX4cJAPELM4EsKYptW9umn9vL2rhyFJsifWGD2FsW",
+        "repository": "https://github.com/kovart/forta-spam-detector",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0x0c4364074b616c6ae7a9a43d1dd6806df79ad1875261b1028c950ec6c24d6c2a546def39b24f2e4cecdede217da644144fc5a2dc3ba9da285cedae047fea66921b"
+}

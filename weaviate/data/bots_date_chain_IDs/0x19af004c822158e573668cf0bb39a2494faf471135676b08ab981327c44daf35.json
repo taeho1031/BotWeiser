@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Stargate SUSDT Bridge",
+        "agentId": "Large Balance Decrease - Stargate SUSDT Bridge",
+        "agentIdHash": "0x19af004c822158e573668cf0bb39a2494faf471135676b08ab981327c44daf35",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 11:35:55 GMT",
+        "imageReference": "bafybeibqsevb6n55dk46c3hu34gf3spntecp7nld7mlewf76o33nxsor4a@sha256:47c640fed854ac28b11dbc99cee9813cdec29c996e3aa50908ef6a14a0f5f21b",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x067d735f978e03953b72e060f5b4f5fa8fe87530dd50bc5397e95b8242e098be047388c4e0ef984d716269b372e52be6afd12ac2885f58b0e94c751c788f00321b"
+}

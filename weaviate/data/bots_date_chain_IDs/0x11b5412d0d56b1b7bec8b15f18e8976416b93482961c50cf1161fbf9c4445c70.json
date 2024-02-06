@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Whitelist Disabling",
+        "agentId": "Forta Whitelist Disabling",
+        "agentIdHash": "0x11b5412d0d56b1b7bec8b15f18e8976416b93482961c50cf1161fbf9c4445c70",
+        "version": "0.0.2",
+        "timestamp": "Tue, 07 Jun 2022 12:16:06 GMT",
+        "imageReference": "bafybeih4gpbazibxkvokoxnb7azy6f2xsk7zuamzyxq4mr5y5hn447qiya@sha256:fa03d36359ca59cc8e74d797843a68e71aed9b93c706c85f1892d6e4d7b8679d",
+        "documentation": "QmSWCYHVHwVSkRCgSHA6vRbfTdEst6E5ViYANTxWbKsYX9",
+        "repository": "https://github.com/LimeChain/forta-bots/tree/main/whitelist-disabling",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xbe831cc13425abfdb01171ff40e1026258789864490c8622f400ea87dbf8680c3cb40df29957e5ebd169804faf11672be81085c43f0dfef6a822c5425e1efbf61c"
+}

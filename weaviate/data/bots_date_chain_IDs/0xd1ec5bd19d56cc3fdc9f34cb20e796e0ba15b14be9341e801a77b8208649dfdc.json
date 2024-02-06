@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x183d13c4fCb5133EA52345A9037C9c25A5Aa139D",
+        "name": "Compound Governance Agent",
+        "agentId": "Compound Governance Agent",
+        "agentIdHash": "0xd1ec5bd19d56cc3fdc9f34cb20e796e0ba15b14be9341e801a77b8208649dfdc",
+        "version": "0.0.2",
+        "timestamp": "Sat, 23 Apr 2022 10:39:44 GMT",
+        "imageReference": "bafybeicwx42qy3tdf4o2ptmnpiy5yos67fj4d2rmqr6xruzy5udawntzfa@sha256:0b0d50f94fcfa9ac7c09bfd9617f3d9cc048fcf820bab03914cb959807105320",
+        "documentation": "QmSSbkHcbpj9vMaAkjUF3qTh5PxJ6hEhsTbiTjs2QYfAdn",
+        "repository": "https://github.com/kovart/forta-agents/tree/main/compound/governance-events",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x2117e7d8935dedd9036d7af97d42d051cd4a87995edb25e5d67bf9a0bf9850d8148f87a1f89ee5f82856fa47f43da6538c7d209c3d365bca73bfbad0d335f4f21b"
+}

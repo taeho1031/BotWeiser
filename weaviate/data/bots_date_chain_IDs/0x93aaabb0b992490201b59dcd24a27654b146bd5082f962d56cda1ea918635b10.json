@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x007De8128e800f022698CC790a9C4FdF23C94a3f",
+        "name": "swap-spot-bot",
+        "description": "swap alerts",
+        "agentId": "swap-spot-bot",
+        "agentIdHash": "0x93aaabb0b992490201b59dcd24a27654b146bd5082f962d56cda1ea918635b10",
+        "version": "0.0.2",
+        "timestamp": "Mon, 27 Feb 2023 22:36:56 GMT",
+        "imageReference": "bafybeihxn6eozdlzjyf4jxrkfltrmr5gfvwnsgiaqvio7pedfooimikscq@sha256:9202d05a0414ac618af515c057079f3652cb2d6702d86acb7f54074242719b7e",
+        "documentation": "Qmc3KG8T93CsZfUmBT9RaKgM1LtosEFWGfr2B1uTEJ3pER",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.20"
+    },
+    "signature": "0xbec7b0a9b2b36b92cf6bd0ed1b913b89e42a3c06f146ad427021664732493e7f47a4a5d5a7d0c197557df435aac4683011e36067fb285307921ae3f0612f46aa1c"
+}

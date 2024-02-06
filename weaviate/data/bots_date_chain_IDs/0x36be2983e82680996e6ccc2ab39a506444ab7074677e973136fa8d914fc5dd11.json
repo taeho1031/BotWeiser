@@ -1,0 +1,31 @@
+{
+    "manifest": {
+        "from": "0xF03Ce3ffA237f13805C8900B7F57402623f8E769",
+        "name": "rake-scam-token-detection-bot",
+        "description": "Detects rake scam tokens that significantly take an additional swap fee on Uniswap DEX and transfer it to an EOA",
+        "agentId": "rake-scam-token-detection-bot",
+        "agentIdHash": "0x36be2983e82680996e6ccc2ab39a506444ab7074677e973136fa8d914fc5dd11",
+        "version": "0.0.1",
+        "timestamp": "Fri, 03 Nov 2023 03:05:31 GMT",
+        "imageReference": "bafybeicgm4ujqjrh6jgkr4vt7k5fhpmstvjtctsmfw44aeh7laprrpkwni@sha256:ce1fb220c90f05075e6171402c2c79b5809274a22dca12bea0b3971693fc79ba",
+        "documentation": "QmYMoJpqfMnWLpwdLmrBs75PNNmNPVR7ECVybFirDiYCrb",
+        "repository": "https://github.com/sprtd/rake-scam-token-forta-detection-bot.git",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42161,
+            42220,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.24",
+        "chainSettings": {
+            "56": {
+                "shards": 15,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x019f6dbe7d2a3aa844d58a260b9a96f6569466b4270fdad438362da0f1fe7ed3289bbf31e49115daf75136b2159deeab141c1e7780de52629df56ce88cb12d6f1b"
+}

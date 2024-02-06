@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x9B5715C99d3A9db84cAA904f9f442220651436e8",
+        "name": "Liquity Recovery Mode",
+        "agentId": "Liquity Recovery Mode",
+        "agentIdHash": "0xfd887509add8caa6711f8396f6cb295902774e7933dddcf7804a453db4ea27c8",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Mon, 31 Jan 2022 10:36:03 GMT+1",
+        "imageReference": "bafybeify3gzbwkgmu5dqykjz3gnxuihosnhvhknemaq2ehax5fx7t2jl4u@sha256:1fc84392029b90ebda7796c271713876d9533294e9075b35c0744cc73a2a6f70",
+        "repository": "https://github.com/liquity/dev",
+        "documentation": "bafkreihlyynpz4k2rddco6vean6lq52y4hizckdzoho4ibo6hepi3xsswm",
+        "chainIds": [
+            1
+        ],
+        "projects": [
+            "liquity"
+        ]
+    },
+    "signature": "0x5a7671bfd6f70bd56d297817d9d12e0c0f11f33cd845708155199abe768788cb7e9a2884817ed3b9b71025f67a9931aa3d06c91340ca174d63dbb402b2e5d2fc1c"
+}

@@ -1,0 +1,44 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "malicious-smart-contract-ml-v3",
+        "description": "Malicious Smart Contract Detection Bot V3",
+        "agentId": "malicious-smart-contract-ml-v3",
+        "agentIdHash": "0x9aaa5cd64000e8ba4fa2718a467b90055b70815d60351914cc1cbe89fe1c404c",
+        "version": "3.1.0",
+        "timestamp": "Fri, 29 Dec 2023 17:24:34 GMT",
+        "imageReference": "bafybeiafot7njfk7vnjvtuszjumtjeblooalpowpkkoa3ebcfifayckxia@sha256:2261c6c4f19fdbdf3b01653a6dc23f25e2da6853d246332f9f03294d11d8f4c8",
+        "documentation": "QmawkSMXcW3QgkSoPZguJxQyVoehhD4yfDM2nBJXr6CgmC",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/malicious-smart-contract-ml-py",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 6,
+                "target": 3
+            },
+            "56": {
+                "shards": 10,
+                "target": 3
+            },
+            "137": {
+                "shards": 10,
+                "target": 3
+            },
+            "default": {
+                "shards": 4,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0xd9d660a9821781b655fd60daaa4887979901035a907e93d21cc517221a96d1934ce60f7540d67d9ad99a9eac16ac60e838bdfaa7b49ea63668afb7c3ed156a231b"
+}

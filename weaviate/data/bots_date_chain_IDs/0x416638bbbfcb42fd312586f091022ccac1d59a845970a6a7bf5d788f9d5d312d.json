@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "GMX - Detect Many Opening",
+        "agentId": "GMX - Detect Many Opening",
+        "agentIdHash": "0x416638bbbfcb42fd312586f091022ccac1d59a845970a6a7bf5d788f9d5d312d",
+        "version": "0.0.1",
+        "timestamp": "Tue, 02 May 2023 05:25:19 GMT",
+        "imageReference": "bafybeiha7u23tc7vsjo6mcroowxd3sg3wwzwrkjwu3pwmky6zkyha43ja4@sha256:094f4f1598d8d8dc96dddbccd22468733bac617492bedf61c8870a4c9383d284",
+        "documentation": "QmakoDztDsJ3DZ38x8CyomawAxDmSVPKVTN3u2e1uoFKmT",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/GMX-Bots/Detect-many-opening",
+        "projects": [],
+        "chainIds": [
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x687b587d98cb3d99e1b0835aafab1dc4e976fe1b3a3584f3de966b23077cd66a55a13da8e7a2ec5f04b90ca13495d6e60d5fe9be835dae359b2ca4109c1f8e161b"
+}

@@ -1,0 +1,34 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "malicious-account-funding",
+        "description": "Bot that identifies funding from known malicious accounts.",
+        "agentId": "malicious-account-funding",
+        "agentIdHash": "0x2df302b07030b5ff8a17c91f36b08f9e2b1e54853094e2513f7cda734cf68a46",
+        "version": "0.0.7",
+        "timestamp": "Tue, 05 Sep 2023 23:18:35 GMT",
+        "imageReference": "bafybeidhbtcxxv3k7t3owfgttpom2sb4vs2uij75mb3d3bfa7qpuzxlzyu@sha256:0c17c859da668dd1569a0942ee493bfda9b7d10cc95346a4f96c8699267e48f0",
+        "documentation": "QmY1mujJEn3myVafjkYSqX7mQCB8qVyXJbDyqPj99ub9Zb",
+        "chainIds": [
+            1,
+            137,
+            250
+        ],
+        "publishedFrom": "Forta CLI 0.1.39",
+        "chainSettings": {
+            "1": {
+                "shards": 4,
+                "target": 3
+            },
+            "137": {
+                "shards": 4,
+                "target": 3
+            },
+            "default": {
+                "shards": 2,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0xc018ce33bad13b7fbf24294fda4f2a577467f930fd197bc191accb6382cfc3ea724ac12e3b280e5ab5a51f7cd1c642d0fa324a0e1bf99f86ba0742136da89baf1c"
+}

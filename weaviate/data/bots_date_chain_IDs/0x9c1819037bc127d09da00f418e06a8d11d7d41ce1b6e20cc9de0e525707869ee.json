@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x5075534aFB4b73CbB6744eA8B59d78Ca56059471",
+        "name": "gas token mint anomaly",
+        "agentId": "gas token mint anomaly",
+        "agentIdHash": "0x9c1819037bc127d09da00f418e06a8d11d7d41ce1b6e20cc9de0e525707869ee",
+        "version": "0.0.1",
+        "timestamp": "Sun, 06 Aug 2023 05:11:35 GMT",
+        "imageReference": "bafybeicgjg3qkgqfikarxvc627mwlnr27or33ujywxfpyydah3vi5hc6h4@sha256:4b9e387fe9ada2b4987fd4f817ed6800c9b4e60c34bdfdd8d8b039d7c5329e7c",
+        "documentation": "QmYTvWU81YNVZ3u583Zy7LvzexEktFaUb4YaxC8iJBmRj8",
+        "repository": "https://github.com/sholance/forta-gas-token-mint",
+        "projects": [],
+        "chainIds": [
+            56,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xab0388d0b1852966c64ae034a5f3307ff6d0d9c2cba72d63169affec6eacc2947130b6c1b2792801e66cedae570226b448669cb4f7a02a4fd4bb680db8cc29341b"
+}

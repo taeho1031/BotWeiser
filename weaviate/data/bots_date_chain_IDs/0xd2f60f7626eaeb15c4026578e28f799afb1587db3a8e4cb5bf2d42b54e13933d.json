@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - zkSync Era Bridge",
+        "agentId": "Large Balance Decrease - zkSync Era Bridge",
+        "agentIdHash": "0xd2f60f7626eaeb15c4026578e28f799afb1587db3a8e4cb5bf2d42b54e13933d",
+        "version": "0.0.1",
+        "timestamp": "Fri, 21 Jul 2023 11:46:18 GMT",
+        "imageReference": "bafybeiexfrs7vnshnjnldf372n4qvkruffxuwaeh3hpluorcufsf3yojdq@sha256:c533ee53b123daaf6f76c9e4387785736cdfc1ab17156e9821d0845c52f23537",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x0250bbb4dda474c68c8f497b90b402a05d5a1f7b5c1049684fb47e94b1068c96217a873bd550cf5f6170eaf56ffe7ee71cdf2ada86ffb9f0a60e47f0e78997be1c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Optimism Gateway V2 Bridge",
+        "agentId": "Large Balance Decrease - Optimism Gateway V2 Bridge",
+        "agentIdHash": "0x5474812f32fa8206c178864bb7f95f737ab9cdb1e4125af2e86ad8dd8c5fbf31",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 11:56:23 GMT",
+        "imageReference": "bafybeicuoyhe25om75hljm5ghi2kqnsy3obfm2u3rtcmclwwlleh7vzkku@sha256:91ce53edb7fcd80c92cec0279cd136c4a5ffec1c9f64e1e41e0094aa49792fee",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xdd7d17c443da3cd1e51bb1bf15a88819f797e792b8e3e59425fdf3be479c79df49beaa18a2e185e12a861a4299e562246c1eb79b287be17925509dd9e94514011c"
+}

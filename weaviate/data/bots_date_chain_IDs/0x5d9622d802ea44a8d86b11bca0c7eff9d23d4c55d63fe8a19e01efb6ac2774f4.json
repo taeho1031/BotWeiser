@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-credit-limit-usage-agent",
+        "description": "Detects if credit limit usage is more than target value",
+        "agentId": "iron-bank-credit-limit-usage-agent",
+        "agentIdHash": "0x5d9622d802ea44a8d86b11bca0c7eff9d23d4c55d63fe8a19e01efb6ac2774f4",
+        "version": "0.0.1",
+        "timestamp": "Wed, 12 Apr 2023 10:11:44 GMT",
+        "imageReference": "bafybeibutiakhrgo5smurytvwf3qoqzn4ymcfyjq5cxsjcuuuqxmjr6t5u@sha256:4a42181bc16378f7311c950e5abf9d45e612f1e05869eb719a06da466e70ab6d",
+        "documentation": "QmcZtMi2qJsqyRw5uJgqAmKwaVwXU3VcTzoBRWRbP9ygYv",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1,
+            10,
+            250,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0xc36a7d90cb6e021ddaba087eb8d52a1fd18f11bf0bd3e7d59366a6a4d60b808062c25de8702ba1365419c2b05ad48218d71cada76592c9cd0b52ce3c70f64e291b"
+}

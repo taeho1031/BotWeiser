@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xF56df8FEbc5dB60433516539F50231FF7242AC87",
+        "name": "Compound Delegations Monitor",
+        "agentId": "Compound Delegations Monitor",
+        "agentIdHash": "0x0d3cdcc2757cd7837e3b302a9889c854044a80835562dc8060d7c163fbb69d53",
+        "version": "0.0.2",
+        "timestamp": "Tue, 13 Sep 2022 13:14:44 GMT",
+        "imageReference": "bafybeicpviuwvgru7qsotdf3kiq3jh65agimgpulgldp3wqliskgxhqisa@sha256:b384568734d8783287602963dbce6946daa98ac55808e678584cdcce81ce0183",
+        "documentation": "QmU5AnJEtcu19sVFadz5jrvYQA3QyHGLtweFg9ST6o3pHi",
+        "repository": "https://github.com/arbitraryexecution/compound-monitoring/tree/main/comp-delegations-monitor",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x7dd5a16bf7b4263f18c8daebdcd7c20966bf0e070ea455ca48d9d665010fd166720262fc19b5e2f80b8947d15cb4858c2bec89c9634afcef273cabbd9d20d6d81b"
+}

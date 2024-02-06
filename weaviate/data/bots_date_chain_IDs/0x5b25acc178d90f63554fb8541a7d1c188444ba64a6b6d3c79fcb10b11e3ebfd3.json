@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-on-polygon",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-on-polygon",
+        "agentIdHash": "0x5b25acc178d90f63554fb8541a7d1c188444ba64a6b6d3c79fcb10b11e3ebfd3",
+        "version": "0.0.1",
+        "timestamp": "Wed, 27 Dec 2023 16:00:21 GMT",
+        "imageReference": "bafybeiflea7upqowm5jpoz6oyt63yhyk3gjbesmkolku3osvbbgfhfdyfy@sha256:173e587c13e1c58560a2f4a8d2ae9aca17b00af3e46ebd27fdc9d868dada83d5",
+        "documentation": "QmbrGU9g7WtwYQAry4veJKuq3Pe7thtmAgKWaRqEx7GDVA",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/lido-on-polygon",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xdcfdcc88d931c7dd11a63adc8573c292758603b9257d58a538addfbd25feb0754ee00bab367614415d20fd1a6b4e13330c68acdf1feff3ac32a0daa4fc1f82641b"
+}

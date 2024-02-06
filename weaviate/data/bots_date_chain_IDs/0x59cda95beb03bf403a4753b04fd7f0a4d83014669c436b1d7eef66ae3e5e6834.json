@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x96ddE1bed8140fb9aD1d7B1Bd51210d19cb67937",
+        "name": "aavev2-flashloan-detect-bot",
+        "description": "Simple aavev2 protocol flashloan monitor",
+        "agentId": "aavev2-flashloan-detect-bot",
+        "agentIdHash": "0x59cda95beb03bf403a4753b04fd7f0a4d83014669c436b1d7eef66ae3e5e6834",
+        "version": "0.0.1",
+        "timestamp": "Thu, 09 Feb 2023 03:54:48 GMT",
+        "imageReference": "bafybeib7rjydnyp4hx4q456h6caseevvum6v4hlb7higvl7mg7eynwl274@sha256:6b98d9bf848d8dde6777b7e8f271a57a6e68f810d1c48940de833beed8b9b4a7",
+        "documentation": "QmagTMwvrx3XPavt9spNE3XkaxrruuimJeGu5Fd5UUiFTr",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.18"
+    },
+    "signature": "0x60ba547772ce12d0d1122acc4291e3c40a32f1ab17990d62f3e6d8932d53f76d7368ccb69c3bdaa410f34da387c103c984532d02a6756111fb072c7a87bb5aad1b"
+}

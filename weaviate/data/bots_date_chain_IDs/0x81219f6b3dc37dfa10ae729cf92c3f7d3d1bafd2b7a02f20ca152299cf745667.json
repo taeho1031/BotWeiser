@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x2DD872C6f7275DAD633d7Deb1083EDA561E9B96b",
+        "name": "alperp-large-decrease-position-tx",
+        "agentId": "alperp-large-decrease-position-tx",
+        "agentIdHash": "0x81219f6b3dc37dfa10ae729cf92c3f7d3d1bafd2b7a02f20ca152299cf745667",
+        "version": "0.0.2",
+        "timestamp": "Thu, 09 Mar 2023 05:30:58 GMT",
+        "imageReference": "bafybeigcywz7n5lvqni4zwok6d6macqa352hetp42xyttnpfru7ssebmke@sha256:94551bb04d4eed4de2824567a3b7444376462997f5a1e943e70bf7b012c9d6fa",
+        "documentation": "QmQx2SnNSzmicMaeWNnhxCQoEzozdxQCyyaJWvR1pJS9Vp",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xba2b159bb86e28b0212f4f5b5e47c8ac4c9fd87612bed73b00f95a7c90b2db1b46cea55e780b5df88a774923e6eaa23b2e25e8db7c2aab237b0901b6bf976d491c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Arbitrum ERC20 Bridge",
+        "agentId": "Large Balance Decrease - Arbitrum ERC20 Bridge",
+        "agentIdHash": "0x6f07249485378615abb12b352f7f0e9c68e6bab2de57475b963445e5639fced3",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 11:33:56 GMT",
+        "imageReference": "bafybeie5op3wwgcuxltdtp5svslf224o6mbc7ooyj3apx2exzgfwfue4bq@sha256:951b3652ed97cd1348bf2b870a8f10561707fd7ec8b63a7119f9a105029f003e",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x552305431101176f10ea04a17669e9311c256cedf2d1b770a5d4204f876dd65813d4080b66aeb5e2941a4f0df0155cb321d06511749c410e61cafd6e45f521a41b"
+}

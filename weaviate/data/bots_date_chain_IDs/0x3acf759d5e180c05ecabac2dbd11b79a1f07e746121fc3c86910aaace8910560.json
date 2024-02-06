@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x2ED2A1d9a6A08dd106ee0F313Ef0cC52cCbf0D1A",
+        "name": "forta-contract-simil",
+        "description": "Forta agent detects the creation of scam contracts based on bytecode similarities to known scam contracts",
+        "agentId": "forta-contract-simil",
+        "agentIdHash": "0x3acf759d5e180c05ecabac2dbd11b79a1f07e746121fc3c86910aaace8910560",
+        "version": "0.1.1",
+        "timestamp": "Fri, 30 Jun 2023 03:43:47 GMT",
+        "imageReference": "bafybeicpu4od3g6lms6lt5c5gnjqatedm626svflwdywg6ieft6aql425q@sha256:b8c46bea9bdd9f404703f2a7efab35a5fa7e67b0305c5d2a528a5aa81b5ef9c3",
+        "documentation": "QmWxjQYPSo3iJU57Z2DPQSmknTrz4rdXXVg8MpdPLY7Etb",
+        "repository": "https://github.com/Soptq/forta-contract-simil",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.21"
+    },
+    "signature": "0xf13bcf1bee015574f89719b9fbbf6921181a9610fcd07b8798b6cdd69d021e814f81c388f6e24f01d398b35cfd760bd96d898fbe9c956c40fb810f9e0df9b1a21b"
+}

@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "social-eng-account-creation",
+        "description": "Identifies when a new social engineering contract or EOA is created.",
+        "agentId": "social-eng-account-creation",
+        "agentIdHash": "0xee275019391109f9ce0de16b78e835c261af1118afeb1a1048a08ccbf67c3ea8",
+        "version": "0.0.11",
+        "timestamp": "Wed, 17 Jan 2024 15:55:52 GMT",
+        "imageReference": "bafybeialrqoazd2kfehqstv5ri5mjvri2m5tzii5hzfj3nepyubhhm2bju@sha256:17371cfbbadbad8a9ad75fd19976e1f44e9de0aa7ae948a657fe8fc39c2c907e",
+        "documentation": "QmUgTVv5F4MvdpyGjZXEmxfDTXLXCmUU4QdWmoxH2fwKPg",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false
+    },
+    "signature": "0x2d114d770706e0b31de6dafb68180ea0f37d814e7c64e77d9a5619da5c9dc6e314f662ab7d1f855e168efc35b286545029b3389db87f13692dc41f5febf3fa8d1c"
+}

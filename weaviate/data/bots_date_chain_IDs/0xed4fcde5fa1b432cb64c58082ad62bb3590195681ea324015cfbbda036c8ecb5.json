@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x81F7F4BfdB01ECC023D0a92D3ee008B024f122eE",
+        "name": "Large Value stkBNB Mint Burn",
+        "agentId": "Large Value stkBNB Mint Burn",
+        "agentIdHash": "0xed4fcde5fa1b432cb64c58082ad62bb3590195681ea324015cfbbda036c8ecb5",
+        "version": "0.0.1",
+        "timestamp": "Thu, 11 Aug 2022 16:26:24 GMT",
+        "imageReference": "bafybeig3jvy2yv7asooz2ipticecqiomrsw4dh3mbx3hxz2bpnhfnj3rie@sha256:1227d33e26bca008518b262a4948a67cf84aa4a27c907031cf91e95337026dd7",
+        "documentation": "QmUcM6VDBR6RPFkHSriTM4QyaW73ghQuTuioLTCJxn1tXW",
+        "repository": "https://github.com/persistenceOne/stkBNB-contracts/tree/main/agents/large-value-events",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x8aa1769f5493084bda3db125876b5f3d96c53f3b712f05a780dc6e70fe2593ba71014b1a7a7479d14e7b377d0032d5eb39eaaede7cd63ec3f45a1105a338558f1b"
+}

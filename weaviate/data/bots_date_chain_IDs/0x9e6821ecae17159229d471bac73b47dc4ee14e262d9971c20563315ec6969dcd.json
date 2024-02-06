@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-storage-watcher",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-storage-watcher",
+        "agentIdHash": "0x9e6821ecae17159229d471bac73b47dc4ee14e262d9971c20563315ec6969dcd",
+        "version": "0.0.1",
+        "timestamp": "Fri, 20 Oct 2023 08:36:02 GMT",
+        "imageReference": "bafybeic2spx73krmn3syhi5bivsms2iqvo5x72s25fwj3rpvztqlemxlne@sha256:7fe70e0b28e41f63f943049ed60bd34a8c3a8c25bf5881130edf5c2779357201",
+        "documentation": "QmaczackYr2YDPmP1m9o1A3b5aVmk4wiKebYvLXEvm4Qen",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/storage-watcher",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0x9a99221c8f7e738266b175264042868e616fe889b86d38f5951a81f5fa2efc4330b431fb0917d189651138eaa3dbaef46f9e54975fa2277b7fcbd9e8c75d70e71c"
+}
