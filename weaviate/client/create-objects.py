@@ -20,7 +20,7 @@ if client.schema.exists("FortaBot"):
 client.schema.create_class(class_obj)
 
 # Update the file path construction using os.path.join
-file_path = os.path.join('weaviate', 'data', 'test_data.json')
+file_path = os.path.join('weaviate', 'data', 'bots.json')
 
 with open(file_path, 'r', encoding='utf-8') as json_file:
     data = json.load(json_file)
@@ -31,10 +31,8 @@ with client.batch as batch:
         print(f"importing bot: {i+1}")
         properties = {
             "bot_id": d["bot_id"],
-            "developer_id": d["developer_id"],
             "name": d["name"],
             "description": d["description"],
-            "version": d["version"],
             "timestamp": d["timestamp"],
             "chainIds": d["chainIds"]
         }
