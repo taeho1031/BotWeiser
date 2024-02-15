@@ -7,7 +7,7 @@ def get_weaviate_client():
 
 
     # Modified path using a raw string literal
-    with open(r'weaviate\client\config.json', 'r') as config_file:
+    with open(r'weaviate\config.json', 'r') as config_file:
         config = json.load(config_file)
 
     # Get Weaviate configuration
