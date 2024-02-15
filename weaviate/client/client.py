@@ -1,13 +1,17 @@
 import weaviate
+import os
 import json
 
 def get_weaviate_client():
     # Load configuration from the file
-    # Original path (using single backslashes)
+    # Get the absolute path of the current script's directory
+    script_directory = os.path.dirname(os.path.abspath(__file__))
 
+    # Construct the absolute path to config.json
+    config_path = os.path.join(script_directory, '..', 'config.json')
 
     # Modified path using a raw string literal
-    with open(r'weaviate\config.json', 'r') as config_file:
+    with open(config_path, 'r') as config_file:
         config = json.load(config_file)
 
     # Get Weaviate configuration
