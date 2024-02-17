@@ -1,6 +1,8 @@
 import openai
 import os
 import json
+from datetime import datetime, timezone
+
 
 
 
@@ -14,8 +16,9 @@ class JsonGPT:
                 timestamp:\
                 chainID:\
             }\
-            if timestamp is not specified use current time.\
-                "
+            if timestamp is not specified use" + " {}.\
+            Only return the JSON file and nothing else!\
+            ".format(datetime.now(timezone.utc))
         self.query = query
         
 
@@ -37,6 +40,7 @@ class JsonGPT:
     
     def getJsonObjectSearch(self):
         gpt_response = self.api_request()
+        print(f"{gpt_response=}")
         return json.loads(gpt_response.content)
 
 
@@ -45,3 +49,4 @@ search = "I want a bot that can detect money lanundering in the etherum blockcha
 norf = JsonGPT(search)
 j = norf.getJsonObjectSearch()
 print(f"{j=}")
+print(f"{j['description']=}")
