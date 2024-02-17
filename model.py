@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 class JsonGPT:
     def __init__(self, query):
         self.model = "gpt-4"
-        self.prompt = "create me a json object with the following attributes:\
+        self.prompt = "create me a json object from the query supplied at the end with triple backticks with the following attributes:\
             {\
                 id:\
                 description:\
@@ -18,6 +18,8 @@ class JsonGPT:
             }\
             if timestamp is not specified use" + " {}.\
             Only return the JSON file and nothing else!\
+            If a blockchain network is provided make sure to add all correct chainIDs relevant.\
+            Leave ID empty if not specified.\
             ".format(datetime.now(timezone.utc))
         self.query = query
         
@@ -49,4 +51,4 @@ search = "I want a bot that can detect money lanundering in the etherum blockcha
 norf = JsonGPT(search)
 j = norf.getJsonObjectSearch()
 print(f"{j=}")
-print(f"{j['description']=}")
+# print(f"{j['description']=}")
