@@ -16,7 +16,7 @@ class JsonGPT:
                 timestamp:\
                 chainID:\
             }\
-            if timestamp is not specified use" + " {}.\
+            if timestamp is not specified use current time which is " + " {}.\
             Only return the JSON file and nothing else!\
             If a blockchain network is provided make sure to add all correct chainIDs relevant.\
             Leave ID empty if not specified.\
@@ -42,12 +42,12 @@ class JsonGPT:
     
     def getJsonObjectSearch(self):
         gpt_response = self.api_request()
-        print(f"{gpt_response=}")
+        # print(f"{gpt_response=}" )
         return json.loads(gpt_response.content)
 
 
         
-search = "I want a bot that can detect money lanundering in the etherum blockchain network."
+search = "Give me a bot that detects any scam nfts on the polygon networks that was last updated 8 month ago."
 norf = JsonGPT(search)
 j = norf.getJsonObjectSearch()
 print(f"{j=}")
