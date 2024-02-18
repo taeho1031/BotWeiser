@@ -3,37 +3,49 @@ import os
 import json
 from datetime import datetime, timezone
 
-
-
-
 class JsonGPT:
     def __init__(self, query):
         self.model = "gpt-4"
-        self.jsonprompt = "create me a json object from the query supplied at the end with triple backticks with the following attributes:\
+
+        self.jsonPrompt = "convert the query supplied at the end inside triple backticks to json object with the following attributes:\
             {\
-                id:\
-                description:\
-                timestamp:\
-                chainID:\
+                bot_id: hexadecimal string or null\
+                description: string or null\
+                timestamp:string\
+                chainIds: integer array or null\
+                name: string or null\
+            }\
+            bot_id: Specify the ID if applicable.\
+            description: Provide general description of possible blockchain bot from the user prompt.\
+            timestamp: Use current time if not specified which is " + " {}.\
+            chainIds: Specify the relevant chain ID. If none found NULL\
+            name: Specify the name of the possible or relevant blockchain bot. Be general \
+            Chain IDs: \
+            - 1: Ethereum Mainnet \
+            - 42114: Avalanche Fuji C-Chain \
+            - 5: Goerli (Ethereum Testnet) \
+            - 137: Polygon (formerly Matic) \
+            - 10: Optimistic Ethereum (Optimism) \
+            - 43114: Avalanche X-Chain \
+            - 42220: Celo Mainnet \
+            - 42161: Arbitrum \
+            - 56: Binance Smart Chain \
+            - 250: Fantom Opera \
+            \
+            correct example of output:\
+            {\
+                bot_id: hexadecimal string or null\
+                description: string\
+                timestamp:string\
+                chainIds: integer array or null\
+                name: string or null\
             }\
             if timestamp is not specified use current time which is " + " {}.\
-            Only return the JSON file and nothing else!\
             If a blockchain network is provided make sure to add all correct chainIDs relevant.\
-            Chain ids:\
-            1 - Ethereum Mainnet\
-            42114 - Avalanche Fuji C-Chain\
-            5 - Goerli (Ethereum Testnet)\
-            137 - Polygon (formerly Matic)\
-            10 - Optimistic Ethereum (Optimism)\
-            43114 - Avalanche X-Chain\
-            42220 - Celo Mainnet\
-            42161 - Arbitrum\
-            56 - Binance Smart Chain\
-            250 - Fantom Opera\
-            If none of the chain ids from above specified, leave it empty, if there are more than one return in a list in ascending order.\
-            Leave ID empty if not specified.\
             Only return the JSON file and nothing else!\
             ".format(datetime.now(timezone.utc))
+
+
         self.query = query
         
         self.keyWordsPrompt = "Extract key words from the prompt that I can use to search a block chain bot. Return in a list form."
@@ -43,7 +55,7 @@ class JsonGPT:
         if getWords:
             prompt = f"{self.keyWordsPrompt}  \n Query:```{self.query}```"
         else:
-            prompt = f"{self.jsonprompt}  \n Query:```{self.query}```"
+            prompt = f"{self.jsonPrompt}  \n Query:```{self.query}```"
         return prompt
 
     def api_request(self, getWords):
@@ -59,17 +71,14 @@ class JsonGPT:
     
     def getJsonObjectSearch(self):
         gpt_response = self.api_request(getWords=False)
-        # print(f"{gpt_response=}" )
-        return json.loads(gpt_response.content)
+        print(gpt_response.content)
+        try:
+            return json.loads(gpt_response.content)
+        except json.decoder.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+            return None
     
     def getKeywords(self):
         gpt_response = self.api_request(getWords=True)
-        print(f"{gpt_response=}" )
-        return gpt_response
-
-        
-search = "Give me a bot that detects any scam nfts on the ehtereum and polygon networks that was last updated 8 month ago."
-norf = JsonGPT(search)
-j = norf.getKeywords()
-print(f"{j=}")
-# print(f"{j['description']=}")
+        #print(f"{gpt_response=}" )
+        return gpt_response.content
