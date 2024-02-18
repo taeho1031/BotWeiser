@@ -2,5 +2,7 @@ node_modules/
 package-lock.json
 package.json
 .env
-testing/results.txt
-testing/prompts.txt
+testing
+__pycache__
+test.py
+README.md

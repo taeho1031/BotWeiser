@@ -14,12 +14,16 @@ class JsonGPT:
                 timestamp:string\
                 chainIds: integer array or null\
                 name: string or null\
+                keywords: string array(upto top 8 priority words) or null\
+                valid: boolean\
             }\
+            valid: if the user prompt is not related to blockchain network or blockchain bot at all, is set to False otherwise True. If False, set all other attributes to Null\
             bot_id: Specify the ID if applicable.\
             description: Provide general description of possible blockchain bot from the user prompt.\
             timestamp: Use current time if not specified which is " + " {}.\
             chainIds: Specify the relevant chain ID. If none found NULL\
-            name: Specify the name of the possible or relevant blockchain bot. Be general \
+            name: Specify the name of the possible or relevant blockchain bot. Be general\
+            keywords: Extract key words from the prompt that I can use to search a block chain bot. Return in a list form.\
             Chain IDs: \
             - 1: Ethereum Mainnet \
             - 42114: Avalanche Fuji C-Chain \
@@ -39,6 +43,8 @@ class JsonGPT:
                 timestamp:string\
                 chainIds: integer array or null\
                 name: string or null\
+                keywords: string array(upto top 8 priority words) or null\
+                valid: boolean\
             }\
             if timestamp is not specified use current time which is " + " {}.\
             If a blockchain network is provided make sure to add all correct chainIDs relevant.\
