@@ -1,0 +1,25 @@
+Give a bot that is designed to detect asset drainage in smart contracts.
+["bot", "detect", "asset drainage", "smart contracts", "blockchain"]
+{'bot_id': None, 'description': 'A bot designed to detect asset drainage in smart contracts.', 'timestamp': '2024-02-18 03:55:59.276475+00:00', 'chainIds': None, 'name': None}
+
+==================================================
+Give a bot that detects and alerts on different types of evasion tactics used by smart contracts on the Ethereum blockchain
+["bot", "detects", "alerts", "evasion tactics", "smart contracts", "Ethereum", "blockchain"]
+{'bot_id': None, 'description': 'A bot that detects and alerts on different types of evasion tactics used by smart contracts', 'timestamp': '2024-02-18 03:56:03.262475+00:00', 'chainIds': [1], 'name': 'Evasion Detection Bot'}
+
+==================================================
+Recommend a bot that is primarily designed to monitor and analyze transactions executed from bridge receivers' timelocks.
+["bot", "block chain", "monitor", "analyze", "transactions", "bridge receivers", "timelocks"]
+{'bot_id': None, 'description': "A bot primarily designed to monitor and analyze transactions executed from bridge receivers' timelocks.", 'timestamp': '2024-02-18 03:56:07.772475+00:00', 'chainIds': None, 'name': None}
+
+==================================================
+Which bot monitors and analyzes NFT transactions across multiple blockchain marketplaces, such as OpenSea, LooksRare, and Blur, to detect suspicious activities that may be indicative of scams or phishing attempts.
+["bot", "monitors", "analyzes", "NFT transactions", "blockchain marketplaces", "OpenSea", "LooksRare", "Blur", "detect", "suspicious activities", "scams", "phishing attempts"]
+{'bot_id': None, 'description': 'This bot monitors and analyzes NFT transactions across multiple blockchain marketplaces, such as OpenSea, LooksRare, and Blur, to detect suspicious activities that may be indicative of scams or phishing attempts.', 'timestamp': '2024-02-18 03:56:11.126727+00:00', 'chainIds': [1, 137, 42114, 42161, 43114, 56, 250], 'name': 'NFT Transaction Monitor Bot'}
+
+==================================================
+Send me a bot that is designed to detect spam tokens within blockchain networks using advanced algorithms that analyze multiple indicators.
+["bot", "detect", "spam tokens", "blockchain networks", "advanced algorithms", "analyze", "multiple indicators"]
+{'bot_id': None, 'description': 'A bot that is designed to detect spam tokens within blockchain networks using advanced algorithms that analyze multiple indicators.', 'timestamp': '2024-02-18 03:56:16.389489+00:00', 'chainIds': None, 'name': None}
+
+==================================================

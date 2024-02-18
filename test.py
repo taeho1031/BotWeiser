@@ -1,4 +1,4 @@
-from model import JsonGPT
+from GPTConnect import JsonGPT
 
 with open('testing/prompts.txt', 'r') as file:
     test_prompts = [line.strip() for line in file]

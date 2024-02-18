@@ -45,9 +45,6 @@ class JsonGPT:
             Only return the JSON file and nothing else!\
             ".format(datetime.now(timezone.utc))
 
-
-        self.query = query
-        
         self.keyWordsPrompt = "Extract key words from the prompt that I can use to search a block chain bot. Return in a list form."
         self.query = query
         
@@ -71,7 +68,6 @@ class JsonGPT:
     
     def getJsonObjectSearch(self):
         gpt_response = self.api_request(getWords=False)
-        print(gpt_response.content)
         try:
             return json.loads(gpt_response.content)
         except json.decoder.JSONDecodeError as e:
