@@ -7,7 +7,7 @@ class JsonGPT:
     def __init__(self, query):
         self.model = "gpt-4"
 
-        self.jsonPrompt = "convert the query supplied at the end inside triple backticks to json object with the following attributes:\
+        self.jsonPrompt = "convert the query supplied at the end inside triple backticks to a single json object with the following attributes:\
             {\
                 bot_id: hexadecimal string or null\
                 description: string or null\
@@ -17,7 +17,7 @@ class JsonGPT:
                 keywords: string array(upto top 8 priority words) or null\
                 valid: boolean\
             }\
-            valid: if the user prompt is not related to blockchain network or blockchain bot at all, is set to False otherwise True. If False, set all other attributes to Null\
+            valid: if the user prompt is not related to blockchain networks(bots) at all or lines of user prompt starting with ++ are not related to previous lines, is set to False or otherwise True. If False, set all other attributes to Null\
             bot_id: Specify the ID if applicable.\
             description: Provide general description of possible blockchain bot from the user prompt.\
             timestamp: Use current time if not specified which is " + " {}.\
@@ -53,6 +53,8 @@ class JsonGPT:
 
         self.keyWordsPrompt = "Extract key words from the prompt that I can use to search a block chain bot. Return in a list form."
         self.query = query
+        self.bots = []
+        self.conversation = [query]
         
     def parse_input(self, getWords):
         if getWords:
@@ -60,6 +62,23 @@ class JsonGPT:
         else:
             prompt = f"{self.jsonPrompt}  \n Query:```{self.query}```"
         return prompt
+    
+    def recieve_chat(self, input):
+        prev_query = self.query
+        self.query += f"\n++{input}"
+        json_ans = self.getJsonObjectSearch()
+        # print(f"{json_ans=}")
+        # print(f"{self.query}")
+        # print(f"{len(json_ans)=}")
+        if json_ans['valid'] == False:
+            self.query = prev_query
+            return 'Please write a sentence that is relevant'
+        else:
+            self.conversation.append(input)
+            return json_ans
+
+
+
 
     def api_request(self, getWords):
         from dotenv import load_dotenv, find_dotenv
