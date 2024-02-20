@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ResponseCard } from "./cards/ResponseCard";
+import { BotCard } from "./cards/BotCard";
 
 export const Response = ({ userInput, isFirstResponse }) => {
   const [responseContent, setResponseContent] = useState(null);
@@ -22,13 +23,43 @@ export const Response = ({ userInput, isFirstResponse }) => {
     fetchData();
   }, [userInput, isFirstResponse]);
 
+  let responseData;
+    try {
+      responseData = JSON.parse(responseContent);
+    } catch (error) {
+    console.error('Error parsing JSON: ', error);
+    responseData = null;
+  }
+
+
   return (
     <ResponseCard isBot={true}>
       {responseContent ? (
-        <div dangerouslySetInnerHTML={{ __html: responseContent }} />
+        responseData && responseData.length > 1 ? (
+          responseData.map((botData, index) => (
+            <div key={index}>
+              {botData.bot_id ? (
+                <>
+                  <BotCard
+                    id={botData.bot_id}
+                    name={botData.name}
+                    chain_ids={botData.chainIds.join(', ')}
+                    description={botData.description}
+                  />
+                  <hr />
+                  <div dangerouslySetInnerHTML={{ __html: botData._additional.generate.singleResult }} />
+                </>
+              ) : (
+                <p>Error</p>
+              )}
+            </div>
+          ))
+        ) : (
+          <p> {responseContent}</p>
+        )
       ) : (
-        <p>Loading...</p>
+        <p>Loading ...</p>
       )}
     </ResponseCard>
   );
-};
+}  

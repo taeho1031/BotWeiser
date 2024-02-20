@@ -1,7 +1,7 @@
 import React from "react";
 import "./BotCard.css";
 
-export const BotCard = ({ id, name, description }) => {
+export const BotCard = ({ id, name, chain_ids, description }) => {
   const botUrl = `https://app.forta.network/bot/${id}`;
 
   return (
@@ -12,7 +12,7 @@ export const BotCard = ({ id, name, description }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {name}
+        {chain_ids} {name}
       </a>
       <div className="BotCard__description">{description}</div>
     </div>
