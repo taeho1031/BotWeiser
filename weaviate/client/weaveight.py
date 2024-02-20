@@ -81,6 +81,3 @@ class WeaviateSearch:
 
         return response_json
 
-# weaviate_search = WeaviateSearch()
-# concepts = ["Give me a bot that identifies protocol attacks in real-time"]
-# weaviate_search.search_with_prompt(concepts)
