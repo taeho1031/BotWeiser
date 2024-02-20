@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Access Control Role Changed",
+        "agentId": "Forta Access Control Role Changed",
+        "agentIdHash": "0x8e5cfc52606ac22590cf872711f81df8a0d81e3e110dee4f3fb00fafadc962c2",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 12:12:46 GMT",
+        "imageReference": "bafybeieyj5qxy2363zsxbz3avjsnhntjsdk5gofruax6lrms4dlkg42dq4@sha256:340948df6a683a266f66a621f733b3fdbb2214e4294d04110949151d77258968",
+        "documentation": "QmV7C8VCdtuA37cpfjrDHb3GXMCcxWYrz5pTFecVH1V4p7",
+        "repository": "https://github.com/LimeChain/forta-bots",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xf691d3e0d051ca76a7d5d4686c3accb3d4378569f6be1dbf06e68818df623f973e20dbfd65869481b3514cf7fc9118207076c9eb13a94cc7e40324c055c04a5e1b"
+}

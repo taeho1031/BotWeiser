@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Mint Mainnet",
+        "agentId": "Forta Mint Mainnet",
+        "agentIdHash": "0xd76cb2ce08c467ad328caa9582bfc3c226964ae8dd922ee7ae0bcdb9e8b4f5ce",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 11:59:43 GMT",
+        "imageReference": "bafybeiel4oppbec3dao5bpdobq6gyv2ygupxhnh7lx4bgqtqcppmrpb5qq@sha256:169a949bca1c17c54e6a3238f202c3e7c3df4d43839e9dee7014a8cadfe5e472",
+        "documentation": "QmdGLaJwUiKviroYBBKwQ2zmdxUigKnuvXPZbQwHH48bNt",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x14946420793bc67204810198687d254769095aaabfdbd27739219cc06942d1114247e92d3d32677c6f76e008b0112e19afd472ea52089313480647e8780290bc1b"
+}

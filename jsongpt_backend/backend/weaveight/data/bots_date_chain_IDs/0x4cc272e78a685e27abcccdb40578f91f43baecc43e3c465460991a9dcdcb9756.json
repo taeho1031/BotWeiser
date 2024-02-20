@@ -1,0 +1,12 @@
+{
+    "manifest": {
+        "from": "0xd50846597fbeed33acd07f9dec0cc155c1006c9e",
+        "agentId": "tornado-withdrawal",
+        "agentIdHash": "0x4cc272e78a685e27abcccdb40578f91f43baecc43e3c465460991a9dcdcb9756",
+        "version": "0.0.1",
+        "timestamp": "Thu, 26 Aug 2021 17:55:09 GMT",
+        "imageReference": "bafybeifbzi5chkld3trnhtgpd42pch2vysye2ik7d62oob4m4ia7fo7coa@sha256:5ca91219a1a5010b68f2ae5eaae992ee5327ef1f8eef7042c08c87e004e6b5c2",
+        "documentation": "Qmded1bE9J1J2rfnjwEZpNwr1MPYWMet7xDBzrfULHq9bh"
+    },
+    "signature": "0x9a46881311bb4fda619b149838de579fec9495ee337b9b6fd3281bae9b55b8d304d8d6b827cb9c6bab602714f6cc4fdfd882b77301e14d41b5b15159f72da1b71c"
+}

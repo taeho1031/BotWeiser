@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xc5924Db956E47bfe3E33C00d3147e976638ea0Da",
+        "name": "Idle BY price agent",
+        "agentId": "Idle BY price agent",
+        "agentIdHash": "0xcceb7abc4cc38ec43a19cc5bf8b3581415e04b6a2822f058b65f590806be72c6",
+        "version": "0.0.5",
+        "timestamp": "Wed, 01 Mar 2023 15:06:58 GMT",
+        "imageReference": "bafybeidug3isfvgiszeyxkxiy3lldumtwz4nqi4xpir5s4qaezycmtn6ti@sha256:e9cf52225cca14aec637851297df67beae211e8c455445512ca2c6b4d1885d38",
+        "documentation": "QmdVnhCCNuqNfFdpUbKzC6pLGvk6ZGocTTJoyhuK1d9MRq",
+        "repository": "https://github.com/Idle-Finance/forta-agent-scripts/tree/master/idle-suite/best-yield-token-price-decrease",
+        "projects": [
+            "idle_dao"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x1afca01481229368ac843de7c6b98dbf4c3f6c7277c7bed77c13cbad360631fe3c61c7f33fa1919ec7795839c83794a5b3c0f9add219d0621e582a6bfefbe93c1b"
+}

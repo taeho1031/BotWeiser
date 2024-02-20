@@ -1,0 +1,43 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "CEX Funding",
+        "description": "CEX Funding Bot",
+        "agentId": "cex-funding",
+        "agentIdHash": "0xf496e3f522ec18ed9be97b815d94ef6a92215fc8e9a1a16338aee9603a5035fb",
+        "version": "0.0.8",
+        "timestamp": "Tue, 12 Dec 2023 09:17:26 GMT",
+        "imageReference": "bafybeigsmkwng5nnpvyhwraw3lxyuucus7rwdomrt3ma53yway6btm6gua@sha256:040d35ce70625b9a3e65eef20c51cff8b0a250cf2e66b5de751099343f3a6068",
+        "documentation": "QmR1NTEU9msg85L3RXibKguvHhvmxYCVKJJprqxYDNFqng",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 2,
+                "target": 3
+            },
+            "56": {
+                "shards": 4,
+                "target": 3
+            },
+            "137": {
+                "shards": 4,
+                "target": 3
+            },
+            "default": {
+                "shards": 1,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x7b548557d534227d0ba7483ab5efbb9c3311555c912c2eda05a19e3e0232bffa44340e53c28b529c7e4bc1ada317c70b8fc94fad2997e1364f81df22ec95f6d31b"
+}

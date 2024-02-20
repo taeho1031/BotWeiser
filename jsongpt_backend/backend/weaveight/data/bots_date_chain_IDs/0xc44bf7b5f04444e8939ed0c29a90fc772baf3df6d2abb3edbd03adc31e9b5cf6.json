@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Stake Controller Changed",
+        "agentId": "Forta Stake Controller Changed",
+        "agentIdHash": "0xc44bf7b5f04444e8939ed0c29a90fc772baf3df6d2abb3edbd03adc31e9b5cf6",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 12:08:38 GMT",
+        "imageReference": "bafybeibp7ywemw3me2enlujhf27mukq3cmp45yyhisw7vq3jjvixjx3ovu@sha256:1bf758046b21ea726fb434b455d84714d03f65746d205194288911516c30c792",
+        "documentation": "QmXazKdmi9fBJBo8EZ11r2jcFxiausXpBMp2hFnH5TnzhA",
+        "repository": "https://github.com/LimeChain/forta-bots",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x000219a4538dddf6b81f255985d6bf3e9d8a32671b80cb0a735cb9dca1254128248d360297dea0a5a1ea790fa601d653f3abf45f88ae432f1ad9ee932df289e61c"
+}

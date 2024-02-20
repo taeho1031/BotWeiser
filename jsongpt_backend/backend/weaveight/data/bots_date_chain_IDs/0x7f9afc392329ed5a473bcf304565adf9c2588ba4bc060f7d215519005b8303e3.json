@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x8205F32883fE6318EDe775B6EF61745d641d23bA",
+        "name": "shell-v2-forta-agent",
+        "description": "Shell V2 Forta agent to track transaction with large amount of tokens being wrapped, unwrapped or swapped",
+        "agentId": "shell-v2-forta-agent",
+        "agentIdHash": "0x7f9afc392329ed5a473bcf304565adf9c2588ba4bc060f7d215519005b8303e3",
+        "version": "0.0.1",
+        "timestamp": "Wed, 19 Apr 2023 11:30:19 GMT",
+        "imageReference": "bafybeigkysvmiwdprrcpmrsgwart4sys3kvlz5vy5cgovqz22gulwln5cq@sha256:ef1a9bef886087134859e184daaaf4e97b923a004e88afb3c81dab9284ac9513",
+        "documentation": "QmNposGt1EkMdde5x886AH8CVp7WKvvaFpWAMZfCk4kuZ4",
+        "repository": "https://github.com/cowri/shell-protocol-v2-forta-agents",
+        "chainIds": [
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.25"
+    },
+    "signature": "0xa6e17a12626a9be2107dd0e4e080664a93baa2d22cf35b03dadf2d94da60ac1148f65fdf379e30afebd3d4d1e3192987c0383e280c4869c9b8981e8de071bd051b"
+}

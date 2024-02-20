@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-validator-set-alerts",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-validator-set-alerts",
+        "agentIdHash": "0x399792adf7b57c0adc8de54ee27284d8ef70b0af2ff3c2c97f69ae894f66759a",
+        "version": "0.0.1",
+        "timestamp": "Thu, 28 Dec 2023 09:57:44 GMT",
+        "imageReference": "bafybeihtmxsdk74xnngvymuxywo3emhufsuo7cowywbpoi7qsk2xmtbwaq@sha256:7287fdf75ff12e4aa20a91571e837080384db7585da51ad4bd40797d32287df0",
+        "documentation": "QmZS4kcCT1Cutdtu2uE6URikApjC4KSybA6XST7VWNgNpQ",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/ethereum-validators-set",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xa468f31b234b88ca6c6b7e83bea219ddad1247867a89cc4c97016b6f245f0b1f3516b857de4cbcb063c882ca124a96dfd13bb39848862affc2ae52c3244e025a1b"
+}

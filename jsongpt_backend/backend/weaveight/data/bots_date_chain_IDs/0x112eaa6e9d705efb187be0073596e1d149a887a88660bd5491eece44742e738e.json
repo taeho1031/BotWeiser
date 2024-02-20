@@ -1,0 +1,27 @@
+{
+    "manifest": {
+        "from": "0x6Ec4b84aEB75eE330876FFFecA65cB635b41ED76",
+        "name": "scam-notifier-bot",
+        "description": "This bot tracks and alerts about scam activity by monitoring notification EOAs. It updates the list of notification EOAs by analyzing other notifications.",
+        "agentId": "scam-notifier-bot",
+        "agentIdHash": "0x112eaa6e9d705efb187be0073596e1d149a887a88660bd5491eece44742e738e",
+        "version": "1.0.1",
+        "timestamp": "Mon, 10 Jul 2023 19:46:34 GMT",
+        "imageReference": "bafybeichza6w2oog7qcufmeoyppwd3l4gf3itqfgwpezzoaxydka6rqm4i@sha256:d9a14c676b2632a6f90e21cc261017ec990d38c6964cfd6d5cf0ff43fa27fe94",
+        "documentation": "QmQT7JijFbLekfpoLypFLKR8Wawzif92wsRvxaegLhb8Xh",
+        "repository": "https://github.com/Kayaba-Attribution/SCAM-NOTIFIER-FORTA-BOT",
+        "chainIds": [
+            1,
+            56,
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.32",
+        "chainSettings": {
+            "default": {
+                "shards": 10,
+                "target": 2
+            }
+        }
+    },
+    "signature": "0xe2a93679276fec2f61e78417db7e1ea908e93227a29dc53c364ca8badfc7943e1346f9945b036e833a0a79f4f7bede4dcc28567b4fd12106019288f407c59e9a1b"
+}

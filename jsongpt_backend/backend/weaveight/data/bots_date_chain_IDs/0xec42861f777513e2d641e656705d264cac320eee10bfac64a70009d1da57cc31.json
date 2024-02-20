@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xd3Abd0d36D6f55aD01BCd54D3f0c054F2B23de08",
+        "name": "Unhealthy-Borrow-Reporter",
+        "agentId": "Unhealthy-Borrow-Reporter",
+        "agentIdHash": "0xec42861f777513e2d641e656705d264cac320eee10bfac64a70009d1da57cc31",
+        "version": "0.0.1",
+        "timestamp": "Mon, 29 Aug 2022 05:11:32 GMT",
+        "imageReference": "bafybeie4mnqe4mkzmoznsukbpicjcltrzbzzoj656ooeunz7d4e7e4jn34@sha256:d5957ef961ffa6c6b065899c54c505ce06b97cfeadfa74a3fac5e26b62898f9f",
+        "documentation": "QmQhHcc94tFWXekxF1hcFkTneUosU4qXTxUCL95ncarreB",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x9ba92236179f8121090d8e14923ad642659b3510fb3bdd09f0e578563472655913e35c5c35b2785d428a8da2f02fc0149cbe52099b9d14ce416e0f861c55997d1c"
+}

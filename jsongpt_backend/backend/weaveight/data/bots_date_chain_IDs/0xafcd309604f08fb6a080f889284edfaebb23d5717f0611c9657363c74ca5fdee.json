@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x000000000088E0120F9E6652CC058AeC07564F69",
+        "name": "Pickle Finance Management Calls Agent",
+        "agentId": "Pickle Finance Management Calls Agent",
+        "agentIdHash": "0xafcd309604f08fb6a080f889284edfaebb23d5717f0611c9657363c74ca5fdee",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Wed, 16 Feb 2022 13:48:55 CST",
+        "imageReference": "bafybeieyqlqkdhlqakl2ofja7627v7dx56yp2bgrougdlb7d3ygs42akd4@sha256:74abf0f28f02df49a5a5bc2a751c6eb03e597078d7a81966f0e8f6ece8a800a7",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Pickle-Finance-Agents/JarManagement",
+        "documentation": "bafkreiczktrhtzlstbdpq5kdubztljeq5xy4qctb5ro5ka7efg5xq4pjri",
+        "chainIds": [
+            1
+        ],
+        "projects": [
+            "pickle_finance"
+        ]
+    },
+    "signature": "0xf793b20baf107977559b75fde81730a8f1a4a8a5e5555a82529f339aa16e424a0ac01ec9513780427dfa1186b0e3498a518261f94a86dba96e2024a1993e62c21c"
+}

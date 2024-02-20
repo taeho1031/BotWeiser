@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Celer Network cBridge V2 Bridge",
+        "agentId": "Large Balance Decrease - Celer Network cBridge V2 Bridge",
+        "agentIdHash": "0xd40554c0cc8393cb94aa22f4e10d67672a76f64112577f2d700b13bb08405926",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:21:58 GMT",
+        "imageReference": "bafybeibqlryimaagocgfbs6nlqjpalzjxmoo6lafk36rdddsuzacn3c2hm@sha256:cdaa1c6d474621d8053d77671cb2df1d06e5a037760940cdfa5c5892afdb3842",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x92443aeb6dd2d11a5037aa4bcfbeebbca930451c8dc1f1741ddc42fc7205d8ef50d8dd7b2ed88025238e4d576eb15ab9c6f0f1c83eabc0b9b5e46ad8cbc475871b"
+}

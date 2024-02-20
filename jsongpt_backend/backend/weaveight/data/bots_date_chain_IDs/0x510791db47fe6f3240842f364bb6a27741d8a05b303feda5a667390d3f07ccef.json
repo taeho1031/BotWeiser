@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x4897bbBeA3138B320f5c9F5132dbBb4385641284",
+        "name": "fa-dgsb02",
+        "description": "Forta Agent",
+        "agentId": "fa-dgsb02",
+        "agentIdHash": "0x510791db47fe6f3240842f364bb6a27741d8a05b303feda5a667390d3f07ccef",
+        "version": "0.0.1",
+        "timestamp": "Thu, 23 Nov 2023 20:22:32 GMT",
+        "imageReference": "bafybeibpffs7hbindozdz6ghu2kpbcoibeh7bpot76lixisiqh5onl7yaq@sha256:caa3ce61706fee010daf7cb2643f6c33356f70b5f0f4dcdce48c9a745534ffea",
+        "documentation": "QmZnLK4RxvrXErp8YEHerYknKP8ZBcoSTczoL8d53Ri4Q7",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.36"
+    },
+    "signature": "0x4ff7df04f5392779340736161e66954922df938154150e8716403393004ca3830910f313cadce949bd19c8fc24d48f5786a7e7a62796423b5726659bcaa2a1b51c"
+}

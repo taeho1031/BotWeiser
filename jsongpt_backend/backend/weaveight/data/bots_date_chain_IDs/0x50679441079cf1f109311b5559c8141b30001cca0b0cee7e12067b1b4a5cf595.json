@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Hop Protocol Matic Bridge",
+        "agentId": "Large Balance Decrease - Hop Protocol Matic Bridge",
+        "agentIdHash": "0x50679441079cf1f109311b5559c8141b30001cca0b0cee7e12067b1b4a5cf595",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:20:24 GMT",
+        "imageReference": "bafybeiayxd65npt66k6gtalflrmahovtvp4264uxtpmniinjtvnjn6ntb4@sha256:207917e51e25077d482ff5114524d52b8fc93a40b2bb2645a71d75852cefcb93",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xf5b5e17a8673efd17e6792bf800991c8148f875f79dd99152d38f41f2f10683c0c2bb96c5e169a1dfef38f8ce15e9bd30829718b0b607c051b1c2deb47fad8031c"
+}

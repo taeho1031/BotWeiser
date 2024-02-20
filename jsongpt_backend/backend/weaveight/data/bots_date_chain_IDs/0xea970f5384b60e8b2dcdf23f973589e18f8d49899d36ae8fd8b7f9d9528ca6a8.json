@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-drastic-liquidity-change-for-time-period",
+        "description": "Detects if an Iron Bank liquidity (cash or total borrows) change drastically for a time period",
+        "agentId": "iron-bank-drastic-liquidity-change-for-time-period",
+        "agentIdHash": "0xea970f5384b60e8b2dcdf23f973589e18f8d49899d36ae8fd8b7f9d9528ca6a8",
+        "version": "0.0.1",
+        "timestamp": "Wed, 12 Apr 2023 10:11:29 GMT",
+        "imageReference": "bafybeiclmrsm73hs2bndnaqzqmig3iqifztydp4zkvtr3awdkoax3axcza@sha256:2be599942bf522e7b3bceacff77474e692e3da1cd9a85f621a92056685c1f808",
+        "documentation": "QmRcLz7NZDkZ2p2vk3aPNR9bLYGJaQqfDTkuJ2P7HH9L44",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0xbf5953c3a2a0e0452d7b9f186e4bdacf897c5498ba4f83fb352c430f788804975c6e8bcbfab175a5d762688e0a70060a503f9dfbcf91c4da20682f605fef8f6c1b"
+}

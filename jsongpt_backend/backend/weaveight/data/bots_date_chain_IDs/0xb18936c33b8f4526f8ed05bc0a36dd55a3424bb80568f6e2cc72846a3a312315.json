@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0xcA3Da5102ED32A2b953ec97F2EE8Fde78b518E21",
+        "name": "forta-native-transactions",
+        "description": "Forta agent to track native transactions",
+        "agentId": "forta-native-transactions",
+        "agentIdHash": "0xb18936c33b8f4526f8ed05bc0a36dd55a3424bb80568f6e2cc72846a3a312315",
+        "version": "0.0.1",
+        "timestamp": "Tue, 07 Mar 2023 21:48:26 GMT",
+        "imageReference": "bafybeihpzrpaevnotfbgs7mrqpc5s2bqnoa3myy4okumqmmxpv5dj2gtdq@sha256:8b18101816bbdaeeea10f645f8ff94dc891dbde1d1f8df1ce769c0ffaff2d3dc",
+        "documentation": "Qmf4yNmrgNHNiucwWM55D3Xf4K6c9goukBsnTVfcLrEofZ",
+        "repository": "https://github.com/forta-network/forta-bot-sdk/tree/master/starter-project",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.19"
+    },
+    "signature": "0xfb8284eff697d601c95016595438141b3bce10ec620d10fadb8e9e9b21352fe028ec258bd0287a48dd2ff027b277625addc45f56cd32fe012b2f0b2764fb99441c"
+}

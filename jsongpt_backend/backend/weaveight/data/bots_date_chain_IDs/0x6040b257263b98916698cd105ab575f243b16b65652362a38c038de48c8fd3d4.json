@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-l2-bridge-arbitrum",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-l2-bridge-arbitrum",
+        "agentIdHash": "0x6040b257263b98916698cd105ab575f243b16b65652362a38c038de48c8fd3d4",
+        "version": "0.0.1",
+        "timestamp": "Thu, 19 Oct 2023 11:46:00 GMT",
+        "imageReference": "bafybeiemnc72ggf7g7n3ntrde3nebyekdsjc6tmtsoaqo5vsqvedgshryu@sha256:7079d9aeb2c84e1c9a2094bdf3e59bfc36806b96c3e8d886cce519c6d8150826",
+        "documentation": "QmQ41XMkxCWfLhE24kk8mtZFYo5Qkv8Yu1ZVAZv48xkCiw",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/l2-bridge-arbitrum",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            42161
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0x3075e0cae4d8826eda211152963b027f96e3dcca278df1c823f8945f1f00f276598a867d4ddff0ae2c06e315bd41fb885acb84a236e430043afaf672b6c0543d1b"
+}

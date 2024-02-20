@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "victim-notification",
+        "description": "Alerts when victim is notified about being hacked on-chain",
+        "agentId": "victim-notification",
+        "agentIdHash": "0xe04b3fa79bd6bc6168a211bcec5e9ac37d5dd67a41a1884aa6719f8952fbc274",
+        "version": "0.0.7",
+        "timestamp": "Tue, 05 Sep 2023 23:57:39 GMT",
+        "imageReference": "bafybeiadtdi2kywxvb25lvlhlg6pyitokrpjtequ2rlfnv7cmjwfp2xu54@sha256:38e908426d7d1cd43670632dc863d8e38638149e07025206edbd18bde44cb976",
+        "documentation": "QmeMEyWpTgorgtoZRcbmd7b3efdM2CUp4anvHUzzbq5wua",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.39"
+    },
+    "signature": "0xe5209f23f8b2ab3b5175f8a9566c32f99c8ad24e9b2705f006486a03a4621add734fd4b10d65afb9b50b7d149164ed4cd10b4cc34dc7d1209443e1cb1e7450261b"
+}

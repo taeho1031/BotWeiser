@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xdf78Cdb02FfBF2925fd3a4e9883467E6768edF6B",
+        "name": "Increment Governance Monitor",
+        "agentId": "Increment Governance Monitor",
+        "agentIdHash": "0xfa327796485419bd13c0bdf50c1f60d77b29140bfbf6a6662a66625f8eea8a5c",
+        "version": "0.0.1",
+        "timestamp": "Tue, 23 May 2023 18:56:27 GMT",
+        "imageReference": "bafybeiagjyxs6ckrgs3oihmncoue2hrmjh3k5wgtn5cq27aytrjc5fftdi@sha256:22341b42529ecca0bdfb8830f8bd9a1e556fd088162c64508e04792081812c6c",
+        "documentation": "QmfSPaSF7WhS7dW21g9xuyrhcSyDAooWUZVMT83yFda1PZ",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xd952a4b30760e40cf6ab17f4f6936955f7dc35bff9b1f6de6ee5062869ef60dd4dcb2bfd00a3edbc23881df3150100c72eb42e71a1729ffc17c28a40a7e382641c"
+}

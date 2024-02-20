@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Nafta - NFT Operations",
+        "agentId": "Nafta - NFT Operations",
+        "agentIdHash": "0x1119800b736ea98f68c85d838805da7e39fbeccbb2303177969fbda79e8a57ff",
+        "version": "0.0.1",
+        "timestamp": "Fri, 10 Dec 2021 19:05:36 GMT-5",
+        "imageReference": "bafybeia3a4rxbzxehzb5fmfs5hm43gzutphe34mvifffvomptpegicvsfi@sha256:22613fb1678adad33b3c6efaf479882d56e5a5304be4d4dd21941902bb56b984",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Nafta-suite/NFT-Operations",
+        "documentation": "bafkreidtnh3pdjaxuxbvj2gszlri7ntcw5d7pgqtnmpemav64k2vnhe5ju",
+        "chainIds": [
+            1
+        ]
+    },
+    "signature": "0xa95c542cdf058f86ab14e3578f6c45d41080a73a5da7728355bf4cab0a8df0ed2e56b313d5c18c48ac84ab389103ddd53fcbc74fdb2e13ebb236465466a87af01b"
+}

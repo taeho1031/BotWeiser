@@ -1,0 +1,35 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "Scam Detector Feed (beta)",
+        "description": "Provides real-time intelligence on scammers engaged in over 10 unique scam types.",
+        "longDescription": "The Scam Detector data feed provides real-time intelligence about EOAs, contracts and URLs involved in a variety of Web3 scams. It is jointly maintained by the Forta Foundation, Nethermind, Blocksec, ChainPatrol and members of the Forta developer community. It features market leading scam type coverage on ice phishing, address poisoning, rake tokens, token impersonation, fraudulent NFT orders, pig butchering, gas minting, sleep minting, hard rug pulls, soft rug pulls, and wash trading. Used by Web3 wallets, exchanges, crypto compliance companies and other Web3 security teams and tools. Teams can use Scam Detector labels to warn end-users during the pre-signing transaction approval process, to identify and prevent money laundering through regulated platforms, and to supplement existing blacklists among other use cases. Learn more in the documentation below, and request a free trial today.",
+        "agentId": "scam-detector-feed-beta",
+        "agentIdHash": "0x47c45816807d2eac30ba88745bf2778b61bc106bc76411b520a5289495c76db8",
+        "version": "2.20.14",
+        "timestamp": "Wed, 29 Nov 2023 19:41:14 GMT",
+        "imageReference": "bafybeif2viuiiifcp64xwtekh3xntkzu5h7fstod72g7c53dknghyggzo4@sha256:b818bc2f57b251a3fcb735a705d34aac44b0005f74df8717f7083db135c0526c",
+        "documentation": "QmPCvGt99kfFVW2LKso7sXtjxAbBuM4MjqhJGF8YtSKLhG",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/scam-detector-py",
+        "licenseUrl": "https://github.com/forta-network/starter-kits/tree/main/scam-detector-py/LICENSE",
+        "promoUrl": "https://drive.google.com/file/d/1Uoy178fwoYalHmV108fNDE_Qc8VSY2JI/view",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "default": {
+                "shards": 8,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x8c82fa1e7d6ea76c481f2048372f60083b6e3ac0b99771af8084b1dd0960393929fc424c36aa83ba4d86a6dd28e65444b048e4a03775d89bdf2c2020de9322731b"
+}

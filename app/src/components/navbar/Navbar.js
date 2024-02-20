@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "..\\assets\\icons\\forta-logo-white-header.jpg";
+import logo from "../../assets/icons/forta-logo-white-header.jpg";
 
 export const Navbar = () => {
   return (

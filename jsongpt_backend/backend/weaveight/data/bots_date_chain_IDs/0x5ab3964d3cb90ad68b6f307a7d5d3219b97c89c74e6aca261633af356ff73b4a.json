@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Celer Network Original Token Vault V2",
+        "agentId": "Large Balance Decrease - Celer Network Original Token Vault V2",
+        "agentIdHash": "0x5ab3964d3cb90ad68b6f307a7d5d3219b97c89c74e6aca261633af356ff73b4a",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:23:50 GMT",
+        "imageReference": "bafybeifyxzebr3dnkd2hi46cuu5q4mi653wcry4m4igtiezpyu6ernbfri@sha256:b326f8c9a01f0e0186dc2cb2b6fb1c3c914277d8b5c63f6f302cfbdbc83b5656",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x3811d84ba8f972b24c0e42bc3d45ca249c61e85fef9f539c5b7e282ccce3072f358d82ff6138a77af3c0edd387370b6a8584e314c259bd3a6540345a48b16d2b1c"
+}

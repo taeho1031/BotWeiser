@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "high-gas-used-bot",
+        "description": "Bot that detects transactions with unusually high gas used",
+        "agentId": "high-gas-used-bot",
+        "agentIdHash": "0x3858be37e155f84e8e0d6212db1b47d4e83b1d41e8a2bebecb902651ed1125d6",
+        "version": "0.2.1",
+        "timestamp": "Wed, 25 Oct 2023 05:43:13 GMT",
+        "imageReference": "bafybeiebxxvawdsovq5pe63ltxsf6zjtmipnai4wflyxz4ycrnlxaqsz5a@sha256:7e417fa92685908019915ff0a28a161fd46d30feb7e855772adee60f201898b0",
+        "documentation": "QmZXqvb7RgQtMpYnk87ekBEhpt5sywNrtqcD6kawbnYKMA",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/multi-gas-threshold-agent",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.6"
+    },
+    "signature": "0x5346d063bf7a4b8a57aed473ed8f562b9d437dfa841a2f861568903f4476f801257fb3a1de32063b9a179b2f219972a921251d05ee849866634462b8f9eca1381c"
+}

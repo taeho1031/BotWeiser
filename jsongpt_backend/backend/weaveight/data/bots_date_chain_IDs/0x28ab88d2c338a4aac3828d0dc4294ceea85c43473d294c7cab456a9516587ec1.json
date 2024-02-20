@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x5354012663b2e0859e89125AeA2E8317e57f48cc",
+        "name": "forta-pstake-stkbnb-pcs-substantial-swap",
+        "description": "Forta bot that detects large swaps in stk-bnb PancakeSwap pool",
+        "agentId": "forta-pstake-stkbnb-pcs-substantial-swap",
+        "agentIdHash": "0x28ab88d2c338a4aac3828d0dc4294ceea85c43473d294c7cab456a9516587ec1",
+        "version": "1.0.0",
+        "timestamp": "Sun, 18 Dec 2022 22:20:58 GMT",
+        "imageReference": "bafybeibyjoojjm6hyzwzxv2rgil56yux5cspoilu54qohzk73ounoia5hm@sha256:d11f3672afafcfde18052e1d670a349d56e77ab6ddf72ca93c3cbbad5155c81d",
+        "documentation": "QmTiqAjrpRizZSueTYQfxqsBo1Di9ksZF3DEUjK1tQWWmK",
+        "repository": "https://github.com/persistenceOne/stkBNB-contracts",
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta CLI 0.1.13"
+    },
+    "signature": "0x8d62893338e8243fe9a025840c45d8a53fa9dceaf3ab7c4937a6d72298bd3b8908b42d8a909dee673fca43c8aca53fee517d44f729bed7967cee2f8a949daec51c"
+}

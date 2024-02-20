@@ -1,0 +1,40 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "money-laundering-tornado-cash",
+        "description": "Money Laundering Tornado Cash Bot",
+        "agentId": "money-laundering-tornado-cash",
+        "agentIdHash": "0x4adff9a0ed29396d51ef3b16297070347aab25575f04a4e2bd62ec43ca4508d2",
+        "version": "0.0.13",
+        "timestamp": "Tue, 05 Sep 2023 23:30:47 GMT",
+        "imageReference": "bafybeif5nqcw6kmuwcidgbvlmux6ssd2udzemvq7cu2e5dkiwua5dkpkby@sha256:56869ba8c48b1723d11bef70f85c04c7b0cd2a5bad074580cd46ab1d62bc06e1",
+        "documentation": "QmY675293LpXorBAMqPzo6muuzHn6JAwnPAPyfLX6Zt6hz",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.39",
+        "chainSettings": {
+            "1": {
+                "shards": 3,
+                "target": 1
+            },
+            "56": {
+                "shards": 6,
+                "target": 1
+            },
+            "137": {
+                "shards": 3,
+                "target": 1
+            },
+            "default": {
+                "shards": 2,
+                "target": 1
+            }
+        }
+    },
+    "signature": "0x9d1185bc1f65fe0d4deec8f7aff0eca265848708931c6ace337cc44e4c8d161c4de50be9736e8897914fe2675f350eaaada0b16ea768d5ce70ac8b8e554d8ec81b"
+}

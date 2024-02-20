@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "large-balance-decrease-bot",
+        "description": "Detects if the balance of a protocol decreases significantly",
+        "agentId": "large-balance-decrease-bot",
+        "agentIdHash": "0x7b69174f32b91731d9b6245faaff945637c47f729a850fa312a27238bc98f383",
+        "version": "0.0.4",
+        "timestamp": "Wed, 25 Oct 2023 06:51:23 GMT",
+        "imageReference": "bafybeihyozuggxgreeec3lflt7pmnx34sdylnwxdylpoiqycwcrqjjh7ne@sha256:86f53655ecb90d7d242bf9facb2f02b4a0d6de86906b85d6fd4ca7c183994a01",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.6"
+    },
+    "signature": "0xfde96ce1351858e512b0c031b797d54548df32d0df7ef9c2e620775bfb3565686938bb094ca9054a8dd9967de5888df758ab4d3991912389c6d8fe7649350b2b1c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x81F7F4BfdB01ECC023D0a92D3ee008B024f122eE",
+        "name": "stkBNB Bot Operations Monitoring",
+        "agentId": "stkBNB Bot Operations Monitoring",
+        "agentIdHash": "0x37df9a6144405c2e0577542925a9cd72ddaedde91eea8c5f6970d4bb01c6a428",
+        "version": "0.0.1",
+        "timestamp": "Thu, 11 Aug 2022 16:52:36 GMT",
+        "imageReference": "bafybeif2mqhvs5xkxdfunoxjq6la76jzzyeug46tzowvmu5swyxrwrtbhi@sha256:9544aecb539be0f37ed0ffc39550e3dc78fdd7826e8f08c8218ec57495eea3e0",
+        "documentation": "QmResyPz45qRGmoXz1dxWPP7e3EcmP8VL74gEk6Kmug8jX",
+        "repository": "https://github.com/persistenceOne/stkBNB-contracts/tree/main/agents/bot-operations",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xb2daf91490980fda1fac018a767266f14c36665bf88d76137815bbd9c201f72d235e2886812fbe6c2a2aa6a75076ea5d1f7506217efb910b70d9546cc4781e9c1c"
+}

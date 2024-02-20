@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-ethereum-steth-old",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-ethereum-steth-old",
+        "agentIdHash": "0xb160648fb6aa9c4d4f38d2d736701fe5066ccbb14679b89ae02833919b1b3161",
+        "version": "1.0.0",
+        "timestamp": "Mon, 29 Jan 2024 19:37:26 GMT",
+        "imageReference": "bafybeiarigmvowqa72kntmx33kbgewz4crghroqtlhp6vysgfxsshfrvkm@sha256:595dfed60ebffbc60cbdf2eea9cd8d7b14214f136bd810b93a2c901b295b2054",
+        "documentation": "QmVLdDXzW3qnMoD39BEYbhVfPcPQYjaZyNTQWencgHU4f3",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/ethereum-steth",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xd4c046ee17c9594730c585d830a2e2284e1d0e265b0a0566b972991a71dbdeb436f8b41fad977b300fd472d336c8dedfa0638f46800e1d02d74c5324d902ad001c"
+}

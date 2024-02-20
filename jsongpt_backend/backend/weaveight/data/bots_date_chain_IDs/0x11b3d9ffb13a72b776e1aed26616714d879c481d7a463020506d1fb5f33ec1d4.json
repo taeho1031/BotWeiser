@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x858867611fa027B4c6bDbA2057C7729c142bB149",
+        "name": "forta-text-messages-agent",
+        "agentId": "forta-text-messages-agent",
+        "agentIdHash": "0x11b3d9ffb13a72b776e1aed26616714d879c481d7a463020506d1fb5f33ec1d4",
+        "version": "0.0.7",
+        "timestamp": "Tue, 31 May 2022 09:25:58 GMT",
+        "imageReference": "bafybeie7ssgviiduvj242fncjg4o2ue2ug6hxddbrbgzsbszwshfufvjqq@sha256:de4caf743c6846fc87bed2796b40d5864b2bea1424a15abe1669a7b81653f57a",
+        "documentation": "QmafuEkpxUT1cwGoYuLScCjSTcFk9jfHn5cTrtD89XDjYh",
+        "repository": "https://github.com/DenisGribanov/forta-text-messages-agent",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x97abf1061d1519f3bd61fb78c1d5591c4dc2ea8a22b1840504234f144847ffcd74548fecd44887b14af1fc987161ec9a8ba53ab60a16ce00369f1a8cd716b8db1b"
+}

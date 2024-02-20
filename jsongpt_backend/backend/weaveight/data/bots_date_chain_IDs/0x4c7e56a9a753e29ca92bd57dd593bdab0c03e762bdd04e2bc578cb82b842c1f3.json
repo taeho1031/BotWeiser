@@ -1,0 +1,40 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "unverified-contract-creation",
+        "description": "Forta agent raising alerts on unverified contract creations.",
+        "agentId": "unverified-contract-creation",
+        "agentIdHash": "0x4c7e56a9a753e29ca92bd57dd593bdab0c03e762bdd04e2bc578cb82b842c1f3",
+        "version": "0.0.13",
+        "timestamp": "Wed, 17 Jan 2024 14:20:10 GMT",
+        "imageReference": "bafybeifip4ladzzikfubmwhvsauobapff2azm7prhahhrkgf5nuqfc3bma@sha256:7fe92909dbf5c3525fceb2e144bf645041ec424dd5e1d5c66fcf0cdf203f187d",
+        "documentation": "QmTwjsEKvyyAhox69htSWRkeb4ZuynLfszRH6BpDAb5Bxp",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/unverified-contract-py",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 6,
+                "target": 3
+            },
+            "56": {
+                "shards": 6,
+                "target": 3
+            },
+            "default": {
+                "shards": 3,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0xa16a896aa997e01f44c738a9a88688d53eaca2a747b70a86528dd0756cc42a586d05be127ee7a7a4aff5ce0bcb1f72991e3cc720e5906f7cea5c5fb52ce569c11b"
+}

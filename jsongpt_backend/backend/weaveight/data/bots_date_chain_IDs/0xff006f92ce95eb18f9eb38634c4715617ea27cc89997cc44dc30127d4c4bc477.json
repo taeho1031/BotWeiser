@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-high-mint-or-borrow-amount",
+        "description": "Detects if there is a mint or borrow with high borrow amount",
+        "agentId": "iron-bank-high-mint-or-borrow-amount",
+        "agentIdHash": "0xff006f92ce95eb18f9eb38634c4715617ea27cc89997cc44dc30127d4c4bc477",
+        "version": "0.0.1",
+        "timestamp": "Wed, 12 Apr 2023 10:10:26 GMT",
+        "imageReference": "bafybeicruwkjfjferkuxgdwezbh6xgslu3gsryuq4zmg5hjet2ztq37cmq@sha256:ea63a627168354de9e119c793e02ad3870a7eb43b94f214063ab76d07aa23ea0",
+        "documentation": "QmXzFVKnJCTsYmXw3gKE7HvBDd48HnByuDiuYgvVRebZV5",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x367d7e8724a426935a34490e891d8fc51e28584eb8f9e50707fd7ec5cb193f0a079a4dc6cbefa33f4f2021c9652023ba3fc357e0b88615fbcb246e14be878b1a1c"
+}

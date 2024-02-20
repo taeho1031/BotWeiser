@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xc5924Db956E47bfe3E33C00d3147e976638ea0Da",
+        "name": "Idle PYTs large change in TVL 2",
+        "agentId": "Idle PYTs large change in TVL 2",
+        "agentIdHash": "0x1382d1ed487ad274c3a2effb5ce47a2bf018fffed7e890e364978f14c043ae21",
+        "version": "0.0.3",
+        "timestamp": "Tue, 11 Apr 2023 08:49:45 GMT",
+        "imageReference": "bafybeib5b7bk2ge7e4tv2gc5a7jo3a62lftql7j2dtgx2mtbpwzceeok7i@sha256:d13e0299afa625db71052e54547be38f7eb1b1758043080234c40b5ab2c6f922",
+        "documentation": "QmNeJckaT6aHFv4m5T8E9ENRsXzwLScbnPx4SftDXnx6C3",
+        "repository": "https://github.com/Idle-Finance/forta-agent-scripts/tree/master/idle-suite/perpetual-yield-tranches-large-change-in-contract-value",
+        "projects": [
+            "idle_dao"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x690e5ded686a509d4896519a92faa667fc28d5c773a12a77b24122213b48c23f5cca2c43cf6f73c3b0d739b8e1b57e05f25f623145a9a3555d9134a6383ec47e1c"
+}

@@ -1,0 +1,124 @@
+Give a bot that is designed to detect asset drainage in smart contracts.
+{'bot_id': None, 'description': 'A bot designed to detect asset drainage in smart contracts', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Asset Drainage Detection Bot', 'valid': True}
+
+==================================================
+Give a bot that detects and alerts on different types of evasion tactics used by smart contracts on the Ethereum blockchain
+{'bot_id': None, 'description': 'A bot that detects and alerts on different types of evasion tactics used by smart contracts on the Ethereum blockchain', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Evasion Detection Bot', 'valid': True}
+
+==================================================
+Recommend a bot that is primarily designed to monitor and analyze transactions executed from bridge receivers' timelocks.
+{'description': "Recommend a bot that is primarily designed to monitor and analyze transactions executed from bridge receivers' timelocks.", 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Transaction Monitoring and Analysis Blockchain Bot', 'valid': True}
+
+==================================================
+Which bot monitors and analyzes NFT transactions across multiple blockchain marketplaces, such as OpenSea, LooksRare, and Blur, to detect suspicious activities that may be indicative of scams or phishing attempts.
+{'bot_id': None, 'description': 'Which bot monitors and analyzes NFT transactions across multiple blockchain marketplaces, such as OpenSea, LooksRare, and Blur, to detect suspicious activities that may be indicative of scams or phishing attempts.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'NFT Transaction Monitoring and Analysis Bot', 'valid': True}
+
+==================================================
+Send me a bot that is designed to detect spam tokens within blockchain networks using advanced algorithms that analyze multiple indicators.
+{'bot_id': None, 'description': 'A bot that is designed to detect spam tokens within blockchain networks using advanced algorithms that analyze multiple indicators.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Spam Token Detection Bot', 'valid': True}
+
+==================================================
+Can I have a bot designed to monitor the Ethereum blockchain for indicators of malicious activity related to draining funds from users, such as through scam transactions.
+{'bot_id': None, 'description': 'Bot designed to monitor the Ethereum blockchain for indicators of malicious activity related to draining funds from users, such as through scam transactions.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Ethereum Monitoring Bot', 'valid': True}
+
+==================================================
+Give me a bot that monitors notification EOAs to track and alert the scam activities.
+{'bot_id': None, 'description': 'A bot that monitors notification EOAs to track and alert the scam activities.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Scam Activity Alert Bot', 'valid': True}
+
+==================================================
+I want a security bot that consists of multiple parts that involve detecting attacks on Ethereum-like smart contract protocols in real-time and handling false positives within the Web3 ecosystem.
+{'bot_id': None, 'description': 'I want a security bot that consists of multiple parts that involve detecting attacks on Ethereum-like smart contract protocols in real-time and handling false positives within the Web3 ecosystem.', 'timestamp': '2024-02-20T05:03:58.342812Z', 'chainIds': [1, 5, 10, 56, 137, 250, 42114, 42161, 43114, 42220], 'name': 'Security bot for Ethereum-like Smart Contract Protocols', 'valid': True}
+
+==================================================
+Show me a bot that is a security agent designed to monitor and report wallet balances for a series of fleet_keys and pink_panther accounts on different networks, such as Ethereum (ETH), Binance Smart Chain (BSC), and Polygon (MATIC).
+{'bot_id': None, 'description': 'The bot is a security agent designed to monitor and report wallet balances for a series of fleet_keys and pink_panther accounts on different networks, such as Ethereum (ETH), Binance Smart Chain (BSC), and Polygon (MATIC).', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 56, 137], 'name': 'Wallet Balance Security Agent Bot', 'valid': True}
+
+==================================================
+Provide a bot that identifies victims of end-user attacks and calculates their losses.
+{'bot_id': None, 'description': 'Provide a bot that identifies victims of end-user attacks and calculates their losses.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'End-User Attack Identification and Loss Calculation Bot', 'valid': True}
+
+==================================================
+Which bot detects large profits.
+{'bot_id': None, 'description': 'A bot that is capable of detecting large profits.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Profit detection bot', 'valid': True}
+
+==================================================
+Recommend me a bot that detects MEV bots that uses different strategies to extract value from a protocol by adding, removing or reordering transactions in a block
+{'bot_id': None, 'description': 'A bot that detects Maximum Extractable Value (MEV) bots, which use different strategies to extract value from a protocol by adding, removing, or reordering transactions in a block.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'MEV Detection Bot', 'valid': True}
+
+==================================================
+I want a bot that provides real-time alerts on potential Sybil Attacks
+{'bot_id': None, 'description': 'A bot that provides real-time alerts on potential Sybil Attacks', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Sybil Attack Alert Bot', 'valid': True}
+
+==================================================
+Which bot uses machine learning-based system for real-time detection against malicious contracts based on bytecode
+{'bot_id': None, 'description': 'A blockchain bot that uses a machine learning-based system for real-time detection against malicious contracts based on bytecode.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'ML-Based Detection Bot', 'valid': True}
+
+==================================================
+What type of Web3 bot would be recommended for monitoring and alerting on decreases in the virtual prices of AA (senior) and BB (junior) tranches within Idle Finance's Perpetual Yield Tranches in the DeFi ecosystem on the Ethereum blockchain
+{'bot_id': 'null', 'description': "A Web3 bot that monitors and alerts on decreases in the virtual prices of AA (senior) and BB (junior) tranches within Idle Finance's Perpetual Yield Tranches in the DeFi ecosystem on the Ethereum blockchain", 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Idle Finance Tracker Bot', 'valid': True}
+
+==================================================
+Recommend a bot that identifies fraudulent tokens engaged in rake scams, which impose an extra swap fee on the Uniswap decentralized exchange and divert it to an externally owned account.
+{'bot_id': None, 'description': 'Recommend a bot that identifies fraudulent tokens engaged in rake scams, which impose an extra swap fee on the Uniswap decentralized exchange and divert it to an externally owned account.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Uniswap Fraud Detection Bot', 'valid': True}
+
+==================================================
+Is there a bot that detects scam activity preferably based on notification EOAs.
+{'bot_id': None, 'description': 'A bot capable of detecting scam activity, focusing primarily on notification EOAs.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Scam Activity Endpoint Observer', 'valid': True}
+
+==================================================
+Give me a bot that detects critical actions in Alpha Homora on Ethereum, triggering alerts for last resort requests. Make sure it filters logs, handles transactions, and interacts with related contracts and oracles, providing crucial warnings for potential emergencies in the Alpha Homora ecosystem.
+{'bot_id': None, 'description': 'Give me a bot that detects critical actions in Alpha Homora on Ethereum, triggering alerts for last resort requests. Make sure it filters logs, handles transactions, and interacts with related contracts and oracles, providing crucial warnings for potential emergencies in the Alpha Homora ecosystem.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Alpha Homora Emergency Alert Bot', 'valid': True}
+
+==================================================
+Which bot checks Ethereum and Polygon chains for disabled whitelist functionality of the FORT token. Make sure the bot spots transactions turning off the whitelist, sending medium alerts with network info and the address involved. The bot's code includes modules for testing and handling transactions.
+{'bot_id': None, 'description': 'A bot that monitors the Ethereum and Polygon chains for the deactivated whitelist functionality of the FORT token. The bot checks for transactions disabling the whitelist and sends medium alerts containing network information and the involved address. Its code includes modules for testing and handling transactions.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 137], 'name': 'Whitelist Monitor Bot', 'valid': True}
+
+==================================================
+Recommend me a bot that acts like a pretend version of a smart contract and its functions. Preferably the one testing in a development setting to mimic how a contract works without needing real blockchain setups or network links.
+{'bot_id': None, 'description': 'A bot that acts like a pretend version of a smart contract and its functions. It is suitable for testing in a development setting to mimic how a contract works without needing real blockchain setups or network links.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Smart Contract Testing Bot', 'valid': True}
+
+==================================================
+What type of bot is used for testing in a development environment to simulate interactions with a contract, without requiring real blockchain deployments or network connections.
+{'bot_id': None, 'description': 'This bot is used for testing in a development environment to simulate interactions with a contract, without requiring real blockchain deployments or network connections.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Simulation Bot', 'valid': True}
+
+==================================================
+Is there any bot sifts through transaction logs to find relevant events using their signatures and the contract address.
+{'bot_id': None, 'description': 'A bot that sifts through transaction logs to find relevant events using their signatures and the contract address.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': '', 'valid': True}
+
+==================================================
+Which bot examines transactions and block events to find notable decreases in token balances, which could signal possible exploitation or malicious behavior.
+{'bot_id': None, 'description': 'Which bot examines transactions and block events to find notable decreases in token balances, which could signal possible exploitation or malicious behavior.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Token Balance Tracker Bot', 'valid': True}
+
+==================================================
+Let me know a bot that spots when a doubtful contract that isn't for tokens or proxies is put on the Ethereum network.
+{'bot_id': None, 'description': "Let me know a bot that spots when a doubtful contract that isn't for tokens or proxies is put on the Ethereum network.", 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Doubtful Contract Spotter', 'valid': True}
+
+==================================================
+Which bot identifies transactions that involve substantial Tether transfers, particularly on the blockchain like Ethereum
+{'bot_id': None, 'description': 'A bot that identifies transactions that involve substantial Tether transfers, particularly on the Ethereum blockchain.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Tether transaction tracking bot', 'valid': True}
+
+==================================================
+Is there a bot Overall, the bot aims to enhance security by identifying and alerting on potentially malicious activities within the Ethereum ecosystem.
+{'bot_id': None, 'description': 'Overall, the bot aims to enhance security by identifying and alerting on potentially malicious activities within the Ethereum ecosystem.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Security Enhancement Bot', 'valid': True}
+
+==================================================
+I’m looking for a bot that monitors credit limit usage in the Iron Bank market across multiple blockchains. Make sure it alerts when a borrower exceeds a preset threshold, updates market data daily, and provides metadata in alerts for further analysis.
+{'bot_id': None, 'description': 'A bot that monitors credit limit usage in the Iron Bank market across multiple blockchains. It alerts when a borrower exceeds a preset threshold, updates market data daily, and provides metadata in alerts for further analysis.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Credit Limit Monitor Bot', 'valid': True}
+
+==================================================
+Which bot monitors blockchain smart contracts, primarily on Ethereum and triggers alerts when specific conditions are met during transaction activities, focusing on smart contract interactions?
+{'bot_id': None, 'description': 'Which bot monitors blockchain smart contracts, primarily on Ethereum and triggers alerts when specific conditions are met during transaction activities, focusing on smart contract interactions?', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1], 'name': 'Blockchain Monitoring Bot', 'valid': True}
+
+==================================================
+Recommend a bot that monitors protocol balances across multiple blockchains, alerts on significant balance decreases, categorizes alerts by severity, provides context on suspicious transactions and attackers.
+{'bot_id': None, 'description': 'Recommend a bot that monitors protocol balances across multiple blockchains, alerts on significant balance decreases, categorizes alerts by severity, provides context on suspicious transactions and attackers.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Multi-Blockchain Protocol Balance Monitor and Alert Bot', 'valid': True}
+
+==================================================
+0x00e608404f19d48323edec8edb078c11726fe9612ceaaa738510fbd47be30b00
+{'bot_id': '0x00e608404f19d48323edec8edb078c11726fe9612ceaaa738510fbd47be30b00', 'description': 'A Blockchain bot associated with given hexadecimal id', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'Blockchain Bot', 'valid': True}
+
+==================================================
+0x11b3d9ffb13a72b776e1aed26616714d879c481d7a463020506d1fb5f33ec1d4
+{'bot_id': '0x11b3d9ffb13a72b776e1aed26616714d879c481d7a463020506d1fb5f33ec1d4', 'description': 'This bot is related to the processing or management of blockchain activities.', 'timestamp': '2024-02-20 05:03:58.342812+00:00', 'chainIds': [1, 42114, 5, 137, 10, 43114, 42220, 42161, 56, 250], 'name': 'General Blockchain Bot', 'valid': True}
+
+==================================================

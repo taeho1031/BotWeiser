@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-drastic-liquidity-change",
+        "description": "Detects if the market's liquidity (cashPrior or totalBorrows) changes drastically",
+        "agentId": "iron-bank-drastic-liquidity-change",
+        "agentIdHash": "0x108b160a7258765ba6a461e5746590e627620912ca0bd468250b3d9f9a5abe50",
+        "version": "0.0.1",
+        "timestamp": "Thu, 13 Apr 2023 04:15:43 GMT",
+        "imageReference": "bafybeiehmwczmrwsuddyroogx75wit44lsgwjefwurheazfz2xybauqa7m@sha256:cfe045205816a71ec550e115165953b5372c0237900b7e573eac2a2e6a55481e",
+        "documentation": "QmSawJjogoR35yZNDt3Xn5mV6M7eJupwm4bChfdtcmya8w",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1,
+            10,
+            250,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x1d96341f7ef44df30f96058c5a4d01941a5dac2f90052aa349aa7d742cce270838ccb03bee17dc2f727617ecde5c8fc1974b3ee92680fbaa14600c93919d9e1e1c"
+}

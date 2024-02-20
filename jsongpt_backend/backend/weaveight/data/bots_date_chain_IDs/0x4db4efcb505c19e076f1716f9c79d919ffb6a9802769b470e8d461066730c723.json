@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Arbitrum Custom Gateway Bridge",
+        "agentId": "Large Balance Decrease - Arbitrum Custom Gateway Bridge",
+        "agentIdHash": "0x4db4efcb505c19e076f1716f9c79d919ffb6a9802769b470e8d461066730c723",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 11:38:36 GMT",
+        "imageReference": "bafybeiefswhk2kbldq6243eogismxg5gj52mh7nyuljvmxoxmbltnx77z4@sha256:f4f07ce07d91f27d386f55f23a0c850344c39852e2212f29cb89f3d45d16579c",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x603120b2e7a7d44d8111c2dd46202dd52131e1ebaf9225bacba09e481a487fb00cc1c437f88db19ae7ef935c51385341ed59ba7b1a0e1a8b81fbf9f2c7283f5e1c"
+}

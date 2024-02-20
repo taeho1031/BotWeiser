@@ -1,0 +1,44 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "malicious-token-contract-ml",
+        "description": "Malicious Token Contract Detection Bot",
+        "agentId": "malicious-token-contract-ml",
+        "agentIdHash": "0x887678a85e645ad060b2f096812f7c71e3d20ed6ecf5f3acde6e71baa4cf86ad",
+        "version": "1.0.3",
+        "timestamp": "Wed, 17 Jan 2024 15:25:06 GMT",
+        "imageReference": "bafybeidwzcjs6upe3fs7msvpd6qf4fepgsbzazcdfh2lya2wcn4dzakdda@sha256:8d924c21a3f2288ff42aba7286a868befce1d37f89c6af0540580d93877b88fd",
+        "documentation": "QmQGwG2vsJ5T7eNDBWZBj5FrDVR2MbGa2i66FwDJyw9d2T",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/malicious-token-contract-ml-py",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 3,
+                "target": 2
+            },
+            "56": {
+                "shards": 5,
+                "target": 2
+            },
+            "137": {
+                "shards": 5,
+                "target": 2
+            },
+            "default": {
+                "shards": 2,
+                "target": 2
+            }
+        }
+    },
+    "signature": "0x0b26a9b26c836e5291bcf875ee1525ee1b3df8efbfd70736e4b77c77e654b8501e9c22f9b1339d86b27c2550b226b1d7820f2a82b8d9ea330143a70f785e7cb01c"
+}

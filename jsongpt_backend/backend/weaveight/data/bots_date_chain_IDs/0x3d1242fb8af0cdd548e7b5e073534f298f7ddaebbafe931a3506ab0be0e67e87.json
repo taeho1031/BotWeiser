@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Multichain Marlin POND Bridge",
+        "agentId": "Large Balance Decrease - Multichain Marlin POND Bridge",
+        "agentIdHash": "0x3d1242fb8af0cdd548e7b5e073534f298f7ddaebbafe931a3506ab0be0e67e87",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 13:37:26 GMT",
+        "imageReference": "bafybeic5kkofts5xoiyh52j3lgkmvkcmskowzifxuwhsonkc3pnf2alkde@sha256:6f831e65f2d5a32c3b9f623ab97a842a269f086ac2f544efe75622949753234b",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            250
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xca87090448e12a91d1287aa9de2fad77d03496b3db7ec47678b826368b8c4a3c43030bb268fd130dfde78af2830778a717eba79d1fe69fe23628b40ce04d184e1c"
+}

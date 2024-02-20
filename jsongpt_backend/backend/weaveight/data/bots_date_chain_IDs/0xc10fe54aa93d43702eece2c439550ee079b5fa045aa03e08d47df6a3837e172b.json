@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Multichain ALTA Bridge",
+        "agentId": "Large Balance Decrease - Multichain ALTA Bridge",
+        "agentIdHash": "0xc10fe54aa93d43702eece2c439550ee079b5fa045aa03e08d47df6a3837e172b",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 13:27:31 GMT",
+        "imageReference": "bafybeief5mqrgdkfplk3eyphwyl3iweankgvjgio67c4tz6xcwukuodu3q@sha256:950c36f4bb1f0ef788761009fcf96cb64e96a0ab9a1e3375a186588ee25bf63f",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x48b2fb0bacac708f868d872ca5c944407950ef385326ff2c62efbca0b781bb9e33c026ddba7f6ea26d1eeb4427873e4a24ea2d22b35f23d0ceafc312e9dcf9871c"
+}

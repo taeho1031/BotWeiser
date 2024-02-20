@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x286a227Ae4f31c586E2935f1C0B0c36a0AD30340",
+        "name": "umee-large-borrow-bot",
+        "description": "Forta bot that detects large borrows in the UMEE protocol",
+        "agentId": "umee-large-borrow-bot",
+        "agentIdHash": "0x8d7fea611a460a84f0d3536a79cd10a10c9fec9fe951c7a959c375de24d46221",
+        "version": "0.0.1",
+        "timestamp": "Mon, 08 Aug 2022 09:38:11 GMT",
+        "imageReference": "bafybeihfdhilcvmziszmjz6exciw6tzr2opz2tc7p7blnwlquzugw3hb7q@sha256:27d24948fa4d857cbdf93e5c7c110d00b486bc6553c2031ed84f8dadf18c5b3d",
+        "documentation": "QmWTQLnGf34NXSbfv95ks5XSSQfkzkyHGcAuhUBgL2hZiP",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Umee-Bots/Large-Borrow",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.6"
+    },
+    "signature": "0xf65c47c182d4970c4dcc06b2bfb0d6b9c291fe8e87ef3e88979cb26c7fd40087368459a6010110a207b27d58e3906156c8705b6d2c9e4c5189a9e3edd0963be91b"
+}

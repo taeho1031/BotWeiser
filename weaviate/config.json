@@ -1,0 +1,9 @@
+{
+  "weaviate": {
+    "url": "https://fortainfinity-botweiser-grztbyru.weaviate.network",
+    "api_key": "PBdt4BX3BE2bHVeBlN9xMs03E4GFrGcYtM2A"
+  },
+  "openai": {
+    "api_key": "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"
+  }
+}

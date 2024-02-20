@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xF56df8FEbc5dB60433516539F50231FF7242AC87",
+        "name": "Compound Oracle Price Monitor Bot",
+        "agentId": "Compound Oracle Price Monitor Bot",
+        "agentIdHash": "0x32facccd163300ad76c7fe88b559b812dca9050a569417b42fced95594dda08e",
+        "version": "0.0.5",
+        "timestamp": "Tue, 17 Jan 2023 22:37:02 GMT",
+        "imageReference": "bafybeigib3mqfx275y4rsyd3zpb3u25qsn6xnguin3yuynwgzqzqcxsksu@sha256:e621c5f2f0d1255b18229e784a76207174c87ac42eea9626b7cc25281beb928d",
+        "documentation": "QmU5qYgMxLpYzFV1U4kiyKAB5n8YnqdCCJ6bCtLiGh94wG",
+        "repository": "https://github.com/OpenZeppelin/compound-monitoring/tree/main/oracle-price-monitor",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xce10c996ea83b4a722b7b8f83c3d94e6aac47b79fb980b20bf89184d7d15bddc0da8164942b90a25a31ca5f24dbcb02ccbdf99c332a5059cdb4511a4e35f77871c"
+}

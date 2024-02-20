@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xF56df8FEbc5dB60433516539F50231FF7242AC87",
+        "name": "Compound Large Borrows Governance Monitor Bot",
+        "agentId": "Compound Large Borrows Governance Monitor Bot",
+        "agentIdHash": "0xb6bdedbae67cc82e60aad02a8ffab3ccbefeaa876ca7e4f291c07c798a95e339",
+        "version": "0.0.3",
+        "timestamp": "Tue, 13 Sep 2022 14:08:59 GMT",
+        "imageReference": "bafybeie4x5r5xivmesmh4nbetnypzfx52sa6pkfplk3djzfzfhmf6bt2oe@sha256:ed8360ea9b09c903d4be2dc9aaaee318f8b412631a0c76c1d171f4567f6ed9ab",
+        "documentation": "QmZ3uGjAKRtowHGtfrckxgXUciu3ZXCzN2CFoyF8LBhz3K",
+        "repository": "",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x6802684ce34fda47f4016aa633eb7dd049f2c2e5f38ffc2b91a2c667f83961270b7d5175b16c24915109c92096be52ca93b7b320b27e51c0d05ad7235b54c5081c"
+}

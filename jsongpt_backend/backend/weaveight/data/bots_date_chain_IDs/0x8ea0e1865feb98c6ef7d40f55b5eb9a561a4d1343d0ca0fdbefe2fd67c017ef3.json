@@ -1,0 +1,12 @@
+{
+    "manifest": {
+        "from": "0x88dc3a2284fa62e0027d6d6b1fcfdd2141a143b8",
+        "agentId": "nethforta-27",
+        "agentIdHash": "0x8ea0e1865feb98c6ef7d40f55b5eb9a561a4d1343d0ca0fdbefe2fd67c017ef3",
+        "version": "0.0.1",
+        "timestamp": "Thu, 07 Oct 2021 15:01:39 GMT",
+        "imageReference": "bafybeiat3x463uumcsnjuhbmkzdwf5g2eclbqncigq2iv3ar2cj7w64wsy@sha256:800616d0c6eec4cee20a682ac669fad63e489bdaee40c9ac93f5edbdc70e0a45",
+        "documentation": "Qmc2Hamhw48ecvobezuQLRsfQKf68ErEto1EMTJHai7eqG"
+    },
+    "signature": "0xa12147dbcb128c30364c22cfdc6d0d072545a9f958ea09bceed3f07db7db53c7377f37ecbe327b9950adeb051e4ccbef321a4ea5370d8be18ab549e0df6ad1f81b"
+}

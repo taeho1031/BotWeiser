@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0x7959f8E09D7740c9bd5f828133EbFcc902F8DD6b",
+        "name": "bot-heartbeat-beta",
+        "description": "this bot submits proofs",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "bot-heartbeat-beta",
+        "agentIdHash": "0xa53515a09b38933c89ceea3edc4fbb42614cd270b356d93d1eea25779f64eff1",
+        "version": "0.0.1",
+        "timestamp": "Thu, 14 Dec 2023 07:11:04 GMT",
+        "imageReference": "bafybeiedxzsutaaoiy54wtpag2rwgpx4dpgrm2i4fe6c7322fnt2yumaoe@sha256:fdbc7985fb649f74081cf5502a729bd49b42ed8ac8ebbe2301dff77e9b3cd357",
+        "documentation": "QmZnLK4RxvrXErp8YEHerYknKP8ZBcoSTczoL8d53Ri4Q7",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xefefdcf58114339521763edf50770c022b40325625d938aab15528cf5b6d68203bc252a46e5809a372e2c7cab4c8095115f168ebe1dbeb32183ae6e842c7f6961c"
+}

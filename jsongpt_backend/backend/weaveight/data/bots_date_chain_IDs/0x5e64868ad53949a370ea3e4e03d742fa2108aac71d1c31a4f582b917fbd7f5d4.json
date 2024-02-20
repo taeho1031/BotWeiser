@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xe90BCAEE86D8aF5C120f9E99cd0050Ba63a42494",
+        "name": "perp88-3-detect-many-opening",
+        "description": "Detects many opening in a certain time frame.",
+        "agentId": "perp88-3-detect-many-opening",
+        "agentIdHash": "0x5e64868ad53949a370ea3e4e03d742fa2108aac71d1c31a4f582b917fbd7f5d4",
+        "version": "0.0.1",
+        "timestamp": "Mon, 14 Nov 2022 07:06:58 GMT",
+        "imageReference": "bafybeihcbuj2zkljmwxzh4rqlantfta3zg7soe32q436fudjzj6ytpqavy@sha256:cead20fcf1c598793e49b9d77ac435bc190bcf1012372e21f9fac3b8a41422b3",
+        "documentation": "QmPC9WArechcwREWuVrBKhkwiQ9SvdpdLAJg3H5LjeHgCS",
+        "repository": "",
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.13"
+    },
+    "signature": "0x08ec2fdf3c096446a7c5a60534b8be4ee9330ca1e96e73a99be0e50dc528bcd51084b650a809141232424415da68cf437820d4a3c9346cf1450db81aef25c2441b"
+}

@@ -1,0 +1,31 @@
+{
+    "manifest": {
+        "from": "0x183d13c4fCb5133EA52345A9037C9c25A5Aa139D",
+        "name": "attack-simulation-bot-targeted",
+        "description": "This is a customized version of the attack-simulation-bot that scans exclusively for suspicious contracts flagged by other bots, resulting in faster detection of exploit functions.",
+        "agentId": "attack-simulation-bot-targeted",
+        "agentIdHash": "0xb31f0db68c5231bad9c00877a3141da353970adcc14e1efe5b14c4d2d93c787f",
+        "version": "0.0.20",
+        "timestamp": "Mon, 05 Jun 2023 17:55:57 GMT",
+        "imageReference": "bafybeifq5wyj2yhecnyn7yeyj5bgc64lwmdtgiux3ea3etnx7ha6wtl46e@sha256:b521bdef6fc519e4ef963a9dc5a8e5ed97c2766df217bfa895b674e167503e42",
+        "documentation": "QmdFtzYRC17oQoKeEcS2hpd6EQDxiZG6ekA2bt1743pMxZ",
+        "repository": "https://github.com/kovart/forta-attack-simulation",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.32",
+        "chainSettings": {
+            "default": {
+                "shards": 1,
+                "target": 10
+            }
+        }
+    },
+    "signature": "0xef9d34b3a6d783c7dec73db597fde7d2de8902f5be94f47da9e8b40e19e6b18d23193d615a9c026f6a077aa2e5f562d3e2e49fe22e22fb601e6fb25c5738b3251c"
+}

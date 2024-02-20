@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0xF5c5eEc1631E3d1b9953928A56a5B31edA1A11F3",
+        "name": "scamsniffer-bot",
+        "description": "Scam Sniffer Bot",
+        "agentId": "scamsniffer-bot",
+        "agentIdHash": "0x00e608404f19d48323edec8edb078c11726fe9612ceaaa738510fbd47be30b00",
+        "version": "0.0.7",
+        "timestamp": "Tue, 28 Mar 2023 14:46:53 GMT",
+        "imageReference": "bafybeiboka5bk2jxn3grfjxg4ersktl6viilzmxpobfrbgcg7iygvbw7ja@sha256:2351303a85f4318066476ccdad194fd90f7a42cbd71037d616824432b332e355",
+        "documentation": "QmXQQHBsZcinmfasXgZsCDyPfo56PKrhrVDwwX3fL6vA9k",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.19"
+    },
+    "signature": "0x79e9e4ccd3abbd56738bf8836dbbb8e6dd2d9ec47fedf79040d5bb4a7a4d0b296a670935a31c5644d544feb460c4c2cab33ffe28ad7eb5adb35badb9d979facf1b"
+}

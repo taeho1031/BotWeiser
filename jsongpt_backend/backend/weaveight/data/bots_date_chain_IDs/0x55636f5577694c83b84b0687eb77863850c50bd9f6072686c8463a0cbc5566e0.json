@@ -1,0 +1,40 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Flashloan Detection Bot",
+        "description": "Forta bot that detects if a transaction contains a flashloan where the borrower makes large profit",
+        "longDescription": "This bot focuses on detecting instances of flashloan utilization, the bot diligently examines each transaction to determine if it aligns with the characteristics of a flashloan. It further analyzes the transaction to assess whether the borrower has generated a substantial profit, using a preset percentage threshold. The bot's function is activated solely in cases where both a flashloan is involved and the borrower's profit meets the specified criteria, providing an objective mechanism for identifying these specific transaction types.",
+        "agentId": "flashloan-detection-bot",
+        "agentIdHash": "0x55636f5577694c83b84b0687eb77863850c50bd9f6072686c8463a0cbc5566e0",
+        "version": "0.1.6",
+        "timestamp": "Wed, 25 Oct 2023 06:14:18 GMT",
+        "imageReference": "bafybeia6iqr5jv4fznvvfmk6clx3ottjunogpqssrkkg7yecrvekxmltye@sha256:80ee5cdd85231d9ba5b08ead1aa61cd4362e6790cda082252da67c8177e36ae9",
+        "documentation": "QmSGXw2hkCTGiPUFtZDHCFL3KGCCJXZeky6B7XW74n3wRQ",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/flashloan-detector",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.36",
+        "chainSettings": {
+            "1": {
+                "shards": 3,
+                "target": 3
+            },
+            "56": {
+                "shards": 4,
+                "target": 3
+            },
+            "default": {
+                "shards": 3,
+                "target": 1
+            }
+        }
+    },
+    "signature": "0x7ce8bdbeb7ded960604b37dc4008712b67c5b9419621392d1491f7f441f79a52341ed1210e4a5cda294cab6d78d2abdc02597020700165463e24c5c53a86c88d1b"
+}

@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x000000000088E0120F9E6652CC058AeC07564F69",
+        "name": "Keeper Topup Monitor",
+        "agentId": "Keeper Topup Monitor",
+        "agentIdHash": "0x9cf5b135ef85307baf3afc9df8c7f953fa61671d3a3843907856629f4ea7fac8",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Wed, 16 Feb 2022 13:16:38 CST",
+        "imageReference": "bafybeidgmisdqq6lyzfshuuzf2s7d6omxe7ov3l6tvohangad7kncm7nta@sha256:58d2cc54aeb4e929aae805ccd402ffce23c05b11b69506e64c4728511f13321d",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Pickle-Finance-Agents/KTM",
+        "documentation": "bafkreicwhqefsoyobciotn6wbxcmnvsr2pkttdab3674puhpfn2l7gbdea",
+        "chainIds": [
+            137
+        ],
+        "projects": [
+            "pickle_finance"
+        ]
+    },
+    "signature": "0x97b56ed9f298b7e062a1f9c3dd781388aa42d557d0bd4969d1ba77f174da4a1b4f23a9eed3d882767d80b6bfde4daad74c2aea004cb0fee034e9b3fd6557dee81b"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-system-related-changes",
+        "description": "Detects if system related contracts or variables are changed",
+        "agentId": "iron-bank-system-related-changes",
+        "agentIdHash": "0x8d04e1730f56e18f144536a9c3fa94463453122da3be9bb3544d182ebb1c27d6",
+        "version": "0.0.1",
+        "timestamp": "Wed, 12 Apr 2023 10:10:39 GMT",
+        "imageReference": "bafybeihbk3lmtqsp7wopg6i2x3ha6l3s63bu6drbubjwwbcf4r5roavn4u@sha256:63dec2d1dfd0d7fd62b0f50049cfaaee7f6b77bd1eb41f78906ba8fc877cdd0d",
+        "documentation": "QmZhfp6gTcBLeAqZ4rXgtGXobBkvfKvBXbRYC677MD8rk7",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x803bfeec13781e9a8799fac270aa28e2e36a969d27f1148a72dba219ba5aaa696a35b1a0cc088c831769b5642413c6d89bf80f3af4de965963e128fdaddb153a1b"
+}

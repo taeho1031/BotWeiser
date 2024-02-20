@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x5075534aFB4b73CbB6744eA8B59d78Ca56059471",
+        "name": "Soft Rug Pull Bot",
+        "agentId": "Soft Rug Pull Bot",
+        "agentIdHash": "0x1a6da262bff20404ce35e8d4f63622dd9fbe852e5def4dc45820649428da9ea1",
+        "version": "0.0.1",
+        "timestamp": "Tue, 02 May 2023 17:50:05 GMT",
+        "imageReference": "bafybeihkn6kl6qkohamt77ejkrrsgsa36znxtxn3mj3ld3dyoopnmgw2qa@sha256:eb06fd2932537ee36757b84ef724877fd6be2c0fa4f46d83972407b0ce3b6f88",
+        "documentation": "QmbUu47twjqhxvSRHk1oTXQ48gDnP1khbJrUVVgGf5nvri",
+        "repository": "github.com/sholance/forta-bot",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xd69ed2e0d832cdd3a3f5dc0ebc487daa33d938e261f5276d70e0a59dd10f63391c1267f10b94e343406f30175689d37b3d17da2720a97030f5eeac9faf59c9331b"
+}

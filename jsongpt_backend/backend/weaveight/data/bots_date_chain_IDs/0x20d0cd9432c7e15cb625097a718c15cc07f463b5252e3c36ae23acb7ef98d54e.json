@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x3eaF5182B70FB29f27E89f3e1D78F8C5063ae99d",
+        "name": "NFT Sleep Minting Detection",
+        "agentId": "NFT Sleep Minting Detection",
+        "agentIdHash": "0x20d0cd9432c7e15cb625097a718c15cc07f463b5252e3c36ae23acb7ef98d54e",
+        "version": "0.0.5",
+        "timestamp": "Tue, 15 Mar 2022 01:22:11 GMT",
+        "imageReference": "bafybeia4zaow6aamu77f7yhhktklrekr7eyq5ymnoae7753jatopnfbj3m@sha256:bf078290cda27933665efcfe7549d27c92899855cf300df3c9d54cbf6424d8e1",
+        "documentation": "QmX9GdrNdNKgSXqUwwfq1bSkHW3RhYSCPX3uDkMmkbGQ7P",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer"
+    },
+    "signature": "0x7d3249f91da6c1ed82ec42003c67b39d9fa979f72edcbef53308c9e71febd4940375fe88a9a43e60f2d67001d0319b325d1aa443d6ef383233aa39adc46072861c"
+}
