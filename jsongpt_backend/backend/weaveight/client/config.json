@@ -1,9 +1,0 @@
-{
-  "weaviate": {
-    "url": "https://forta-vd9ydn29.weaviate.network",
-    "api_key": "VXOn9mr4vqoeJIPwZySN99Mf30oG0Cx3s46k"
-  },
-  "openai": {
-    "api_key": "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"
-  }
-}
