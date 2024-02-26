@@ -1,3 +1,6 @@
+// File: Navbar.js
+// Description: This file defines the Navbar component, which displays the navigation bar with links and a wallet connector button.
+
 import React from "react";
 import "./Navbar.css";
 import logo from "..\\assets\\icons\\forta-logo-white-header.jpg";
@@ -5,10 +8,12 @@ import logo from "..\\assets\\icons\\forta-logo-white-header.jpg";
 export const Navbar = () => {
   return (
     <nav className="navbar">
+      {/* Forta logo */}
       <div className="logo">
         <img src={logo} alt="Forta logo icon" height="20" />
       </div>
 
+      {/* Navigation links */}
       <ul className="MenuItem">
         <li>
           <a href="https://app.forta.network/pools?search=">Pool</a>
@@ -29,6 +34,7 @@ export const Navbar = () => {
         </li>
       </ul>
 
+      {/* Wallet connector button */}
       <div className="WalletConnector">
         <button>Connect your wallet</button>
       </div>
