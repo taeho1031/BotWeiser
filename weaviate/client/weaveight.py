@@ -10,7 +10,7 @@ class WeaviateSearch:
         script_directory = os.path.dirname(os.path.abspath(__file__))
 
         # Construct the absolute path to config.json
-        config_path = os.path.join(script_directory, '..', 'config.json')
+        config_path = os.path.join(script_directory,  'config.json')
         with open(config_path, 'r') as config_file:
             config = json.load(config_file)
 
