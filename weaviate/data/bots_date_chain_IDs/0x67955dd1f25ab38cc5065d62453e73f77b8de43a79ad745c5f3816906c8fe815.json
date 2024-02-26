@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Gnosis xDai-ETH Omni Bridge",
+        "agentId": "Large Balance Decrease - Gnosis xDai-ETH Omni Bridge",
+        "agentIdHash": "0x67955dd1f25ab38cc5065d62453e73f77b8de43a79ad745c5f3816906c8fe815",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 11:17:19 GMT",
+        "imageReference": "bafybeicp77lwz74yes6x75ivekf4diylsqkowul2l44hx2rzgflp4kkzmq@sha256:6e06f071d3d79aabfe61011ec0f7cf625a93dc198f816b806b713e3a2995fa58",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x5b133846352099dddede087125c9256db4f05a80cb9970fc01002161e12870883ab9567e67d092a0db7b2e0e794afaf4f220944e663dbe9b8ed23142e86cca4d1c"
+}

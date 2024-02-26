@@ -1,0 +1,30 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "gas-minting-bot",
+        "description": "Bot to idenify covert gas minting transactions",
+        "agentId": "gas-minting-bot",
+        "agentIdHash": "0x715c40c11a3e24f3f21c3e2db1c109bba358ccfcbceada84ee1e0f4dba4410e7",
+        "version": "0.0.6",
+        "timestamp": "Fri, 11 Aug 2023 16:26:20 GMT",
+        "imageReference": "bafybeiaq6npkps3gqwj3ah432wytdqms67cq23re376hvzviermqoaevie@sha256:6978e76314b60355bce55fd742d04cae943656510dbe7dfca54deb7c6dd2fc13",
+        "documentation": "QmYTvWU81YNVZ3u583Zy7LvzexEktFaUb4YaxC8iJBmRj8",
+        "repository": "https://github.com/sholance/forta-approvals",
+        "chainIds": [
+            56,
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.33",
+        "chainSettings": {
+            "56": {
+                "shards": 6,
+                "target": 3
+            },
+            "137": {
+                "shards": 6,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0xedc9f6a703c55a70f7271af39ab694bf4099f9de9fed25e2cb28bf46bebfd474562e315b9c2a4ad9d6400b1665d9694a1c7b881d824ee624712737f1ab7c9c6f1b"
+}

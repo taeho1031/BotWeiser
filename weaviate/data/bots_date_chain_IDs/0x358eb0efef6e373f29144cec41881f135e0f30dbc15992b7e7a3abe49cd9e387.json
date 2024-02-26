@@ -1,0 +1,23 @@
+{
+    "manifest": {
+        "from": "0x2ED2A1d9a6A08dd106ee0F313Ef0cC52cCbf0D1A",
+        "name": "forta-phishing-detect",
+        "description": "This agent detects phishing activities using on-chain data.",
+        "agentId": "forta-phishing-detect",
+        "agentIdHash": "0x358eb0efef6e373f29144cec41881f135e0f30dbc15992b7e7a3abe49cd9e387",
+        "version": "0.1.3",
+        "timestamp": "Wed, 28 Sep 2022 10:37:23 GMT",
+        "imageReference": "bafybeidrwu3yewzrae47a4oechaynt4wnxawfi3d7osnkgg5ho63f5pnjy@sha256:40f6f1439f7d7c313204ab7a02dba21569694bcfe110b7a04c0a614a7486b81d",
+        "documentation": "QmQs5SfNPRX6o1LW2EJEiFYEwNFJ3i8hX4jXjU4XHcZQz9",
+        "repository": "https://github.com/Soptq/forta-phishing-detect",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.10"
+    },
+    "signature": "0x5f3d2b2e526918359d4bb36efb3276cc0faf78c6b22d4c835b3737178c53e7f76c94e224e938c61d5b26ca92e49fd0553e10d1ac3b5f862aca5c7a67bdd527581c"
+}

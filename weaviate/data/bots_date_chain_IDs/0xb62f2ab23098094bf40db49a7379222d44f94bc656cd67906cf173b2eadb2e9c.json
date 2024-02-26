@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x9C8ED6c23c26dECE8484D56617f807A32636Df00",
+        "name": "bnbx-bot-operations-agent",
+        "description": "Alerts on Off Chain Bot Delays and Failures",
+        "agentId": "bnbx-bot-operations-agent",
+        "agentIdHash": "0xb62f2ab23098094bf40db49a7379222d44f94bc656cd67906cf173b2eadb2e9c",
+        "version": "0.0.1",
+        "timestamp": "Thu, 22 Dec 2022 16:28:28 GMT",
+        "imageReference": "bafybeib66levhcknd5c5a43uxiopdkeittwjuk2ktkewkyal4ayplgh2wq@sha256:411aa755627ccd33965808f8867d7756f0d3d3fe4498d9a76803aea13492d0e1",
+        "documentation": "QmeH1UbetvqNxkULTg1KHtxekCrzLGMR2BNLTVdA5R3qfF",
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta CLI 0.1.9"
+    },
+    "signature": "0x6c84abb3667f8b17af321dc466134cd18547b2fa2f9587132c27e1759f06ad1d59f90a62187cb2094a54ac85ebaf08f4a43f0dd95949006653caa1b4e18849141b"
+}

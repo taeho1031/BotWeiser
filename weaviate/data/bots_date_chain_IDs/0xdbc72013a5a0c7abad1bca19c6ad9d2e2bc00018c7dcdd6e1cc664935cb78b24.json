@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x3b8315f6144bd2B0a2657908Cb41945233058D05",
+        "name": "Stablecoin-Depeg-Event-Detection",
+        "agentId": "Stablecoin-Depeg-Event-Detection",
+        "agentIdHash": "0xdbc72013a5a0c7abad1bca19c6ad9d2e2bc00018c7dcdd6e1cc664935cb78b24",
+        "version": "0.1.0",
+        "timestamp": "Wed, 10 May 2023 21:15:26 GMT",
+        "imageReference": "bafybeih2u44n5kcr7pnhvitp6awfqvks4bfo5gnbgoo2daga7npducheqq@sha256:2938a4020991fa8c7d4ccb02483933417e1297a8d78aaf8dc065fcc31c74bb3c",
+        "documentation": "QmWXGdzFxLsHQJBR5mne7g99dtFQHwfo1LNfRoriieDUHw",
+        "repository": "https://github.com/Epikt1tus/Forta-Depeg-Agent",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x59156c6b8cf865932c1904465a6f2c250c0a5b22915c2f8c7e6195469b6d72fe3bbaf3b724b13a7fe938ed74b41166aa4611ea1b2c82438f87fbf450337e59621b"
+}

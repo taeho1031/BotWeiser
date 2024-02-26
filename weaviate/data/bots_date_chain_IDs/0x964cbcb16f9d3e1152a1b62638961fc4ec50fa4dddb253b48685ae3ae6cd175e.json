@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Multichain Fantom Bridge",
+        "agentId": "Large Balance Decrease - Multichain Fantom Bridge",
+        "agentIdHash": "0x964cbcb16f9d3e1152a1b62638961fc4ec50fa4dddb253b48685ae3ae6cd175e",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:14:19 GMT",
+        "imageReference": "bafybeidhv4shuebwvsayvhawztlmglywk2ujfgi6les2suiski446q4dbi@sha256:355612921d6a3b1a7798756123337b4e9702ecc52029037604966df48128622d",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x3c60dde6adce9986dbbb3dddf5c09ed98a5a97ec490937b875423c1f79de3b103c4eb3817198db504cb2aa9f0533d1159c68cbb205331e08475c67b083caefc01b"
+}

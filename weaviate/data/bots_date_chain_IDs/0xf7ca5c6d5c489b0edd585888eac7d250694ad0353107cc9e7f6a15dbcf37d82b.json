@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x286a227Ae4f31c586E2935f1C0B0c36a0AD30340",
+        "name": "umee-high-gas-detection-bot",
+        "description": "Forta bot that detects high gas use of a transaction that involves monitored addresses",
+        "agentId": "umee-high-gas-detection-bot",
+        "agentIdHash": "0xf7ca5c6d5c489b0edd585888eac7d250694ad0353107cc9e7f6a15dbcf37d82b",
+        "version": "0.0.1",
+        "timestamp": "Mon, 08 Aug 2022 10:06:08 GMT",
+        "imageReference": "bafybeifmw44fi3t4vsgzlhtiw4lajf4vltjotq6drxsyt2bh4365phq7te@sha256:158dea9d498643508c16b806290e20e5131af776c106b551b86f4fccf3ac2cec",
+        "documentation": "QmZgdUD8d5vtZkTS56Rc2zvnF2R4b1UJTNYsvXzEUpyfbg",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Umee-Bots/High-Gas-Use",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.6"
+    },
+    "signature": "0x7cb9785d04e70af6b8857de46a574ed9ad2aa0d954d92f90f6436e41725329e846f6443c268d7cc14acef754abb5379eb1ae922397f18f88b83fdf831ab5f6cc1b"
+}

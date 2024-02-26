@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0xdD228D5d3F1Fd0B9f369268316F0Db0DD823a16B",
+        "name": "BlockSec Phishing Alert",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "BlockSec Phishing Alert",
+        "agentIdHash": "0x9ba66b24eb2113ca3217c5e02ac6671182247c354327b27f645abb7c8a3e4534",
+        "version": "5.8",
+        "timestamp": "Sun, 14 Jan 2024 05:53:08 GMT",
+        "imageReference": "bafybeibffzqnrmazgswxm3j3smqh2uppawd64eggi7mbyc6pqbg3ltawhe@sha256:e0744a1a01bbe54b4427806fafdb13bbb7e0bbd71a312141ed922ee59b952a5d",
+        "documentation": "QmWsEJmDVNtghrGX6tZW4k6wAWSFJDtRgSJn59oanyF2GK",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xa63b228b93afd18db58d7343bb83eee0f1fe3637340a91e7c8f5cb40b23b485e6925d7d316c7794a979e4dd8ababcf5db2bc3c2bd26f96f8550813a96ced2e5b1b"
+}

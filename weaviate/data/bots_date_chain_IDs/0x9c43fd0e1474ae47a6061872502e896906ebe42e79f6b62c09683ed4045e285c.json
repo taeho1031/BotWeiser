@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Compound v3 Timelock Transaction Executions Monitor",
+        "agentId": "Compound v3 Timelock Transaction Executions Monitor",
+        "agentIdHash": "0x9c43fd0e1474ae47a6061872502e896906ebe42e79f6b62c09683ed4045e285c",
+        "version": "0.0.1",
+        "timestamp": "Tue, 04 Jul 2023 15:23:50 GMT",
+        "imageReference": "bafybeiabgboovyvvqzktw6vtufvp6fphacgoo6apl3b5vz7eys2pynh6bm@sha256:d7db61a7fd0bd28dd8dc935ccd9edaefa237dd2fadfb2f04a972c9db7c3e7f4d",
+        "documentation": "QmeNqzcu1s48BsriKnMUMFMZYLViJ3N32q5APJwqgoJhKF",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/CompoundV3-Bots/Timelock-Transaction-Executions-Monitor",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xeef6add8625eb5154a5ad187940f71cff01537563fe107a271c2767097a92cfc09bfedab335c8ff3dcef8350f29fc197f4876d406fa3aaf92a85d55865b1fada1b"
+}

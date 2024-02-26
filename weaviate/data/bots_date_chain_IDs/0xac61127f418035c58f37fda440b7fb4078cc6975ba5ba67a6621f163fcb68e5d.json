@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-tornado-cash-and-evil-contract-agent",
+        "description": "Detects if account interacting with Iron Bank market has withdrawn from Tornado.cash pool or has interacted with an evil contract",
+        "agentId": "iron-bank-tornado-cash-and-evil-contract-agent",
+        "agentIdHash": "0xac61127f418035c58f37fda440b7fb4078cc6975ba5ba67a6621f163fcb68e5d",
+        "version": "0.0.1",
+        "timestamp": "Thu, 20 Apr 2023 03:02:11 GMT",
+        "imageReference": "bafybeibfssifqlransk7vubfye2rebw7jurchxv3pjhsx36i22mhury4me@sha256:dc29250fd5c0d10573a6b7fd3aef107e2c20cae46e280ff24ccb5a05f77408c3",
+        "documentation": "QmXt1tuTjhnp5mM5zZgf8g7C2L1vbxKXoQkiNei1LYoV91",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1,
+            10,
+            250,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x0361088e43670a5be1a5ff3f3fa558875eee9c1bc98f96eb6ca45881592a0e786f9018c72cb6fafd6260110b547c730f391a525855e8f6894b450b759f6b75431b"
+}

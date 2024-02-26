@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Boba Network Bridge",
+        "agentId": "Large Balance Decrease - Boba Network Bridge",
+        "agentIdHash": "0xdac6f4a16776648ef48b0c9850800507059e201139c2aa898b47d51ca0ebdaae",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 12:24:03 GMT",
+        "imageReference": "bafybeieckeyahand3fn5ljiimhq4deidnimhntmk4jjvfnqhd47i6x2tmy@sha256:c838d54699eb1abf761a2e6acd7e2d7956d37714e9b7a27d25e24a845f38ec7f",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xb59f7d2b258eb93e12afe768bb51d5912bc5d370359d4586293b1a35048731ae3c703b9a4b1d6f7079dbf0668a99035d472186cbf3500ae0d732a8b90461132a1c"
+}

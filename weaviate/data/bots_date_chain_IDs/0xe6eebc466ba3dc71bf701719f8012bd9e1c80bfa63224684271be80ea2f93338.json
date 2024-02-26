@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Token Role Changes",
+        "agentId": "Forta Token Role Changes",
+        "agentIdHash": "0xe6eebc466ba3dc71bf701719f8012bd9e1c80bfa63224684271be80ea2f93338",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 12:11:07 GMT",
+        "imageReference": "bafybeidkvrdsxlxix6j247nae7li3nuiurtj4gxkkziymlguagfhhsbf74@sha256:26c94e0530f5492961033806dae5eb590dd5b7181999b3fee63af57566ea0924",
+        "documentation": "QmXnppHnYvd2snzwmy2un2sJaaph6hJjcEYB8wwmLvxFpW",
+        "repository": "https://github.com/LimeChain/forta-bots",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x3eb9c37bcfac9a866d764cd4e36430e8bc132aab08bb971a18d5520a3c27587b7f58a1188b1d9f7559ad18b299ef75147b1a78f49e08aa2808c455af3521ffe11c"
+}

@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0x7959f8E09D7740c9bd5f828133EbFcc902F8DD6b",
+        "name": "Forta Relay Tracker",
+        "description": "Forta bot to track matic usage",
+        "longDescription": "Forta bot to track matic usage",
+        "agentId": "forta-relay-tracker",
+        "agentIdHash": "0x7aaac92441e77e1a3007b3a7b02c840e97a1e53b617e1db105bd69342e201a24",
+        "version": "0.0.1",
+        "timestamp": "Wed, 09 Aug 2023 09:47:58 GMT",
+        "imageReference": "bafybeidjuf7mbcq7mu5mge7og4o4a72aiajgqe5c37gr7egkqwhbydt2oq@sha256:dc7de67f6b1975f75b1d046df98ba9d16f895938fce3aff0f5d1d8a9c2da83ff",
+        "documentation": "QmYLUyeeniA9CPXTZUCp1EFmdHSuSJ8wzxHgDCQrwwruXf",
+        "repository": "https://github.com/forta-network/forta-relayer-tracker",
+        "licenseUrl": "https://github.com/forta-network/forta-relayer-tracker/blob/main/LICENSE.md",
+        "promoUrl": "https://forta.org",
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.36"
+    },
+    "signature": "0x08206042a643eb0e586e39e26d41fb5a236792183aefd504fe23f2e72389069c518d01d3e8c14a5ec9d5af986450b2630dbad7e54b86eb09b51e8714ef3453911c"
+}

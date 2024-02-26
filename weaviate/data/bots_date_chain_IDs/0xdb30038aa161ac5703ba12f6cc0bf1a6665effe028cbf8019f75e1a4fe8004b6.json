@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x81813Bd41459c0Bb757308C855c0521A4e308E36",
+        "name": "forta-agent-polygon-stader-childpool",
+        "description": "Forta Agent for maticX childpool",
+        "agentId": "forta-agent-polygon-stader-childpool",
+        "agentIdHash": "0xdb30038aa161ac5703ba12f6cc0bf1a6665effe028cbf8019f75e1a4fe8004b6",
+        "version": "0.0.1",
+        "timestamp": "Mon, 30 Jan 2023 15:58:47 GMT",
+        "imageReference": "bafybeigysauagckn3rhpecnrug5efszncteulfperezvmmey7txmf7wiuy@sha256:f9ac31dcbcac9440df4debdd8766902fe34b61c96596cdd751a88f600e208303",
+        "documentation": "QmTKWPBK3ANZzbTs89QmfZghVuqYDQhd536Vc6DW1iyauH",
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta CLI 0.1.10"
+    },
+    "signature": "0xcb5a7142e3036db3940ace339be607dc2b41980e4dfef146733131cf0d0203a772fe4e7ccc80faa72d524712c4ffad0fcfb969bf98cb9ad9b0e57a14bff93bc41c"
+}

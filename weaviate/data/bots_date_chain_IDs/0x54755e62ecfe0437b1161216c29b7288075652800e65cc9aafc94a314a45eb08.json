@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x11b6A5fE2906F3354145613DB0d99CEB51f604C9",
+        "name": "harry-bot-threatintel",
+        "agentId": "harry-bot-threatintel",
+        "agentIdHash": "0x54755e62ecfe0437b1161216c29b7288075652800e65cc9aafc94a314a45eb08",
+        "version": "0.0.8",
+        "timestamp": "Sun, 23 Apr 2023 19:47:19 GMT",
+        "imageReference": "bafybeie5zjmowdpp5s2am42skqezvvp3crfkzh33qjerd4f6ghoeeowhta@sha256:6ade7c6d71fd47baed86e70751470954c20bf145b02708543bee3449851164f8",
+        "documentation": "QmdeNsfhGES69wTtzKBzfk82NfxDHtvfbqrRaZ2vCG61c5",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xf736fd2be1c1a5209937e4c362049f64efb64d51642e974d1f43082847c944c26ee518a8fd2756086af4db907b56b7b2dccdfc0ae2ee8059636dd694d32ce4861b"
+}

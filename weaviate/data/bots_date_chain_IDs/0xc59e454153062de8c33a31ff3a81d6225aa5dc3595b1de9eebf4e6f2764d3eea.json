@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x000000000088E0120F9E6652CC058AeC07564F69",
+        "name": "Pickle Jars Large Deposits and Withdraws",
+        "agentId": "Pickle Jars Large Deposits and Withdraws",
+        "agentIdHash": "0xc59e454153062de8c33a31ff3a81d6225aa5dc3595b1de9eebf4e6f2764d3eea",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Wed, 16 Feb 2022 13:53:18 CST",
+        "imageReference": "bafybeihwftdjvk4klsi4y3enpvulxihg2nciedesh3he6ee5unetf3db7q@sha256:6ac85022f8b651965b3af7d8d92ac3c065c3ec35608cbd032a0f31090b9a3614",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Pickle-Finance-Agents/LargeDepositsWithdrawals",
+        "documentation": "bafkreib2yg5px2yj7asgcgrfrvofy5hz37ryretx5rfwk2rkqodil22fu4",
+        "chainIds": [
+            1
+        ],
+        "projects": [
+            "pickle_finance"
+        ]
+    },
+    "signature": "0x96a2f8023d11d9321bc3540b0bd2eedae8ae878a58542e5a90f3d9cb097ceb1c531555b6eb5a93befa199c8a6c0904cbeeb3f56d56ce4dd20f9d43fe7982d2a01c"
+}

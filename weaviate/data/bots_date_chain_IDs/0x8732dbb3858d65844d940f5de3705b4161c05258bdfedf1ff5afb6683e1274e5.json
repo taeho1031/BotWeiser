@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "nft-wash-trade-funding-origin",
+        "description": "Forta Bot that detects NFT Wash Trades by identifying self-funded wallets",
+        "agentId": "nft-wash-trade-funding-origin",
+        "agentIdHash": "0x8732dbb3858d65844d940f5de3705b4161c05258bdfedf1ff5afb6683e1274e5",
+        "version": "0.1.6",
+        "timestamp": "Wed, 02 Aug 2023 11:55:28 GMT",
+        "imageReference": "bafybeia5vwavebhubsc5d6aqx3pqqrdnadqayy22nguobfvhq7dmoof42e@sha256:f5c680222807670ebbd3f5b797159d9f2cb99b6a2b0fb251ca47843b0f8a12ae",
+        "documentation": "QmSpAjkPsqp1vobYK2D8Qq9MmbYQEw3MzkNCgxeMZufF5N",
+        "repository": "https://github.com/NethermindEth/wash-trade-detection-bot",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.34"
+    },
+    "signature": "0xea3ef2913914562ca44de38e966aba4b513fc428f2ec24dd6e3223bd5b2a47994392f907989bfc3207cd11b884aac97effe7fe89403f633cd856fcd7780d0de21c"
+}

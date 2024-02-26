@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xd3Abd0d36D6f55aD01BCd54D3f0c054F2B23de08",
+        "name": "Loss-Reporter",
+        "agentId": "Loss-Reporter",
+        "agentIdHash": "0x8696edf726f5a74cec215f8ae21a29b7dc897f7403906fbab1a87ee4c03ebb13",
+        "version": "0.0.1",
+        "timestamp": "Wed, 31 Aug 2022 12:37:18 GMT",
+        "imageReference": "bafybeiaq3vaaoxydpn2f4u32pwuzfltj7t44tguh2fydhrbtztl445wq3u@sha256:8d78e5f4a02034fb3c20fe076e26545e65c5ca4683ef8cb8695ebdb6389665c7",
+        "documentation": "QmeKWDv9XB2QQWPTQNQfQd46THdwehLM7A7KfPdEC6ugtd",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x32c90c61cffc6c9db012b33d742077cd6923facea8ec34a6fa0f900572e6969013bea72e4635dae4409a0c5c939cd50805f905e4cb2d0c9502b4e6ab21ec09ff1b"
+}

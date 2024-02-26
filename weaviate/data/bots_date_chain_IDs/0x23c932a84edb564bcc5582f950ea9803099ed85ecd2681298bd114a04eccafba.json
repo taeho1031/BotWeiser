@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-borrow-amount-close-to-total-supply",
+        "description": "Detects if a borrow amount is close to the total supply of the market",
+        "agentId": "iron-bank-borrow-amount-close-to-total-supply",
+        "agentIdHash": "0x23c932a84edb564bcc5582f950ea9803099ed85ecd2681298bd114a04eccafba",
+        "version": "0.0.1",
+        "timestamp": "Wed, 12 Apr 2023 10:09:21 GMT",
+        "imageReference": "bafybeihfozsrqffmaayg376ci42ga4dztyktnk5cxsg2kjo32wopojwl5i@sha256:eb69282e0540f54b2a46b9f00c0ca9d6ad8f87a217ede3f8f2bea197c93632af",
+        "documentation": "QmRabYH3GcR754SK28tSfax4shYDKrmaxa4MCGQ1mL4asc",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1,
+            10,
+            250,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0xb1c214b88c5035b1b5e2f445261348f9fd7ab1460c2ca5ff1073660861f584e602762a986888a3c6a2e8e22acdec1e2824bb127be0608b63216d79e447a2bd1a1c"
+}

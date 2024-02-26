@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Compound v3 Governance Events Monitor",
+        "agentId": "Compound v3 Governance Events Monitor",
+        "agentIdHash": "0xe691884a625c07289fa1d1e4d12b271ba655bc8b290fae4ce6b5cb943ec680b8",
+        "version": "0.0.1",
+        "timestamp": "Tue, 04 Jul 2023 15:11:58 GMT",
+        "imageReference": "bafybeigaeysllvc2yqkazuehfhdlpiubwmdr5lsbklfxyuch4ynadnaipa@sha256:d4be15077f8574e8d90c4ad33ffe923577641b145702cf066f4b8b3da501c4b8",
+        "documentation": "QmSsMuiGnwYmZWPJSwttjgvGtxfRVU6bz5ABwQU9k5y5Yk",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/CompoundV3-Bots/Governance-Events",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x75787845a62bbbe8b08dfe3e104c2b267f19e460f0200c48830558bc360e15d57aad5fafb53febf1c4033544c38114d40265346ccb04b3ce99d5d24d9e55e6521c"
+}

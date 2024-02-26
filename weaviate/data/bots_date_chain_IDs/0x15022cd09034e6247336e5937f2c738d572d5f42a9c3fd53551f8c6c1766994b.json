@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Admin Bot Scanner Disable",
+        "agentId": "Forta Admin Bot Scanner Disable",
+        "agentIdHash": "0x15022cd09034e6247336e5937f2c738d572d5f42a9c3fd53551f8c6c1766994b",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 11:52:12 GMT",
+        "imageReference": "bafybeigr2lmw2t6adguw6crqmbrhbci3pxtfq7kszih7a6vxrllxxjyvd4@sha256:b28f314d69d6b2aa0362721f5323f08583295b4e2f845195068c69f323252c48",
+        "documentation": "QmZEgbuZzmpL84ku99XFWY2n85TPgPr6UEEcNoCkXvARgz",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x8a37d59f77c8d725ce78a28ae37dc867a48e011e6283f74e89c92d32a64bb9d556a859cda323262fa28729688e3f4f1428618b5a006988d62a1e09e5d59d77011b"
+}

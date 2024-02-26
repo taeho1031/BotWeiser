@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xB09CD1FA2Ab8e74a7A2F356d16f3D6787E722C44",
+        "name": "Passphrase detection bot",
+        "agentId": "Passphrase detection bot",
+        "agentIdHash": "0xa87f9d034160038e2239820cff6cfe80b9adee52aba5ecb5c63d2c366b021fc6",
+        "version": "0.01",
+        "timestamp": "Mon, 03 Jul 2023 03:17:25 GMT",
+        "imageReference": "bafybeibmtgl4dma6j2jnvrdlawmg7tfk34b4xjrf3zn4h37akbn72pqk3a@sha256:c20f431f2fe37ed8c2349105c07d367da9251944d0c4a08f3b805f1a7a61aeea",
+        "documentation": "QmS2aq6Paad9oHwVtPFaCqRUEuuHi6ZfvoMg5GgP3U8W5u",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xaf001a0a6789cbe179c015f720f70e73ddd3b1eacbdd7bcb58f917ce713bb9db1ab8bad8c12306779d7697c31b07aaf2d3f13e90f3f45d16ce4562baf5203ef41c"
+}

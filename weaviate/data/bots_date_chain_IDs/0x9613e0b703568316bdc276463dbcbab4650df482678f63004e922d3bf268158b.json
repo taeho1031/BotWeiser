@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x8C9C08402D4812e21CC63AD086EaC5ccb824827e",
+        "name": "stkTRU Monitor",
+        "agentId": "stkTRU Monitor",
+        "agentIdHash": "0x9613e0b703568316bdc276463dbcbab4650df482678f63004e922d3bf268158b",
+        "version": "0.0.1",
+        "timestamp": "Wed, 24 May 2023 09:21:01 GMT",
+        "imageReference": "bafybeict5lwdeegmhddr6krkffdm2rlsgusqnmj7qnuron3dqiyiiegk24@sha256:5f5a505049e0011a407ecedd69876c8f83ba819f31f6662bf3fb86a31c0933c1",
+        "documentation": "Qmabz4jKMzVPj4BCt8RJzxDpaehAbMZi5iYAy9ywLVTPBo",
+        "repository": "",
+        "projects": [
+            "truefi"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xd66c01c9cb4d43bf1d619720af3b166c23c8d59bc6dfac308366b25bcd9c4eef61ecdc7a836af1b87fda0785f251bb9d3ba9dc8f387c59464877cd3fc096b93e1b"
+}

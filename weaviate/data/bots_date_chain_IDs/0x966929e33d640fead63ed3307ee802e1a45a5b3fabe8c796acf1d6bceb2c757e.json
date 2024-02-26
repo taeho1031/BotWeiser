@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Harmony Ether Bridge",
+        "agentId": "Large Balance Decrease - Harmony Ether Bridge",
+        "agentIdHash": "0x966929e33d640fead63ed3307ee802e1a45a5b3fabe8c796acf1d6bceb2c757e",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 12:02:32 GMT",
+        "imageReference": "bafybeifacnaguh4ymmabxcee4fu7vcrwmy4xv63cz5fscbspynjajzuzse@sha256:6adf90e99f190416bc7780cab86819f1cdae9315e9fbc50a63055aa23b89a6f7",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x97e8168ada7d1d29c360d835c9c1429eb281abb16a6a174fa0bf8758f36751f3453170686c7042301b7a9093e3b79963c2f687d958055916b678ba1d4ad699631b"
+}

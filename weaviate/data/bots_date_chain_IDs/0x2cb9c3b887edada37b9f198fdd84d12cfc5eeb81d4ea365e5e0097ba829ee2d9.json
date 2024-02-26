@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Hop Protocol ERC20 Bridge",
+        "agentId": "Large Balance Decrease - Hop Protocol ERC20 Bridge",
+        "agentIdHash": "0x2cb9c3b887edada37b9f198fdd84d12cfc5eeb81d4ea365e5e0097ba829ee2d9",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:19:49 GMT",
+        "imageReference": "bafybeigafam7xr4htcomzhakb5dpi5catutvbcm26dajulguzphest3wlu@sha256:dc89aa4be57c4912ed237c001804c9b3bc141ceb30dc99133d3c90f08eb2daac",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x8b6a845cfeaa61df702f4247086fb89c23e2ef147f2d9130bda8364d977c2cc97867acd8030d3c0dab4e1ca4e29fe15a5de9692ec784ffb97dba8855f7d085dc1c"
+}

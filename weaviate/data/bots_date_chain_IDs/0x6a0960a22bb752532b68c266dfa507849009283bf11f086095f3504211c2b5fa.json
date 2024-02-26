@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x70358461af09dCb10B003e8e0a6033de34387A2a",
+        "name": "Evidence of Phishing Agent",
+        "agentId": "Evidence of Phishing Agent",
+        "agentIdHash": "0x6a0960a22bb752532b68c266dfa507849009283bf11f086095f3504211c2b5fa",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Fri, 7 Jan 2022 01:03:39 GMT+1",
+        "imageReference": "bafybeibvf45qai2yu4gqugw72nbrdgwx47ursikodji4szq3wsxr4yqwtu@sha256:f7dd178be61e2ce1a47cd4e5ee640e65d43ba2d333370875d9017f13a1df8bd4",
+        "repository": "https://github.com/VVlovsky/Evidence-of-Phishing-Agent",
+        "documentation": "bafkreia7t7jfmaetvsazbqb7acmumhxv2r7egj575ucbwk6vh5vizg7lye",
+        "chainIds": [
+            1
+        ]
+    },
+    "signature": "0xde8c9ab93c290f0baef655db2728d793e080eb170dcd0e783987491ea5a609c07d45f320a3aa535ef3a37d5e350b3d9bc76e4bf2544672209dc7dc6edfcb6b0c1b"
+}

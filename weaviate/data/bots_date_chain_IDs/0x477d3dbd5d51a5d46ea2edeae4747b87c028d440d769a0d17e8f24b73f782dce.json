@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x9B5715C99d3A9db84cAA904f9f442220651436e8",
+        "name": "Liquity Big Borrowing Fee",
+        "agentId": "Liquity Big Borrowing Fee",
+        "agentIdHash": "0x477d3dbd5d51a5d46ea2edeae4747b87c028d440d769a0d17e8f24b73f782dce",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Mon, 31 Jan 2022 10:06:25 GMT+1",
+        "imageReference": "bafybeidu64zse7i2lztcobrlptweusddwsj73nxn4xiynhvc3dumrfsuya@sha256:d18fecb3c4fff80cca7b88b46d46901fd14d025a9d2ecec0ebb61ac0d3fd8a66",
+        "repository": "https://github.com/liquity/dev",
+        "documentation": "bafkreig4sax3zxwvrfgsvtrnqywr3c4f2vl53xdqwh73rnhxgbjs4lpbrq",
+        "chainIds": [
+            1
+        ],
+        "projects": [
+            "liquity"
+        ]
+    },
+    "signature": "0x1698608700570ab39473b6d411a1be510d2b821fdddcb9bba7ca8ee20ab7e50f033ef3890c89975b886db84a00a24914d471ffa33275746ddc87f98d42be38ac1b"
+}

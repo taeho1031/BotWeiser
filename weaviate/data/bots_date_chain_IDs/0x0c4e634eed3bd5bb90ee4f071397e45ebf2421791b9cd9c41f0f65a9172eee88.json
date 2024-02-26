@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0x715aCC4a912f979279b9B3d3a46A3cF1e006C033",
+        "name": "Brickken Alerts Bot",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "Brickken Alerts Bot",
+        "agentIdHash": "0x0c4e634eed3bd5bb90ee4f071397e45ebf2421791b9cd9c41f0f65a9172eee88",
+        "version": "0.0.1",
+        "timestamp": "Thu, 28 Dec 2023 13:08:31 GMT",
+        "imageReference": "bafybeigoxjr22k5p2hvkvwv56xodlrkykwid7673hfd2xovnnwdoqr4myy@sha256:2bf119afc4f7d4be0840f2ce316690e7e59a1e7456e1f1f584b75e66e3790f5b",
+        "documentation": "QmXNzA9q3vupB4PzNVbb71kgRQn4z5Y26jA8gZemfE9k1H",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xeda162b31d18461985fb6e8482939766613f63b591d6a18c6eac5dbb60a2ebf9181e8d4067fcfe5567b6f334f964548a16a6f3061f6abfc43740e9e0b5ddc6721b"
+}

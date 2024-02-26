@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x076fFAe83d9817414ADfFf4a16445612f9bfE71E",
+        "name": "forta-aave3-flash-loan-bot",
+        "description": "Forta bot to smell flash loans",
+        "agentId": "forta-aave3-flash-loan-bot",
+        "agentIdHash": "0x31e199d346a1d2bdb98b6f45a4b1c9ded84ff31f9e1e16773f4303d9b5f2f9a2",
+        "version": "0.0.1",
+        "timestamp": "Sat, 29 Jul 2023 01:07:54 GMT",
+        "imageReference": "bafybeiduyraa6mmvt26rge5qsm5p5s6h67xuybtsmytrx43sv7rducn3oy@sha256:7a711e16922b5656d3723e9ec84e8b413ac3ee541127cf0b9cf155ce10429fd9",
+        "documentation": "QmbyD49F73gDCm4Xp43nCt7Has8hxHHdZwuaYryLjAyCfk",
+        "repository": "https://github.com/PatrickAlphaC/flashloan-forta-py",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.33"
+    },
+    "signature": "0x709daf76e71fbad5e535eb7155d0fa986964f9d831fe069ec5ebb00d54be07ee5508a9e0a660e1aff004cf3c9240b8d9ce95f9858dd000ee4f90d10ee8f562571b"
+}

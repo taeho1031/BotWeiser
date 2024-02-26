@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xB7EC4b33a3228f46901506De71673906646aE678",
+        "name": "USDT USDC Blocklist Events Monitor",
+        "agentId": "USDT USDC Blocklist Events Monitor",
+        "agentIdHash": "0x39c87864afec7637089be141e13cef943ef572961974b456f2be73bb4757e134",
+        "version": "0.0.1",
+        "timestamp": "Fri, 10 Jun 2022 00:37:13 GMT",
+        "imageReference": "bafybeiglllb63y5qbgm6q5qpsws4sf5s74x3vkqdcolrzadgj2jucursbm@sha256:fcfe7e3582c78ea93bb4f31bf0a8f46486df25d65dbd3d4027cb14dd1381f587",
+        "documentation": "QmTSDzBTzeEUaD6DtLPN8VsnJzw8cdFSPJKk9Aytbntqj7",
+        "repository": "",
+        "projects": [
+            "usdc",
+            "tether"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x87f56bf11cc24782634383df1f56ced7f75feef4041f5596774bdabda63a281f2bb33a731d807303934e17ef5eb7b6a90b7b3166ac59da84fc7c30b15020281d1b"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Multichain Polygon USDT Bridge",
+        "agentId": "Large Balance Decrease - Multichain Polygon USDT Bridge",
+        "agentIdHash": "0x19f468cbd6924a77fcb375a130e3bd1d3764366e42d4d7e6db0717a2229bfeba",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 13:48:23 GMT",
+        "imageReference": "bafybeifepkpkcdzladzk7mcnffbro4i3i4b4hxmgukc7yyhnzlsmk5ovdq@sha256:75a2f50235124238dba05daa5c020e31aa229c4d2c36ce4a14b727f81aced2be",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xb767c6ad758600ea483f67c6fe9f932a4fd45657ebecff64707d429a6bebd33727213428ab020ecaa27907b030a56248dc3cca3d914c61b4e6f732c883a0f4b11c"
+}

@@ -1,0 +1,48 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Native Ice Phishing Detection Bot",
+        "description": "Forta Bot that monitors native ice phishing attacks",
+        "longDescription": "The bot detects and analyzes specific transaction patterns associated with potential native ice phishing attacks. Its primary focus lies in monitoring transactions where the receiver is either an externally-owned account (EOA) or a suspicious contract, coupled with the input data being the hash of a known function signature. Additionally, the bot keeps a watchful eye on instances where suspicious EOAs receive native tokens from multiple different EOAs surpassing a predetermined threshold, as well as cases where contracts are deployed with attributes indicative of a potential native ice phishing attack.",
+        "agentId": "native-ice-phishing-detection-bot",
+        "agentIdHash": "0x1a69f5ec8ef436e4093f9ec4ce1a55252b7a9a2d2c386e3f950b79d164bc99e0",
+        "version": "0.0.21",
+        "timestamp": "Tue, 19 Dec 2023 15:04:10 GMT",
+        "imageReference": "bafybeidwj5pkdpeavvr73jy3ladlrgqr3tjgeumyrjofjz56qhu4nkipay@sha256:bca06ac695012c6f9c7ffad137aae3a13d887418e4b52c357653497c9f51b1c7",
+        "documentation": "QmUsZEVVZJ5VzMUR6jDGikf6858dxDNUeyM1CHpgMXSUhG",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/native-ice-phishing",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.40",
+        "chainSettings": {
+            "1": {
+                "shards": 10,
+                "target": 3
+            },
+            "56": {
+                "shards": 17,
+                "target": 3
+            },
+            "137": {
+                "shards": 14,
+                "target": 3
+            },
+            "42161": {
+                "shards": 7,
+                "target": 3
+            },
+            "default": {
+                "shards": 5,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x81c98faf8af44843a8106fda0d5007c1127ea26b944dd9a6fa25a6e9401c402661283f413310f6c5281388547a818603f19db0a01068e805cf36e5b3391d39551b"
+}

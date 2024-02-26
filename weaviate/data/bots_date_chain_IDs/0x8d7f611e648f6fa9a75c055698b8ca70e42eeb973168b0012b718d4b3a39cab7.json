@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0xE34dC9DB5F87f1854F687D94FF37db6993ef1441",
+        "name": "iron-bank-alphahomora-redeem-agent",
+        "description": "Detects if Alphahomora high redeem amount",
+        "agentId": "iron-bank-alphahomora-redeem-agent",
+        "agentIdHash": "0x8d7f611e648f6fa9a75c055698b8ca70e42eeb973168b0012b718d4b3a39cab7",
+        "version": "0.0.1",
+        "timestamp": "Tue, 25 Jul 2023 09:34:15 GMT",
+        "imageReference": "bafybeicwk6tpm243noqrexirodhfinvvl4jjoh4uln57du5whyx2moao2u@sha256:15622d97161525075c2841387035d9ec3846387cf4ed6000e5de05ad8a892a51",
+        "documentation": "QmSKRbnFtKgEPcBqicRYSJvEXRX1DEuWiuxxZ5DT9Sv2K7",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts/",
+        "chainIds": [
+            1,
+            10,
+            250,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x230695be80f5c798a3dedff33b428b3547dcc40d0e392a3a1d3406d53aced4ff5d04f58c36015218caee3514ce62fa3edf6f845386abc29c043efb3bfbcc39581c"
+}

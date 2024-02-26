@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Hop Protocol USDC Bridge",
+        "agentId": "Large Balance Decrease - Hop Protocol USDC Bridge",
+        "agentIdHash": "0xa8dfec4641f94e2682aacec00bf2b136053d1298f3aa9324213b01f48b3a013c",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:18:18 GMT",
+        "imageReference": "bafybeiaykp6upvariznb4hzyqt3be3g6mxda2wu6uyahse2cexfjnjy3ui@sha256:8f43900cd7632835a523a376253dc29b6f173b02176f44f2c80c9d77c1534586",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x6b15b06ed76d18531f1c4c20e8730cc0ba1054aa96e9da6ac3f1d5162bb73cba132f13660ef0ade899370101304eebf829d0ab12e6df61abc350da13903746b21c"
+}

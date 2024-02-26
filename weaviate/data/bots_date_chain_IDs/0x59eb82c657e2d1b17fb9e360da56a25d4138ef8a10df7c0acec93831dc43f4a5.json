@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x51c9e0D122102b7babB647b294CB63DC6af9216E",
+        "name": "maker-esm",
+        "description": "Forta Agents for monitoring MakerDAO Emergency shutdown",
+        "agentId": "maker-esm",
+        "agentIdHash": "0x59eb82c657e2d1b17fb9e360da56a25d4138ef8a10df7c0acec93831dc43f4a5",
+        "version": "0.0.2",
+        "timestamp": "Fri, 22 Apr 2022 20:51:33 GMT",
+        "imageReference": "bafybeidhar3m5hugsp67e56undxbpprubehsiggjyisifaob5vypuexhd4@sha256:f6ae5ece65ddf7ef56f1a19fb8fa315aad6104f625d630358d07756eca6dccd6",
+        "documentation": "QmWFYiBmrTdXWDa8sw2kA1ESkcdA2n1Lj6AAkJCqMXAJ4R",
+        "repository": "https://github.com/makerdao-is/Forta-Agents/tree/main/Maker-Agents/ESMAgent",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.3"
+    },
+    "signature": "0xaea8585a6cb3600c942bbbd1c4cd6dbdbc74f7018bfe52781f64e64294ed734e29b18d884fbb8c84dabd3f0831361e4cfcf3c4876fcf37e77b152f048d89aa0f1c"
+}

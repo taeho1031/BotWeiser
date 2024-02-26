@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x18f0408b0A0e31F271410E36B56B1C977D1E1B08",
+        "name": "forta_bot_ml",
+        "agentId": "forta_bot_ml",
+        "agentIdHash": "0x44a60bde4c57e297b0152ce04dc82c2777ce77cb4b8e889edcb1bb1dfcb52a49",
+        "version": "0.0.1",
+        "timestamp": "Sat, 03 Dec 2022 03:57:10 GMT",
+        "imageReference": "bafybeidp2kbe4zkz5nw7l46smebwidoz6ov4tvk2zdri67ksn6q6xw4ava@sha256:428dca951a6fee50417c2e30312ff0574bd37cbe0dc6b19d8bb73fa66ccf0561",
+        "documentation": "QmVLLM7byuo37hmiPDnEzHr8voDyXtPjV2JPDqsd4C5LB2",
+        "repository": "https://github.com/PariaNaghavi/forta_bot_ml",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x858e391addd889c480eaf5f4b93f0b405503af9f5748959fbef4a6a0450c80a21caa270bc22ad43858fe2aff3d5c14c4f84517ddcdba942c895a076a9eb34efb1b"
+}

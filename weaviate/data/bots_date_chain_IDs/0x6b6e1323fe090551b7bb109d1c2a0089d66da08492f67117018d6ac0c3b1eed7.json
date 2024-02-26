@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Compound v3 Base Token Transfers Monitor",
+        "agentId": "Compound v3 Base Token Transfers Monitor",
+        "agentIdHash": "0x6b6e1323fe090551b7bb109d1c2a0089d66da08492f67117018d6ac0c3b1eed7",
+        "version": "0.0.1",
+        "timestamp": "Tue, 04 Jul 2023 15:16:01 GMT",
+        "imageReference": "bafybeifwr6ri3vfqwyt6ijxce5hbrd4yx5p5s3x2ift5yqwvjawuj2aqui@sha256:b7ebd2e2f83a7ce1e6cdeb8c9a9ae0e5f53c09980ac13842d7c3f4b9d7d8eefc",
+        "documentation": "QmWPfg33MDgU17uR8uNCsJ9MeM4nSQU1p8FGF5acZ9JKoB",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/CompoundV3-Bots/Base-Token-Transfers-Monitor",
+        "projects": [],
+        "chainIds": [
+            1,
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x74ccaa889a5bfa178d46a3aa22d2b32f53ab9e24463217fb47dadffa926ad0cd2067e2ebe6b4050fcd69baa894efae2032222ca2ffd0ec293de48f5bce4072771c"
+}
