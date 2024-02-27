@@ -20,7 +20,7 @@ def get_response():
         response_text = 'Please try Again!'
         print('Please try Again!')
     else:
-        response_text = weave.search_with_prompt(search_json["description"])
+        response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])
         print("send result")
     # old_input = user_input
 

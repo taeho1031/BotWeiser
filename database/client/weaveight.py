@@ -64,18 +64,37 @@ class WeaviateSearch:
                 print(f"Bot properties: {properties}")
                 batch.add_data_object(properties, "FortaBot")
 
-    def search_with_prompt(self, concepts, limit=3):
+    def search_with_prompt(self, concepts, chainIds, limit=3):
+        
+        generative_prompt = "Explain how {description} answers 'concepts' in a single short paragraph in 3-5 sentences."
+        
+        if chainIds:
+            where_filter  = {
+                "path": ["chainIds"], 
+                "operator": "ContainsAll", 
+                "valueNumber": chainIds
+            }
+            
+            response = (
+                self.client.query
+                .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
+                .with_where(where_filter)
+                .with_near_text({"concepts": concepts})
+                .with_generate(single_prompt=generative_prompt)
+                .with_limit(limit)
+                .do()
+            )
 
-
-        response = (
-            self.client.query
-            .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
-            .with_near_text({"concepts": concepts})
-            .with_generate(single_prompt="Explain how {description} answers 'concepts' in 4 bullet points.")
-            .with_limit(limit)
-            .do()
-        )
-
+        else:
+            response = (
+                self.client.query
+                .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
+                .with_near_text({"concepts": concepts})
+                .with_generate(single_prompt=generative_prompt)
+                .with_limit(limit)
+                .do()
+            )
+        
         response_json = json.dumps(response, indent=2)
         print(response_json)
 
