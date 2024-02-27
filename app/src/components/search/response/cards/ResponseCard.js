@@ -2,8 +2,10 @@
 // Description: This file defines the ResponseCard component, representing a card for displaying responses in the conversation.
 
 import React from "react";
-import BotIcon from "..\\assets\\icons\\forta-logo-white-circle.png";
-import UserIcon from "..\\assets\\icons\\UserIcon.png";
+import BotIcon from "../../../../assets/icons/forta-logo-white-circle.png";
+//import BotIcon from "..\\assets\\icons\\forta-logo-white-circle.png";
+import UserIcon from "../../../../assets/icons/UserIcon.png"
+//import UserIcon from "..\\assets\\icons\\UserIcon.png";
 import "./ResponseCard.css";
 
 export const ResponseCard = ({ children, isBot }) => {

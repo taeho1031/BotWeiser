@@ -65,9 +65,9 @@ class WeaviateSearch:
                 batch.add_data_object(properties, "FortaBot")
 
     def search_with_prompt(self, concepts, chainIds, limit=3):
-        
-        generative_prompt = "Explain how {description} answers 'concepts' in a single short paragraph in 3-5 sentences."
-        
+    
+        print(concepts)
+        print(f"{chainIds=}")
         if chainIds:
             where_filter  = {
                 "path": ["chainIds"], 
@@ -80,23 +80,26 @@ class WeaviateSearch:
                 .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
                 .with_where(where_filter)
                 .with_near_text({"concepts": concepts})
-                .with_generate(single_prompt=generative_prompt)
+                .with_generate(single_prompt="Explain how {description} answers 'concepts' in a single short paragraph in 3-5 sentences.")
                 .with_limit(limit)
                 .do()
             )
+            print(f"1{response=}")
 
         else:
             response = (
                 self.client.query
                 .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
                 .with_near_text({"concepts": concepts})
-                .with_generate(single_prompt=generative_prompt)
+                .with_generate(single_prompt="Explain how {description} answers 'concepts' in a single short paragraph in 3-5 sentences.")
                 .with_limit(limit)
                 .do()
             )
+            print(f"2{response=}")
+        
         
         response_json = json.dumps(response, indent=2)
-        print(response_json)
+        print(f"{response_json=}")
 
         return response_json
 

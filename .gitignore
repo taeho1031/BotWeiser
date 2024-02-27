@@ -15,3 +15,5 @@ GPT/GPT_Connect/__pycache__/
 
 # Ignore Python bytecode files for the 'GPT/GPT_Connect/prompts' module
 GPT/GPT_Connect/prompts/__pycache__/
+
+.DS_Store
