@@ -1,6 +1,17 @@
+# Ignore Node.js modules directory
 node_modules/
+
+# Ignore environment configuration file
 .env
+
+# Ignore database client configuration file
 database/client/config.json
+
+# Ignore Python bytecode files for the 'database/client' module
 database/client/__pycache__/
+
+# Ignore Python bytecode files for the 'GPT/GPT_Connect' module
 GPT/GPT_Connect/__pycache__/
+
+# Ignore Python bytecode files for the 'GPT/GPT_Connect/prompts' module
 GPT/GPT_Connect/prompts/__pycache__/
