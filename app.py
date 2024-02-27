@@ -3,8 +3,8 @@ from flask_cors import CORS
 import openai
 from openai import AsyncOpenAI
 
-from backend.weaveight.client.weaveight import WeaviateSearch
-from backend.GPTConnect import JsonGPT
+from database.client.weaveight import WeaviateSearch
+from GPT.GPT_Connect.GPTConnect import JsonGPT
 
 
 app = Flask(__name__)

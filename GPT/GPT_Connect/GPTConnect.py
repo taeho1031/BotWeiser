@@ -2,7 +2,7 @@ import openai
 import os
 import json
 from datetime import datetime, timezone
-from prompts.jsonPrompts import json_prompt
+from GPT.GPT_Connect.prompts.jsonPrompts import json_prompt
 
 class JsonGPT:
     def __init__(self, query):

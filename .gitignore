@@ -1,2 +1,6 @@
 node_modules/
-weaviate/config.json
+.env
+database/client/config.json
+database/client/__pycache__/
+GPT/GPT_Connect/__pycache__/
+GPT/GPT_Connect/prompts/__pycache__/
