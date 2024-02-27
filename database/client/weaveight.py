@@ -66,12 +66,12 @@ class WeaviateSearch:
 
     def search_with_prompt(self, concepts, chainIds, limit=3):
     
-        print(concepts)
-        print(f"{chainIds=}")
+        # print(concepts)
+        # print(f"{chainIds=}")
         if chainIds:
             where_filter  = {
                 "path": ["chainIds"], 
-                "operator": "ContainsAll", 
+                "operator": "ContainsAny", 
                 "valueNumber": chainIds
             }
             
@@ -84,7 +84,7 @@ class WeaviateSearch:
                 .with_limit(limit)
                 .do()
             )
-            print(f"1{response=}")
+            # print(f"1{response=}")
 
         else:
             response = (
@@ -95,11 +95,11 @@ class WeaviateSearch:
                 .with_limit(limit)
                 .do()
             )
-            print(f"2{response=}")
+            # print(f"2{response=}")
         
         
         response_json = json.dumps(response, indent=2)
-        print(f"{response_json=}")
+        # print(f"{response_json=}")
 
         return response_json
 

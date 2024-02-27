@@ -9,7 +9,7 @@ from GPT.GPT_Connect.GPTConnect import JsonGPT
 
 app = Flask(__name__)
 CORS(app, resources={r"/get-response*": {"origins": "http://localhost:3000"}})
-norf = JsonGPT("Find me a bot")
+norf = JsonGPT("Start Here")
 weave = WeaviateSearch()
 @app.route('/get-response', methods=['GET'])
 def get_response():
@@ -62,7 +62,7 @@ def get_response():
         # except Exception as e:
         #     response_text = "An error occurred: " + str(e)
 
-    print(f"{response_text=}")
+    # print(f"{response_text=}")
     return jsonify({"responseText": response_text})
 
 if __name__ == '__main__':

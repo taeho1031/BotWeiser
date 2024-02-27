@@ -14,5 +14,4 @@ json_prompt = "convert the query supplied at the end inside triple backticks to 
             - 56: Binance Smart Chain \
             - 250: Fantom Opera \
             If timestamp is not specified use current time which is " + " {}.\
-            If and only a blockchain network is specified make sure to add all specified chainIDs.\
-            ".format(datetime.now(timezone.utc))
+            If and only a blockchain network is specified make sure to add all specified chainIDs.".format(datetime.now(timezone.utc))

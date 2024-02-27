@@ -19,7 +19,9 @@ class JsonGPT:
     def recieve_chat(self, input):
         prev_query = self.query
         self.query += f"\n++{input}"
+        print(f"{self.query=}")
         json_ans = self.getJsonObjectSearch()
+        print(f"{json_ans=}")
         if json_ans['valid'] == False:
             self.query = prev_query
             return 'Please write a sentence that is relevant'
