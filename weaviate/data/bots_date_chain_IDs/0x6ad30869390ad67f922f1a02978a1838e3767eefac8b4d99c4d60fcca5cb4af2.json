@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Compound v3 Bridge Proposal Integrity Monitor",
+        "agentId": "Compound v3 Bridge Proposal Integrity Monitor",
+        "agentIdHash": "0x6ad30869390ad67f922f1a02978a1838e3767eefac8b4d99c4d60fcca5cb4af2",
+        "version": "0.0.1",
+        "timestamp": "Tue, 04 Jul 2023 15:21:17 GMT",
+        "imageReference": "bafybeihnkvj2suxzqfzxvjtjudortshitjjmjm5szvrdky3xow3ffonqjm@sha256:b08d89f0428974f7a0a08566dcd17663d959303114aa2bed6a0a1aa29bf03364",
+        "documentation": "QmWzzULDBsh6ZCZa8RW2UWG6hZGucwFtXUAYiJE7Gjyp8w",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/CompoundV3-Bots/Bridge-Proposal-Integrity-Monitor",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x2c75b735169d7ac16c0971be8c157d0ac0ef308e634fe7a0b07c5a000b3dfdc132f055a632b65e49eaefc8d813c6e01b29ec660881720d5951fc2a8a7f18b3dc1c"
+}

@@ -1,0 +1,40 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "funding-tornado-cash",
+        "description": "A bot that clusters entities",
+        "agentId": "funding-tornado-cash",
+        "agentIdHash": "0xa91a31df513afff32b9d85a2c2b7e786fdd681b3cdd8d93d6074943ba31ae400",
+        "version": "0.0.15",
+        "timestamp": "Tue, 31 Oct 2023 19:52:49 GMT",
+        "imageReference": "bafybeibrkxzfouxlfkwrlzhoix7dbk2yc4l4lbxeei333sccz3v5goy6pu@sha256:796c524c228631f4fa684e1d1c83ec15147c7c982c3746523bcdf5503b51a203",
+        "documentation": "QmUtZUfHUhcPgkcf68TGR7kwjKvAhqMkrUVmccmnXkp5ss",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.39",
+        "chainSettings": {
+            "1": {
+                "shards": 4,
+                "target": 3
+            },
+            "56": {
+                "shards": 6,
+                "target": 3
+            },
+            "137": {
+                "shards": 4,
+                "target": 3
+            },
+            "default": {
+                "shards": 1,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x536bda75857edbc2f99599ceacca17b926b68a0dcd47fc59998127759f7b0e784f8c4c8607f00c9e1b5f25414c250c778f87a5914db69cdac13cdf39dc4f58131c"
+}

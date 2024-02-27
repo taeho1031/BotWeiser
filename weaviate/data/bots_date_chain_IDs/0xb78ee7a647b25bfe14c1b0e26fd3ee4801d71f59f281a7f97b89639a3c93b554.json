@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x286a227Ae4f31c586E2935f1C0B0c36a0AD30340",
+        "name": "umee-utoken-exchange-ratio-drop-bot",
+        "agentId": "umee-utoken-exchange-ratio-drop-bot",
+        "agentIdHash": "0xb78ee7a647b25bfe14c1b0e26fd3ee4801d71f59f281a7f97b89639a3c93b554",
+        "version": "0.0.2",
+        "timestamp": "Tue, 16 Aug 2022 09:41:34 GMT",
+        "imageReference": "bafybeiaqc36j3s6h6erqen5qsawvgap57syky4b5aqnsxamgu6ficmg3hm@sha256:102b67cda08e1e269893e2e0d469e0802a028c369d398f88b2bfe1b2634be5ba",
+        "documentation": "QmWqpUDcYLz6a83PdMm8cvtqswhNnSVQnZ1KC812ex8ycE",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Umee-Bots/uToken-Exchange-Rate-Drop",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x209059d3c76072dab255bb9dc2bd44fa28e16a2e504cc6b5a207273e5cc082e264ba872eac53fc5a6e824b803f92cfda2a2234ac9c598ee4ac3aef7d22103d251b"
+}

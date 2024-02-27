@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0xeCE5e25df1A8B2b8a73Da0FAB7c7856E769a5E2D",
+        "name": "agent-graff",
+        "description": "Forta Agent Python starter project",
+        "agentId": "agent-graff",
+        "agentIdHash": "0x84711b6071748c77ddf31daa7cebf1628121c1800967acda3af502945d231c01",
+        "version": "0.0.2",
+        "timestamp": "Fri, 02 Dec 2022 23:53:10 GMT",
+        "imageReference": "bafybeihnzcv7kckoq2m6eai6a2ejntclhhp6jvlonnweuxahujwywe3wba@sha256:dd1010bcdb610526edaa69898fd7194cf40de684fb1ac4975b28a6c5d942bb6b",
+        "documentation": "QmYA3Av9y3GtQVEtUz7M5cugxyGneY88AZQWa7DzU3L93u",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.15"
+    },
+    "signature": "0xb7a7119cf42a61696b0ff0c81fbe26f458c2116d34453c0ec345be0e9493557f487158555d6ea85c0e92ae97542f9021db14bc1fdb9e00b4b2c4a8cc1a72956f1b"
+}

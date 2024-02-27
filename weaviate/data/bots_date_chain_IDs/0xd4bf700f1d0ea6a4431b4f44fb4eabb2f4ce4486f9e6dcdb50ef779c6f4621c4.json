@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x2C4536B866782d2A3D0B75d66852955a8e8beB35",
+        "name": "large-joins-and-exits",
+        "agentId": "large-joins-and-exits",
+        "agentIdHash": "0xd4bf700f1d0ea6a4431b4f44fb4eabb2f4ce4486f9e6dcdb50ef779c6f4621c4",
+        "version": "0.0.1",
+        "timestamp": "Tue, 05 Jul 2022 06:30:27 GMT",
+        "imageReference": "bafybeifak4qqnmum6c6l4qrwxqlvsivpdcj5u23oysrw7bawrmhypp5mia@sha256:95115a616143b199a08fc04eebf8633a35c40fe95dc49b5c8e9d66256aeac0a2",
+        "documentation": "QmbKomYuUoNc6TAGsGcFJ2AeEJfrNM63Lp8CPQhmSrpzx6",
+        "repository": "",
+        "projects": [
+            "truefi"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x4e8da8e35a145298c17b5ad2d94853ded7fc16feb313b4012d49a89345d24c946c26ad55270df78f7eb3cc2a8b0c49f81dbd4ace0ea676141e45e134ca4f812c1b"
+}

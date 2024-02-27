@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0xb2457FfdD414dB74bBd84aC902BE24E7cC198bC3",
+        "name": "forta-zero-token-transfer-attack-detect",
+        "description": "Forta zero token transfer attack detect project",
+        "agentId": "forta-zero-token-transfer-attack-detect",
+        "agentIdHash": "0x9da8fdc6fb8e582cdd2be4d36ca861bf9f77652a4db58f7c7449ea359d62a080",
+        "version": "0.0.1",
+        "timestamp": "Tue, 20 Jun 2023 08:43:36 GMT",
+        "imageReference": "bafybeifuytujkzmmyqrsoc3m6u2azxmbw3zsczlluuaus7cjqjoz5cbuem@sha256:1f4ecc0dd15c8973738d8e237c2e7976958c7a13c4e2a574f74e8cdb6c01e1a2",
+        "documentation": "QmQcH8mLfC2rYWipHxnScDQtyxBDfuCypuRfnaSBSvgrZx",
+        "repository": "git+https://github.com/forta-network/forta-bot-sdk.git#master",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.32"
+    },
+    "signature": "0x90acfcfbdc32d4dc4f09970d46dc76c007cbdbb918c04bbcb87ebfa52b31049b791b1b706a7309c8665975f337420a60390823edfd1de94d5508d00528bcc9bd1c"
+}

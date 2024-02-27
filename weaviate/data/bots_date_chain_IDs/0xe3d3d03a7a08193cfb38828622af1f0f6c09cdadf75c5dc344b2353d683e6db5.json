@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x2DD872C6f7275DAD633d7Deb1083EDA561E9B96b",
+        "name": "alperp-swap-frontrun-tx",
+        "agentId": "alperp-swap-frontrun-tx",
+        "agentIdHash": "0xe3d3d03a7a08193cfb38828622af1f0f6c09cdadf75c5dc344b2353d683e6db5",
+        "version": "0.0.2",
+        "timestamp": "Thu, 09 Mar 2023 10:55:41 GMT",
+        "imageReference": "bafybeideewnbumpwkbrxfal362ykx5nqdxzn3jbmve7fdm6ylhk4casyqe@sha256:69ba428ffeef321a69408ef0c23474ca390c454c85120defaa49a1e11d3aa8e6",
+        "documentation": "QmQiY4JMJbALNHnxQBhVjCHsjU4RUkZ3swc1AVTei6TKoq",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            56
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x609c28d2e226b494db6558a2733598bcbca56ef7ba371a214f36705b3ddc27314ccef971516acf37f3b31c81acb68959b377444a7d87ccd9c037478883e38a811c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x167BF1E2885af73610F32D5cc671cB5169F07e2F",
+        "name": "forta-agent-starter",
+        "description": "Forta Agent Javascript starter project",
+        "agentId": "forta-agent-starter",
+        "agentIdHash": "0xfb442c4c1e6aabb4ae536e04da2fc29c4e635f11a610d255bca92f63dd06ec91",
+        "version": "0.0.1",
+        "timestamp": "Wed, 19 Apr 2023 12:37:24 GMT",
+        "imageReference": "bafybeialtakyfrw6dq3yronkd3gjciseb35kpunqigbnkolgt74tanqlkq@sha256:97c1669dee5a29c7545ee1a38f25a0c1276061719279da64a93f69241886d348",
+        "documentation": "QmZnLK4RxvrXErp8YEHerYknKP8ZBcoSTczoL8d53Ri4Q7",
+        "repository": "https://github.com/forta-network/forta-bot-sdk/tree/master/starter-project",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0x6aa4b0020aacd60aa3febec6d6b96b8954152c49c33782be86231d1fee503d3b006ef29393a2dfd450716967beb43e41ce1373877ee4a8cd81c25e91ca107cba1b"
+}

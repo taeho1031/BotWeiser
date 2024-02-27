@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x183d13c4fCb5133EA52345A9037C9c25A5Aa139D",
+        "name": "Compound Blacklist Agent",
+        "agentId": "Compound Blacklist Agent",
+        "agentIdHash": "0x002320a008da2482f16f3925c7ce6f2bde55c1029bf657952cfa722b116a78df",
+        "version": "0.0.2",
+        "timestamp": "Sat, 23 Apr 2022 10:43:15 GMT",
+        "imageReference": "bafybeia73std7a64wrswln7bj4izoymfrrj7iuniqvdsur7qos6mkbc35i@sha256:4f34184890a5944550b98bc59f38af060db8cf85a934084cbd64ab73949c52f1",
+        "documentation": "QmT8nDfWabx64ywjCtJJyKViMaFyebCUi5r7uDvibb6TbY",
+        "repository": "https://github.com/kovart/forta-agents/tree/main/compound/transaction-blacklist",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x965e5692ed96d161c2b1247cc8ee4d5592049b1879b7b72e7afbb8238b385ec6753f65ce7ffa8d086cdc7ddb2d5eed8b9b489ff9ccaa5fd674dd2646d3df1a461c"
+}

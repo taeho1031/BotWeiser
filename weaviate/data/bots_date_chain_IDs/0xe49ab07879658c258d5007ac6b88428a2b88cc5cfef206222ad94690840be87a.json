@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xF56df8FEbc5dB60433516539F50231FF7242AC87",
+        "name": " Compound Low Liquidity Market Attack Monitor",
+        "agentId": " Compound Low Liquidity Market Attack Monitor",
+        "agentIdHash": "0xe49ab07879658c258d5007ac6b88428a2b88cc5cfef206222ad94690840be87a",
+        "version": "0.0.5",
+        "timestamp": "Mon, 26 Sep 2022 19:28:25 GMT",
+        "imageReference": "bafybeibmntcndhuzc5cwyde44xdj3f765esvfgxu4jrxxl7rwdtaothlmi@sha256:c8cf2fc05a388611127f5ffb7f60adc0f7d4a43941833b6fcfb8dfc50b676a8f",
+        "documentation": "QmWmhoJDgbFCzwGSQGsRadHDQzgz5RbFdzKHabjHFWEJVA",
+        "repository": "",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x86471d7a52eb3e39a40159b8db25e7c4bca74df56488aa5866f9f4cbee2abe6b2b3ee21424245ccbf76941953fe0d9a4c333a4278cdcd8d47dcc36018371e2991c"
+}

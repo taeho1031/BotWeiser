@@ -1,0 +1,33 @@
+{
+    "manifest": {
+        "from": "0x14330879ca506D91edD8077b07E0F1B7EfBD91B2",
+        "name": "batched-tx-bot",
+        "description": "Bot scanning for multiple transfers batched in a single transaction",
+        "agentId": "batched-tx-bot",
+        "agentIdHash": "0x568bf7a13b62e5041705eff995328c84ce7b037961ab6cdded927c9ab3b59e58",
+        "version": "1.6.7",
+        "timestamp": "Mon, 23 Oct 2023 21:34:24 GMT",
+        "imageReference": "bafybeifai5edw7oqwvapaarwno3otog2fiw6gbzzwte5wv3l7r7ld3ttzm@sha256:09e78b91fc075d35ebe5c77c3904d93149375f0c87ffc7cf13aa71bc0032dc65",
+        "documentation": "QmVKtbH3SQ7QCtQ9Jh4P3bAnvFvVaANsaHPmsEz8MiY1EP",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main//batched-tx-disperse-multisend-py",
+        "chainIds": [
+            1,
+            10,
+            56,
+            61,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.43",
+        "external": false,
+        "chainSettings": {
+            "default": {
+                "shards": 8,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x2236f97cbbc73fc8496252ebd8a7f991e602bd735348f088057b9c027605ed5b0117b10ebf814451bb222fb688174052b638e87e758e673d60af18986dec89711c"
+}

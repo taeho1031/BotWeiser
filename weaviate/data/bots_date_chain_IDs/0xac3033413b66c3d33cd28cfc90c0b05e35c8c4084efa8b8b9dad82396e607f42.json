@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x389dC58784bd5c820bf4dc263935C6576131b0A0",
+        "name": "saddle-reward-spa-bal-monitor",
+        "description": "Alert of low spa on saddle rewarder",
+        "agentId": "saddle-reward-spa-bal-monitor",
+        "agentIdHash": "0xac3033413b66c3d33cd28cfc90c0b05e35c8c4084efa8b8b9dad82396e607f42",
+        "version": "0.0.1",
+        "timestamp": "Wed, 01 Feb 2023 13:59:45 GMT",
+        "imageReference": "bafybeibhiue5n6yqf3p7q3eqywdjkxdxto3b4kurtmywg5rcba7eionq3y@sha256:99cbfd8fad9ab143279879f7afcf502ea5dd02e2a076be2a20c6597182f17546",
+        "documentation": "QmZnLK4RxvrXErp8YEHerYknKP8ZBcoSTczoL8d53Ri4Q7",
+        "repository": "https://github.com/forta-network/forta-bot-sdk/tree/master/starter-project",
+        "chainIds": [
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.18"
+    },
+    "signature": "0x094654b8f05873af4ae0bc906e0a93a82d4843958ddc08086ccd2ddddfbba1097ef151472fd73aa20fe2efe7d985c68e000bbf286e2a6e197339281dc4aa078e1c"
+}

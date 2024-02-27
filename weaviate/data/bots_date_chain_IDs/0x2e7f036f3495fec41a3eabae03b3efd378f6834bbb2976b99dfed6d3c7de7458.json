@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0xF56df8FEbc5dB60433516539F50231FF7242AC87",
+        "name": "Compound Multisig Transaction Monitor Bot",
+        "agentId": "Compound Multisig Transaction Monitor Bot",
+        "agentIdHash": "0x2e7f036f3495fec41a3eabae03b3efd378f6834bbb2976b99dfed6d3c7de7458",
+        "version": "0.0.6",
+        "timestamp": "Mon, 23 Jan 2023 21:41:24 GMT",
+        "imageReference": "bafybeihoomahjcnj4aa7hsqslryteumdrmwm6dgcstkvhjgtml7cm2xorm@sha256:2dcb289b0d7e11d85eb669d46203da1dd39951355d505184125ffd33d24294f9",
+        "documentation": "QmfS5YsvDfMdZ9VrjyN7Xn2rBSJJqjUqJtYbEMabLty3cC",
+        "repository": "https://github.com/OpenZeppelin/compound-monitoring/tree/main/multisig-transactions-monitor",
+        "projects": [
+            "compound_v2"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x5745f51e928e9d31999071a9fee38e29cda6431d205fb993d642d1d0ba10064c3b701b16ea487fd0dbf8508486e14adf9b1c42542252e5c5d7ab341a16fdc3b01c"
+}

@@ -1,0 +1,46 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Tornado Cash Funded Account Interaction",
+        "description": "This bot detects when an account that was funded by Tornado Cash interacts with any contract",
+        "longDescription": "The bot operates as a tracker with a core function of identifying interactions between accounts funded by Tornado Cash and external contracts. Its primary role is to detect instances where accounts that have received funding from Tornado Cash with contracts beyond the Tornado Cash ecosystem.",
+        "agentId": "tornado-cash-funded-account-interaction",
+        "agentIdHash": "0x617c356a4ad4b755035ef8024a87d36d895ee3cb0864e7ce9b3cf694dd80c82a",
+        "version": "0.0.8",
+        "timestamp": "Wed, 25 Oct 2023 06:22:11 GMT",
+        "imageReference": "bafybeibswtfebpgnordbts53p6eoxzt5vdj5b7grxc3olakai6zoedmbtq@sha256:4477340ad72c6718200a74c4c82d67231f1207083fd08185b1623d966390407d",
+        "documentation": "Qmctti9hrq1jU43QWYavWUAtFTWj7ixZd6Tpoj2MqY52Eg",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/forta-tornado-cash-starter-kit",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.36",
+        "chainSettings": {
+            "1": {
+                "shards": 9,
+                "target": 3
+            },
+            "10": {
+                "shards": 4,
+                "target": 3
+            },
+            "56": {
+                "shards": 15,
+                "target": 3
+            },
+            "137": {
+                "shards": 14,
+                "target": 3
+            },
+            "42161": {
+                "shards": 3,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0x8171fbe1f0455a1e79c66abb196855da70895d54b558192be61904be416803507f773d4a25b9e610fd1107fba89fd020b630856b38f31925987f5092c79943571b"
+}

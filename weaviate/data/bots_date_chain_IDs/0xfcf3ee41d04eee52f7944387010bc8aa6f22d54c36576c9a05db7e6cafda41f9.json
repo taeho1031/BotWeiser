@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Polygon Ether Bridge",
+        "agentId": "Large Balance Decrease - Polygon Ether Bridge",
+        "agentIdHash": "0xfcf3ee41d04eee52f7944387010bc8aa6f22d54c36576c9a05db7e6cafda41f9",
+        "version": "0.0.3",
+        "timestamp": "Fri, 28 Apr 2023 10:51:25 GMT",
+        "imageReference": "bafybeihczkbpwfjdjteek3cyegjyhlqdscfvcd77phanh74crwjlw4zoxq@sha256:f44e96458dd3cfdb3beca589030ac202812ff4ab53ec0fb1bdb0a3be12933ce0",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x7d291177d1724f40b8e781c262b8566fd34e423adaf9220f6dd23796cde8dc66598d94b893ec6bc2e8600dfe2461cf3d51bc6ac349145a9f1ce44fcafa92eb4b1b"
+}

@@ -1,0 +1,34 @@
+{
+    "manifest": {
+        "from": "0x3b8315f6144bd2B0a2657908Cb41945233058D05",
+        "name": "NFT Wash Trade Detector",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "NFT Wash Trade Detector",
+        "agentIdHash": "0x067e4c4f771f288c686efa574b685b98a92918f038a478b82c9ac5b5b6472732",
+        "version": "0.2.0",
+        "timestamp": "Tue, 07 Nov 2023 20:01:38 GMT",
+        "imageReference": "bafybeic3hop5pu5lcp7syhiwjhcyu6gf6oygubkoov3umtnvnwk2mryl3y@sha256:e46a28a00aad9d74fdd1dc302cbc71a50dc787edd0d3296d396f2d070540a487",
+        "documentation": "QmYfFncCcFaCzdP6CfeyZ93FystNgkHu7A6hTsZQcD9ftB",
+        "repository": "https://github.com/Epikt1tus/Sybil-Defender",
+        "projects": [
+            "opensea",
+            "rarible",
+            "superrare"
+        ],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0x62ef313ebf21466e530a79bcbb3282044842287338646f45fe0956667f105135491093ebed757a1f416a80bf72c0bcf8e26765dd7334c8d33b46493ba66b68d81b"
+}

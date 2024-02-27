@@ -1,0 +1,23 @@
+{
+    "manifest": {
+        "from": "0xf3F61e51212cF504A8c7926B4A0D398ed2aB1712",
+        "name": "Mercado Coin Function Calls",
+        "description": "This bot emits alerts when the Mint and Burn functions are called",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "Mercado Coin Function Calls",
+        "agentIdHash": "0x5784d3436d4a3482798f45a273134a6acd2aa115500bac5a0c0cd14fba306746",
+        "version": "0.1",
+        "timestamp": "Tue, 05 Sep 2023 13:22:16 GMT",
+        "imageReference": "bafybeibp5oyteulm3kptordhae7x2rvefh4glrppechwmlc5ccye3k63h4@sha256:b495635a7680d8798a1ebb09c07f859a3b5bef2fbfff2f6dd8080e21e194be29",
+        "documentation": "QmPbKuJAWyiUSzxHdN2GD4wckHbcS9JLX6RaGWkGMc7ENu",
+        "repository": "",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0"
+    },
+    "signature": "0x758e73560b3d0b3861a6a9cb93fe63d07201a05d23458baf71137319d3fee5a2705457cb69aa67005d0e5bb6c115837eb0b74791f32a84cddaff99c24d1e06a61c"
+}

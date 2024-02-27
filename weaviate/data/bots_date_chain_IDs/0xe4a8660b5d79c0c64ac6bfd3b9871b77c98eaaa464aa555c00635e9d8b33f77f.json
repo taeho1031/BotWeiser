@@ -1,0 +1,49 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Asset Drained",
+        "description": "Detects if an asset is fully drained from a contract",
+        "longDescription": "The bot identifies instances where a contract's assets have been significantly depleted, reaching a threshold of 99% or more within a single block. By closely monitoring the transfers of both ERC20 tokens and native tokens from contracts, the bot raises an alert when it detects a rapid reduction in a contract's balance",
+        "agentId": "asset-drained",
+        "agentIdHash": "0xe4a8660b5d79c0c64ac6bfd3b9871b77c98eaaa464aa555c00635e9d8b33f77f",
+        "version": "0.2.7",
+        "timestamp": "Wed, 17 Jan 2024 15:01:04 GMT",
+        "imageReference": "bafybeicd2fnz5z2yngy57uhwbu7seu6gtjt7c77qicooqct3tyrktioq6i@sha256:1ac8096991094f9fbdb632187dfa77fc9f0f3b579359045e33fcc0ac414442df",
+        "documentation": "QmNtvd59JJRKMSm5Phs6ao66yJZb7LeVhgE2eNPLRpqaPx",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/asset-drained",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 2,
+                "target": 3
+            },
+            "56": {
+                "shards": 4,
+                "target": 3
+            },
+            "137": {
+                "shards": 4,
+                "target": 3
+            },
+            "250": {
+                "shards": 2,
+                "target": 3
+            },
+            "default": {
+                "shards": 1,
+                "target": 3
+            }
+        }
+    },
+    "signature": "0xdbdaf79ac4190a0a5de0294fb2b72468c733fed1760bcec6877b99c29c8917814cedb1b4c21083a9f90b43738409a6561c8749ca7a19060aa80b8ca783f24b351c"
+}

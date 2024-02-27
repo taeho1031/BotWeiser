@@ -1,0 +1,22 @@
+{
+    "manifest": {
+        "from": "0x2ED2A1d9a6A08dd106ee0F313Ef0cC52cCbf0D1A",
+        "name": "forta-agent-umbra-detector",
+        "description": "Forta Agent that detects Umbra in/out flows",
+        "agentId": "forta-agent-umbra-detector",
+        "agentIdHash": "0xdba64bc69511d102162914ef52441275e651f817e297276966be16aeffe013b0",
+        "version": "1.0.0",
+        "timestamp": "Wed, 09 Nov 2022 12:21:52 GMT",
+        "imageReference": "bafybeidz6e2gb2ff5izspdfekgju4unddxo2htm5jma5r7aaugxd7qskey@sha256:38555c8f191df3fb0513fd69d664c4b4d0447df3037c7b5bc72313cdbbb3a7d8",
+        "documentation": "QmVGPXNqEwyjc6tJ2agXGSsLKwtt5RoaDb9QbKnBqWiDCe",
+        "repository": "https://github.com/Soptq/forta-bot-umbra",
+        "chainIds": [
+            1,
+            10,
+            137,
+            42161
+        ],
+        "publishedFrom": "Forta CLI 0.1.10"
+    },
+    "signature": "0x3dfae09cfd4f11452d902905b681de8a057d0aff7ed2afc60865a1031f1e6bbc447dd3b61794514fc0fedfe30771c24a7d66ff6a2cf8907c7febdc65d151534a1c"
+}

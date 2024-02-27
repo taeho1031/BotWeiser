@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Hop Protocol DAI Bridge",
+        "agentId": "Large Balance Decrease - Hop Protocol DAI Bridge",
+        "agentIdHash": "0xf8ca51a34b1d14819a01b731264d0b3356a186d7e42abb3b24eebd6848959823",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:19:09 GMT",
+        "imageReference": "bafybeigz6htlh3nkolfde7smsu7tx7bfx63fxuo46igxuxt2i4m7aplfkm@sha256:6f7e18911d3f42db2073f4754e543a8668744780595c87ba1f6fa0eb6f3fdf4a",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x5a75c9bcbe31e355ac4d63a414994a1ea319700c5222df3b8b6c92a88d899afa7c63fa55ec98073dd9c692c53643af75d3aa03436b5c624685c588e6c5f869381b"
+}

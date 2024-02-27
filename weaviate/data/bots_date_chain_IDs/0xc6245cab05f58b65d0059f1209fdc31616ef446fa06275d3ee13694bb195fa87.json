@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0xbbbE5dB3425B8D361667Add6305e81217BB65F83",
+        "name": "testbot",
+        "description": "test bot",
+        "agentId": "testbot",
+        "agentIdHash": "0xc6245cab05f58b65d0059f1209fdc31616ef446fa06275d3ee13694bb195fa87",
+        "version": "1.1.0",
+        "timestamp": "Tue, 18 Jul 2023 04:51:10 GMT",
+        "imageReference": "bafybeig3li7ssfihzpqz5kidy47bhye7tqisov4wi244uysr3tzvmfw36q@sha256:800c5eb775f46c7ec685cd8ed9b77baa97f0601e3bb07eb61e4878a2cb6d713a",
+        "documentation": "QmPRfN3wWgSt7R1TQhQjbihfqDnwG1C4po676QNWQsKXfp",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.31"
+    },
+    "signature": "0x2be6909a6362d4b1009413ad52c8ce5ce98ec79fedf6c0dba5b21c71e7b3d63f0b1ab4eeb05bf67c2d78b552f26d8594e70deaf7d2c809f892daea81ca83e0aa1c"
+}

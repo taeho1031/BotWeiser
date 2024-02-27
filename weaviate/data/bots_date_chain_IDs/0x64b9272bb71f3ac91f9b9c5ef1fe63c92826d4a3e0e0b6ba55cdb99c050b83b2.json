@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x70358461af09dCb10B003e8e0a6033de34387A2a",
+        "name": "OpBERT Malicious Contract Detector",
+        "agentId": "OpBERT Malicious Contract Detector",
+        "agentIdHash": "0x64b9272bb71f3ac91f9b9c5ef1fe63c92826d4a3e0e0b6ba55cdb99c050b83b2",
+        "version": "0.2.0",
+        "timestamp": "Mon, 10 Apr 2023 19:39:46 GMT",
+        "imageReference": "bafybeigw5v735hmyb3ozwqcyedcbxa7ogpqyk2r6rpdtm2qefqn3opydr4@sha256:0f83a054d4ce661924f40234b5a361825082507370ee00a59ae639cc37e9c549",
+        "documentation": "QmRxw6p6SxiFWmx1rVdQbqcwipyU5pgsVHKnEcKC5bEgDm",
+        "repository": "https://github.com/venglov/Malicious-Contract-Detector/tree/main/OpBERT_agent",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xcffc6d8c167b29fcaeaf5e108af4fc93f2fbe032267ef5286ed4a2f2091f0da8115d69045c904a00f076d21c2bf2060e65789d7ee03a42eb39d31fa29f3e14841b"
+}

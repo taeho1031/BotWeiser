@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x2ED2A1d9a6A08dd106ee0F313Ef0cC52cCbf0D1A",
+        "name": "forta-dynamic-high-gas",
+        "agentId": "forta-dynamic-high-gas",
+        "agentIdHash": "0xe27867c40008e0e3533d6dba7d3c1f26a61a3923bc016747d131f868f8f34555",
+        "version": "0.0.1",
+        "timestamp": "Sat, 28 May 2022 01:45:15 GMT",
+        "imageReference": "bafybeibdcf3ubcjamszujutqy7of4p5upwd2g3tiinar4c2p67fjhiygm4@sha256:dcd58e4d9f0a147e4891e80d088d66bff7fc13c0a68bb322eeef0f1b0501e4e3",
+        "documentation": "QmPfdc4V7nwCsMUjqAGLJnLEsYuNqwxfCPw6mcwkoH75BE",
+        "repository": "https://github.com/Soptq/forta-high-gas",
+        "projects": [],
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x9ab072cc19b868349fa836baf57ce980409d39972ade3d6966158ff1c4915bf945a1ce30a00158a9db22649f9827e24958de1b3bc84e48c0e5088b699785371d1c"
+}

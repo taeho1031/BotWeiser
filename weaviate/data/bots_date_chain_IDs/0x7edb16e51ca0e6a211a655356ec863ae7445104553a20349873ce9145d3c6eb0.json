@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x2C4536B866782d2A3D0B75d66852955a8e8beB35",
+        "name": "admin-changes",
+        "agentId": "admin-changes",
+        "agentIdHash": "0x7edb16e51ca0e6a211a655356ec863ae7445104553a20349873ce9145d3c6eb0",
+        "version": "0.0.1",
+        "timestamp": "Tue, 05 Jul 2022 06:12:51 GMT",
+        "imageReference": "bafybeihqq4r5sgjoyyb3zos2ndeu3xs6cnirykx5yyhiojhg4dlclc52qi@sha256:a48aa556e406f624f535ae95531e2ebec9420b7e675a63370433ce01a2d11c8d",
+        "documentation": "QmWMH86Knemx8USmJXfkovCke71ub3hvbZd7eBHx2wQpGw",
+        "repository": "",
+        "projects": [
+            "truefi"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xf100a18b8aee7de8ba4105c74257b658b5fd875dc9765315e886103be5b25a1f2eb79b9619111f937c2fbdd50910f672dcc945c001f7338aacd3dd725a6408b11c"
+}

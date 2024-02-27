@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0xE552591061eC3e60aA5561CB2191015D2561fbEF",
+        "name": "sybil-attack-detection-bot",
+        "description": "A bot to detect sybil attacks on airdrops",
+        "agentId": "sybil-attack-detection-bot",
+        "agentIdHash": "0xba84cbb78b118afdb4db767582d76eb3f7e0ad0186edc91dffa761ce13d993c4",
+        "version": "0.0.1",
+        "timestamp": "Mon, 19 Jun 2023 16:53:03 GMT",
+        "imageReference": "bafybeigxkmwa6wimpifwn67ywbggv3dzee3t74jonwhfxdn3hloojggxde@sha256:ca0da1dfb0dfbb52dc28e29cf056225d54913bfcbc931ee9d6cf8d3b96d8c928",
+        "documentation": "QmabuJ2XmWEae3asyHXoJk9GHLBo7FKvDb5WjZjyY4AYJN",
+        "repository": "https://github.com/delineateAI/sybil-bot",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.24"
+    },
+    "signature": "0x91fb5692976dace625a24f95e74fe118d5981f45863617f40ffb4e43836e242e400889cf9b4ef077b861d4a8b8d9c77ede021bd8b4dba4e273e84fddbb48512d1c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Stargate STG Bridge",
+        "agentId": "Large Balance Decrease - Stargate STG Bridge",
+        "agentIdHash": "0x259952782ab7cb9ca42068dde334da5b2d49bf40963f63b3ae97ab25bfbb1046",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 11:39:25 GMT",
+        "imageReference": "bafybeibc3m3h2vnbkzzuosguymrzdug2qpdjswz5bcyhv4cfj3rucl43wq@sha256:1a0adb7d32b707c08b85c0bfcd797ef4f53ea633531d1f3dc025afde8152797d",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xc53256b3f8cd43138ad051064d47f472451182ed1170dcb505af2c1759aa9780494ab6824a872624fd5376e1f4f0c2b85ff87e87766a0cf76dd4ac4a0a0942981c"
+}

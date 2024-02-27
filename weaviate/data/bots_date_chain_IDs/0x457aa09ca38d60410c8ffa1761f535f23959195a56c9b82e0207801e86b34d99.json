@@ -1,0 +1,24 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "suspicious-contract-creation",
+        "description": "Detection bot that triggers on suspicious contract creation",
+        "agentId": "suspicious-contract-creation",
+        "agentIdHash": "0x457aa09ca38d60410c8ffa1761f535f23959195a56c9b82e0207801e86b34d99",
+        "version": "0.0.9",
+        "timestamp": "Wed, 17 Jan 2024 14:58:26 GMT",
+        "imageReference": "bafybeia3noefmfu23cjkieavzyu5dfth2weqxpi2iha45to2clwca3ej7a@sha256:04ae0cec5818a29ced7021b68bae94169fdbf6ed1a1b91055ffcc482936643d1",
+        "documentation": "QmQph6eFuz76bKpdvuWpxYr76jtFGhq9T8w8dGHCA1xwjX",
+        "repository": "https://github.com/forta-network/starter-kits",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            42114
+        ],
+        "publishedFrom": "Forta CLI 0.1.48",
+        "external": false
+    },
+    "signature": "0xce7775fb5a8e80860fb721b09aba2ec47ce89702371699b2a861fadd4e4715ca40677bb8e0d8ea4396cc802a1dde6087635e1059e1ca8daa9ab20c3c5c45c0951b"
+}

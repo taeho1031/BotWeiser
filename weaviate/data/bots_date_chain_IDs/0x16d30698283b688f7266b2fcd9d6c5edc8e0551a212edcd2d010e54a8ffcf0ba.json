@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x40e98Fe8BCc8c0fF48A585bc6f28d504fF17A927",
+        "name": "Forta Staking Parameters",
+        "agentId": "Forta Staking Parameters",
+        "agentIdHash": "0x16d30698283b688f7266b2fcd9d6c5edc8e0551a212edcd2d010e54a8ffcf0ba",
+        "version": "0.0.1",
+        "timestamp": "Tue, 17 May 2022 12:04:10 GMT",
+        "imageReference": "bafybeiaczq3pspxnz3lxpbksraolpmnlaoejnrvv75t7ynwxzqg5lmllbi@sha256:12497a0d34c1586ca7bfa85b9215e62d93ee3cbb7a2b151902b45e3b994486e5",
+        "documentation": "QmQn75nniD5SLuDfXuAQC8D1pspkA2ZNyin4FaCgc4uGDt",
+        "repository": "https://github.com/LimeChain/forta-agent-scripts",
+        "projects": [],
+        "chainIds": [
+            137
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x43e14e5fc8bd83c05098c63e72ac083e58791114ba108d5b911e2321316d484133b2cad452e8098a726605f9774682c04ef2cb3ba5aeb51070d5001cbcbff8981c"
+}

@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x7222fd8b4542616619B1e8891f93832D9D3dA77E",
+        "name": "h2o-bot-1",
+        "description": "H2O Forta Agent first project",
+        "agentId": "h2o-bot-1",
+        "agentIdHash": "0xca37a3d649f09b91e8dcc57116571ff451476bfb2b6c2d784f424a284cff24d6",
+        "version": "0.0.1",
+        "timestamp": "Fri, 16 Dec 2022 16:34:43 GMT",
+        "imageReference": "bafybeib6pe7z4fdf5yljnfslwcrqbpng6yy445lq44s7x3loh6lh7mpvtu@sha256:5daf22a2ea821f3c370e2c89b25902346abef7722ae0fc6b045b287da0781f58",
+        "documentation": "QmZnLK4RxvrXErp8YEHerYknKP8ZBcoSTczoL8d53Ri4Q7",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.15"
+    },
+    "signature": "0x53633cc738a501d6f9c5ca24a810acdff0ba59cfb818eea571940604a172963377fc3bddc52886bbf139af64052379b14a5f87d5f69835816788ed2e45566cfa1c"
+}

@@ -1,0 +1,29 @@
+{
+    "manifest": {
+        "from": "0xB7EC4b33a3228f46901506De71673906646aE678",
+        "name": "phishing-scam-detection-ml-bot",
+        "description": "Ethereum Phishing Scam Detection ML Model",
+        "agentId": "phishing-scam-detection-ml-bot",
+        "agentIdHash": "0xe1a6edcc4fbc912198675d7feb9cee45c7d506d50a1cfa271e3df6ed02c68fd9",
+        "version": "0.0.1",
+        "timestamp": "Tue, 11 Jul 2023 19:09:28 GMT",
+        "imageReference": "bafybeier3dcatyuchh3pdnwd3jdyncrohqpf7fmfa4glwe7j3n2ttvosqe@sha256:a7dc5744fbc5fab31829db95b6b9126de34d9da7d6af844e8b36edc40f28acf7",
+        "documentation": "Qmb6LuMvuLs1vQiuiiNcFgTP3XQ3xuJeWeMkmbwCXwXeZb",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/phishing-scam-ml-py#ethereum-phishing-scam-detection-ml-model",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.33",
+        "chainSettings": {
+            "1": {
+                "shards": 6,
+                "target": 2
+            },
+            "default": {
+                "shards": 2,
+                "target": 2
+            }
+        }
+    },
+    "signature": "0x34816ac29573510f972886d63724ee9a6dc2ce07d46a9a18046c97b27c53b38200c5cdd60fb97d92c6a3924a075acf79f68e83665e5c2ca66562e222de6745231c"
+}

@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Symbiosis Finance Bridge",
+        "agentId": "Large Balance Decrease - Symbiosis Finance Bridge",
+        "agentIdHash": "0xbc1f5127113aeb6332451d5a5e51bf0bdd707c45eca26083e312c2066819a739",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 11:25:57 GMT",
+        "imageReference": "bafybeiegtvjdnv734gwlfzh7tn2xrlpmbz2fa3gvdv4tglpv54du5txc3m@sha256:181a484254660f70ff10107af0a040056d0e7fc50b1b750c10367cfeaf671424",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x84a4269854df85be9f92913bb5fed1a373e3db2692353ec3a5238c86199c55c21e399ed396bc03334a93df31f198ae2e1baecd26cea813fa02ae66a73ae32df61b"
+}

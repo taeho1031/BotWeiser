@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x2C4536B866782d2A3D0B75d66852955a8e8beB35",
+        "name": "implementation-upgraded",
+        "agentId": "implementation-upgraded",
+        "agentIdHash": "0x8228e877d8cf5f5d43edfb1bbced477bc666d6ed5ef041da63ae4f04631c772a",
+        "version": "0.0.1",
+        "timestamp": "Tue, 05 Jul 2022 06:27:08 GMT",
+        "imageReference": "bafybeiaxmtf7bqffzm273lh4aklhwzf5ko5ocqchyiarjsmketlgfslynm@sha256:53c225e21f17f8c32f72336534aa436c2fed67c13d57d9f9d0c89387b8706f25",
+        "documentation": "QmdvoTbvdyQdhymfaeegHFjKxfuP1XU8kUShkDRWUhKuY3",
+        "repository": "",
+        "projects": [
+            "truefi"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0x53be83e39afc4e5ba59928f17ab24f33c8142218d11b4f54237947011946859201ecc6de6c78168324b9fcfeaaf6ea6d9b9a733f858007ce1950e90dbede44aa1b"
+}

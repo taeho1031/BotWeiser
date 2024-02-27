@@ -1,0 +1,25 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "large-profit-bot",
+        "description": "Forta bot that detects large profits",
+        "agentId": "large-profit-bot",
+        "agentIdHash": "0x7cfeb792e705a82e984194e1e8d0e9ac3aa48ad8f6530d3017b1e2114d3519ac",
+        "version": "0.0.12",
+        "timestamp": "Wed, 25 Oct 2023 05:52:12 GMT",
+        "imageReference": "bafybeibohei4yhsqojlkvf6wc7noopxbkbarqqkob3o3zzstybzyh2ybka@sha256:33b4e22e0622d33e3ee7d62be7046c22eef3cf906471bcd093dabdf18e74158f",
+        "documentation": "Qme5WDoexkHHiiFcH2YCdbQrp4YvUv9ED4udnciHRsXXFC",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/large-profit-bot",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.6"
+    },
+    "signature": "0x0a72603b5393cfebe167c83e9234f2b56918ab96f25bd64a3154fbed02936a165512d616a5bfc5f8df76b53ceb5050c1924bd9b96efb8dd970e8aba77dc3b73a1c"
+}

@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x6aea36C4a9Cf8AC053c07E662fa27e8BDF047121",
+        "name": "lido-l2-bridge-balance",
+        "description": "",
+        "longDescription": "",
+        "promoUrl": "",
+        "licenseUrl": "",
+        "agentId": "lido-l2-bridge-balance",
+        "agentIdHash": "0x83c46fb964876b21f410e18cb87a9bcddf26efbdc6a67351a462eb161ece5c68",
+        "version": "0.0.1",
+        "timestamp": "Wed, 10 Jan 2024 11:27:03 GMT",
+        "imageReference": "bafybeihz4jm3uelhx3xw7grqjencl4f3hfmzu2jeebyu6xbbtb56anphhq@sha256:78953d12b4dbd9e143f66dc7b17a0df2b75639160fae02c550be495c3e76b45f",
+        "documentation": "QmPL2Rd5qVTRXJXwrU9W8C3586pJdrh1UFuTov5ng8AMHf",
+        "repository": "https://github.com/lidofinance/alerting-forta/tree/main/l2-bridge-balance",
+        "projects": [
+            "lido"
+        ],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta App 0.1.0",
+        "external": false
+    },
+    "signature": "0xfa3243df49e8a588570e3e766c479d6725180d5e33b4ad0510a6f65fb5fce47342cd79e64b70de4f801153decf4b8b9a3d72e221eb0d4d0ba916ff84d373b53a1b"
+}

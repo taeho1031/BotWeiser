@@ -1,0 +1,27 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Flashbots Transactions Detector",
+        "description": "This bot detects flashbots transactions",
+        "longDescription": "The bot identifies transactions executed Flashbots. Its core purpose is to autonomously recognize and flag transactions that are conducted using the Flashbots mechanism.",
+        "agentId": "flashbots-transactions-detector",
+        "agentIdHash": "0xbc06a40c341aa1acc139c900fd1b7e3999d71b80c13a9dd50a369d8f923757f5",
+        "version": "0.0.8",
+        "timestamp": "Mon, 20 Nov 2023 13:15:44 GMT",
+        "imageReference": "bafybeiejgrnf3lqfcder3tvmlijqjdvwusc6ryqxqa3oqlri6bg22nfx2y@sha256:4bd64117fb573c76e8e911361f6df92724aba462b2a3b0438e88fbceadfdad8e",
+        "documentation": "QmZAyPxgdZDpthQp47ueF6G4darFxndnzUy6wHtie3aU5g",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/flashbots-transactions-detector",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "1": {
+                "shards": 1,
+                "target": 6
+            }
+        }
+    },
+    "signature": "0x13f546bc5e02284ecef6b70fcbd4207b40af69e9930b7c09d2470c5a58ff83c548dd47a1afbd93d9695934a78725287f73b56e75eb6d01adb82835d998fd9cba1b"
+}

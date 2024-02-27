@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x88dC3a2284FA62e0027d6D6B1fCfDd2141a143b8",
+        "name": "Large Balance Decrease - Wormhole Portal Token Bridge",
+        "agentId": "Large Balance Decrease - Wormhole Portal Token Bridge",
+        "agentIdHash": "0x5514223d7d7bf9b1ec1eb5981eb471cb8eb7756fc615ca282de9a157b126694f",
+        "version": "0.0.1",
+        "timestamp": "Sat, 22 Jul 2023 12:04:03 GMT",
+        "imageReference": "bafybeia7ijz4rnsgrfkdkr53fshaffgfmsknnh2r7ep3o2sh2r3t3jal4m@sha256:4f4ec065e16719f520ae037f32fae2d9b971f9ecabaab18a8552d44480c85d22",
+        "documentation": "Qmacky7vLy8gi67BQC9DL2CMieKDRkFVUCBHDRA7FCFU45",
+        "repository": "https://github.com/NethermindEth/forta-starter-kits/tree/main/large-balance-decrease",
+        "projects": [],
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta Explorer 0.0.2"
+    },
+    "signature": "0xb5ba195a15a96cc5922623b9f4a8bcc7127838644cbb028802dd88416bd3f139630e88e12d7f5e4861e5f7676b48cf45171cd86e455c098da46af093351b700c1c"
+}

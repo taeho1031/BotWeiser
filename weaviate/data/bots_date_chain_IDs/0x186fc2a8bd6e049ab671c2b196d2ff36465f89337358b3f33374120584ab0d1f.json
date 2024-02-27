@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "from": "0x65E9e72069713aD2654fbE7Dc7884150aBe6dad0",
+        "name": "forta-agent-starter",
+        "description": "Forta Agent Typescript starter project",
+        "agentId": "forta-agent-starter",
+        "agentIdHash": "0x186fc2a8bd6e049ab671c2b196d2ff36465f89337358b3f33374120584ab0d1f",
+        "version": "0.0.1",
+        "timestamp": "Wed, 17 Jan 2024 01:45:13 GMT",
+        "imageReference": "bafybeidnmalschb42rhwwht22nncvbnenk6azgwuu5wjgzbvsxsky3iviq@sha256:efc15ce32e435696d55b79ab6b2db4893a4d461692526945b268c499a76d7ab4",
+        "documentation": "QmZtQF4Y8vBjDioMRd4JTZQSk6Hec9YM7uHkKzAPG7SoNw",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.32"
+    },
+    "signature": "0x4c59d2bbedfca851056a22eb8f99fea9541a83d3ec088741f7555b6a99d5a51a0b5a7aab39ce4fdc9e9823b50439cf727348ce5095e6c6095b640b270a3939101c"
+}

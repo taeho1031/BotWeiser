@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "from": "0x000000000088E0120F9E6652CC058AeC07564F69",
+        "name": "Pickle Finance Vaults PPS monitor",
+        "agentId": "Pickle Finance Vaults PPS monitor",
+        "agentIdHash": "0x58701b1a11a4ab8aabb32be50dbada27ded4586854ab02bc78dab0a0b97befff",
+        "version": "0.0.1",
+        "publishedFrom": "Forta Connect 0.1.2",
+        "timestamp": "Wed, 16 Feb 2022 14:03:09 CST",
+        "imageReference": "bafybeifchzw7jemxqpszqofcfe5m5edoqq4kmrmxklul5icnbuan3oar3a@sha256:52e4dd6331b3e081eb69358f64bfbec0fa9bcff1639639140fac3724c36d55b0",
+        "repository": "https://github.com/NethermindEth/Forta-Agents/tree/main/Pickle-Finance-Agents/PPS-Value",
+        "documentation": "bafkreibylyf7yxy3zehdcrs4f4y2cck7rlcbm7mmy4pfuf3nireex52a7u",
+        "chainIds": [
+            1
+        ],
+        "projects": [
+            "pickle_finance"
+        ]
+    },
+    "signature": "0x377554940a3055c82146d27d7adf666bdf7fd58db3a2561c183cd11ca75f26e42d44a5962c906dfa2c75555ffb6dcf47eff84c84ce5b32f385c2f27d13c6b4c01b"
+}

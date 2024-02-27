@@ -1,0 +1,26 @@
+{
+    "manifest": {
+        "from": "0x14330879ca506D91edD8077b07E0F1B7EfBD91B2",
+        "name": "forta-bot-evasion",
+        "description": "Bot scanning the blockchain for smart contract trying to circumvent detection",
+        "agentId": "forta-bot-evasion",
+        "agentIdHash": "0xf76ba7d1d681673300b433611d53c27c6a16666c8ee8fbd167314a6297702ef4",
+        "version": "0.5.28",
+        "timestamp": "Thu, 30 Nov 2023 21:59:55 GMT",
+        "imageReference": "bafybeidfqxkbju6egmxkx7ad2bezrx7ygbz4fxwkuzygs2vokaib55shey@sha256:285f345debaa89ccfd80ec0fca48a932ab639bb6e901d9870f26f4d490fd6318",
+        "documentation": "QmXvXiYNZxWBkRuHqfRHxQQ5Sf8DTCcqQqBdWc3N3WJUAN",
+        "repository": "https://github.com/apehex/forta-bots-evasion/",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "default": {
+                "shards": 4,
+                "target": 2
+            }
+        }
+    },
+    "signature": "0xf7fd39193b97e2c527d6c98391c5d2278f8f06ff979fe21ae33b26d3c12265b6177004c3ddb18cdbdcb47637221f6c3c610b01151298b91d352ae096c9ba6ffd1b"
+}

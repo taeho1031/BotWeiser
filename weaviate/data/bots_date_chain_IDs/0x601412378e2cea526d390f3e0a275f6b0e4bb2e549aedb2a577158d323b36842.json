@@ -1,0 +1,19 @@
+{
+    "manifest": {
+        "from": "0x629800B0ED3c1E2A4846218ad10322BBFd317C3C",
+        "name": "rake-token-hidden-fee",
+        "description": "This Forta Agent monitors Ethereum transactions for swaps involving ERC20 tokens and detects if the transaction includes ETH transfers. It generates an alert if such a transaction is found, including the sender address, ERC20 token address, amount of ETH received by the sender, amount of ETH received as a fee by the fee collector address, and the fee percentage",
+        "agentId": "rake-token-hidden-fee",
+        "agentIdHash": "0x601412378e2cea526d390f3e0a275f6b0e4bb2e549aedb2a577158d323b36842",
+        "version": "0.0.1",
+        "timestamp": "Mon, 17 Apr 2023 18:47:08 GMT",
+        "imageReference": "bafybeicg6m4jwf64xh653oadmrok7ohadmg75x53azk6wolz5jkenvwa6u@sha256:8874ff528c867345f6169cd58744aac8b2a7e5fd6b3d75410fcaa3343895e18d",
+        "documentation": "QmaRGHHpZkHrRW2b7TPuAHk7FQV3j25GP5bBjSPAp12Yu4",
+        "repository": "https://github.com/0xbhagi/rake-token-hidden-fee",
+        "chainIds": [
+            1
+        ],
+        "publishedFrom": "Forta CLI 0.1.26"
+    },
+    "signature": "0xdb1428ccb862665d936cb2c2c62db39ed2cec70d87aecb7b74b762613a69d6583a72867bb394d59fda66ff9de6bbb2eed493f533c3b398a741c26935bc367cae1c"
+}

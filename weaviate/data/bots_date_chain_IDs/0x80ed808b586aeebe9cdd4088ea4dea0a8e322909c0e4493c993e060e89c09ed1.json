@@ -1,0 +1,35 @@
+{
+    "manifest": {
+        "from": "0xad7547d09015664943d0A7c1BeA47f28dF298EC0",
+        "name": "Attack Detector Feed",
+        "description": "Identifies protocol attacks in real-time; often before any digital assets are being stolen",
+        "longDescription": "The Attack Detector provides real-time alerts regarding smart contract exploits - prior to, during or directly after the attack. It is collectively maintained by the Forta Foundation, Nethermind and members of the Forta developer community. Utilizing cutting edge smart contract exploit and advanced anomaly detection powered by advanced ML models, the Attack Detector monitors activity along the exploit lifecycle (funding, preparation, exploitation, money laundering) and emits high confidence alerts during these 4 stages of an attack. Used by DeFi protocols, institutional investors, hedge funds, and other industry participants with direct or indirect exposure to DeFi smart contract risk. Attack Detector alerts are emitted in real-time to your preferred communication channel (webhook, Slack, TG, etc.), giving your team the crucial lead time to respond. Read about how the Attack Detector fired several early warning alerts on multiple incoming attacks such as the $197 M Euler exploit. Learn more in the documentation below, and request a free trial today.",
+        "agentId": "attack-detector-feed",
+        "agentIdHash": "0x80ed808b586aeebe9cdd4088ea4dea0a8e322909c0e4493c993e060e89c09ed1",
+        "version": "3.52.5",
+        "timestamp": "Mon, 18 Dec 2023 17:12:59 GMT",
+        "imageReference": "bafybeigawvmetced3mqlz2bmhoqw4wsmwxp2e7vedwjjeoj4cj5jg2xsmm@sha256:7f2142e24059c6db66b4f636a7f21ff4de86ff261a64516b806239d93472a28a",
+        "documentation": "QmZpf7BrDYyBqhPdzQ3Y5bbRevQfYDABCzuag7ZPL8kXdV",
+        "repository": "https://github.com/forta-network/starter-kits/tree/main/alert-combiner-py",
+        "licenseUrl": "https://github.com/forta-network/starter-kits/tree/main/alert-combiner-py/LICENSE",
+        "promoUrl": "https://drive.google.com/file/d/1VWb9LtkFT1z72XmrkNyCq6hDkYQnrS5Z/view?pli=1",
+        "chainIds": [
+            1,
+            10,
+            56,
+            137,
+            250,
+            42161,
+            43114
+        ],
+        "publishedFrom": "Forta CLI 0.1.45",
+        "external": false,
+        "chainSettings": {
+            "default": {
+                "shards": 8,
+                "target": 4
+            }
+        }
+    },
+    "signature": "0xab9c12f6e824e89c40678a8388e3786034fe74e6c5e8ed5b896276e6df51a3e3632329006f5b0f8545d96749acbbdbc602fa7a290aa68f0b8f090a6e48c3aba31b"
+}
