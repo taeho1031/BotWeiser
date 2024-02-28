@@ -71,7 +71,7 @@ class WeaviateSearch:
         if chainIds:
             where_filter  = {
                 "path": ["chainIds"], 
-                "operator": "ContainsAny", 
+                "operator": "ContainsAll", 
                 "valueNumber": chainIds
             }
             
