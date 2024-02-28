@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 json_prompt = "convert the query supplied at the end inside triple backticks to a single json object\
             Additional information:\
-            Chain Ids(only include these chain Ids): \
+            Chain Ids(only include these chain Ids if specified): \
             - 1: Ethereum Mainnet \
             - 42114: Avalanche Fuji C-Chain \
             - 5: Goerli (Ethereum Testnet) \
