@@ -65,9 +65,7 @@ class WeaviateSearch:
                 batch.add_data_object(properties, "FortaBot")
 
     def search_with_prompt(self, concepts, chainIds, limit=3):
-    
-        # print(concepts)
-        # print(f"{chainIds=}")
+
         if chainIds:
             where_filter  = {
                 "path": ["chainIds"], 
@@ -84,8 +82,7 @@ class WeaviateSearch:
                 .with_limit(limit)
                 .do()
             )
-            # print(f"1{response=}")
-
+         
         else:
             response = (
                 self.client.query
@@ -99,7 +96,27 @@ class WeaviateSearch:
         
         
         response_json = json.dumps(response, indent=2)
-        # print(f"{response_json=}")
 
         return response_json
+    
+    def search_with_botId(self, concepts, bot_id, limit = 1):
+        
+        idFilter = {
+            "path": ["bot_id"], 
+            "operator": "Equal", 
+            "valueText": bot_id
+        }
+        
+        response = (
+                self.client.query
+                .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
+                .with_where(idFilter)
+                .with_generate(single_prompt="Summarize {description} a single short paragraph in 3-5 sentences.")
+                .with_limit(limit)
+                .do()
+            )
+        
+        if not response.get("data"):
+            return "Bot_id Not found"
 
+        return response

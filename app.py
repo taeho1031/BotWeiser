@@ -20,7 +20,12 @@ def get_response():
         response_text = 'Please try Again!'
         print('Please try Again!')
     else:
-        response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])
+        
+        if search_json["bot_id"]:
+            print('Searching with bot_id')
+            response_text = weave.search_with_botId(search_json["description"], search_json["bot_id"])
+        else:
+            response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])
         print("send result")
     # old_input = user_input
 
@@ -63,6 +68,7 @@ def get_response():
         #     response_text = "An error occurred: " + str(e)
 
     # print(f"{response_text=}")
+    print(f"{response_text=}")
     return jsonify({"responseText": response_text})
 
 if __name__ == '__main__':
