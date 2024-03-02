@@ -8,7 +8,7 @@ def get_weaviate_client():
     script_directory = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the absolute path to config.json
-    config_path = os.path.join(script_directory, '..', 'config.json')
+    config_path = os.path.join(script_directory,  'config.json')
 
     # Modified path using a raw string literal
     with open(config_path, 'r') as config_file:

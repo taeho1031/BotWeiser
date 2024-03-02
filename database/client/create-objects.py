@@ -20,7 +20,7 @@ if client.schema.exists("FortaBot"):
 client.schema.create_class(class_obj)
 
 # Update the file path construction using os.path.join
-file_path = os.path.join('weaviate', 'data', 'bots.json')
+file_path = os.path.join('database', 'data', 'bots.json')
 
 with open(file_path, 'r', encoding='utf-8') as json_file:
     data = json.load(json_file)
