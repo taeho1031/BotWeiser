@@ -19,7 +19,8 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
   const botUrl = `https://app.forta.network/bot/${id}`;
 
   const copyToClipboard = (text) => {
-    navigator.clipboard.writeText(text)
+    navigator.clipboard
+      .writeText(text)
       .then(() => {
         console.log("Chain id copied to clipboard:", text);
       })
@@ -31,19 +32,19 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
   // chain ID to icon image mapping
   const getIconFileName = (chainId) => {
     const fileNameMapping = {
-        1: eth,
-        42114: avax,
-        5: eth,
-        137: matic,
-        10: op,
-        43114: avax,
-        42220: celo,
-        42161: arb,
-        56: bsc,
-        250: ftm
+      1: eth,
+      42114: avax,
+      5: eth,
+      137: matic,
+      10: op,
+      43114: avax,
+      42220: celo,
+      42161: arb,
+      56: bsc,
+      250: ftm,
     };
     return fileNameMapping[chainId] || "forta-logo-white-circle.png";
-};
+  };
 
   // Render the BotCard with details such as name, description, id, and chain_ids.
   return (
@@ -77,7 +78,10 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
       {/* Bot ID */}
       <div style={{ display: "flex", alignItems: "center" }}>
         {/* Truncated chain id */}
-        <span>{id.substring(0, 6)}...{id.substring(id.length - 4)}</span>
+        <text>Bot ID: </text>
+        <span>
+          {id.substring(0, 6)}...{id.substring(id.length - 4)}
+        </span>
         {/* Clipboard icon to copy the full chain id to clipboard */}
         <img
           src={clipboard}

@@ -4,7 +4,7 @@
 import React from "react";
 import BotIcon from "../../../../assets/icons/forta-logo-white-circle.png";
 //import BotIcon from "..\\assets\\icons\\forta-logo-white-circle.png";
-import UserIcon from "../../../../assets/icons/UserIcon.png"
+import UserIcon from "../../../../assets/icons/UserIcon.png";
 //import UserIcon from "..\\assets\\icons\\UserIcon.png";
 import "./ResponseCard.css";
 
@@ -25,7 +25,7 @@ export const ResponseCard = ({ children, isBot }) => {
       <div className="response-card-body">
         {/* Header indicating whether the response is from a bot or the user */}
         <div className="response-card-header">
-          {isBot ? <text>Bot:</text> : <text>You:</text>}
+          {isBot ? <text>BotWeiser:</text> : <text>You:</text>}
         </div>
 
         {/* Body containing the actual response content */}
