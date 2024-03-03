@@ -3,6 +3,7 @@
 
 import React from "react";
 import "./BotCard.css";
+import clipboard from "..\\src\\assets\\icons\\clipboard.png";
 import eth from "..\\src\\assets\\icons\\eth.png";
 import avax from "..\\src\\assets\\icons\\avax.png";
 import matic from "..\\src\\assets\\icons\\matic.png";
@@ -16,6 +17,16 @@ import ftm from "..\\src\\assets\\icons\\ftm.png";
 export const BotCard = ({ id, name, chain_ids, description }) => {
   // URL for the bot's dedicated page.
   const botUrl = `https://app.forta.network/bot/${id}`;
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        console.log("Chain id copied to clipboard:", text);
+      })
+      .catch((error) => {
+        console.error("Failed to copy chain id to clipboard:", error);
+      });
+  };
 
   // chain ID to icon image mapping
   const getIconFileName = (chainId) => {
@@ -64,7 +75,20 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
       </div>
 
       {/* Bot ID */}
-      <div className="BotCard__id">{id}</div>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        {/* Truncated chain id */}
+        <span>{id.substring(0, 6)}...{id.substring(id.length - 4)}</span>
+        {/* Clipboard icon to copy the full chain id to clipboard */}
+        <img
+          src={clipboard}
+          alt="Copy to clipboard"
+          height={25}
+          width={25}
+          style={{ cursor: "pointer", filter: "brightness(100%)" }}
+          onClick={() => copyToClipboard(id)}
+          title="Copy to clipboard" // Tooltip text
+        />
+      </div>
 
       {/* Description of the Bot */}
       <div className="BotCard__description">{description}</div>
