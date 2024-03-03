@@ -116,8 +116,10 @@ class WeaviateSearch:
         )
         
         if not response.get("data") or not response["data"]["Get"]["FortaBot"]:
-            return "Bot_id Not found"
+            result = "Bot ID Not found. Please provide me valid Blockchain Bot ID or relevant information"
+            return result
         
-        response_json = json.dumps(response, indent=2)
+        else:
+            result = json.dumps(response, indent=2)
 
-        return response_json
+        return result
