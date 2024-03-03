@@ -45,6 +45,8 @@ export const Response = ({ userInput, isFirstResponse }) => {
     responseData = null;
   }
 
+  console.log(responseData);
+
   // Render the ResponseCard with BotCard components based on response data.
   return (
     <ResponseCard isBot={true}>
@@ -60,7 +62,7 @@ export const Response = ({ userInput, isFirstResponse }) => {
                 <BotCard
                   id={botData.bot_id}
                   name={botData.name}
-                  chain_ids={botData.chainIds.join(", ")}
+                  chain_ids={botData.chainIds}
                   description={botData.description}
                 />
                 <hr />

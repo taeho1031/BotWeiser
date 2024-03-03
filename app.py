@@ -6,69 +6,35 @@ from openai import AsyncOpenAI
 from database.client.weaveight import WeaviateSearch
 from GPT.GPT_Connect.GPTConnect import JsonGPT
 
-
+DEPLOY_URL = "http://localhost:3000"
 app = Flask(__name__)
-CORS(app, resources={r"/get-response*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/get-response*": {"origins": DEPLOY_URL}})
 norf = JsonGPT("Start Here")
 weave = WeaviateSearch()
 @app.route('/get-response', methods=['GET'])
+
 def get_response():
     user_input = request.args.get('userInput')
     
     search_json = norf.recieve_chat(user_input)
     if type(search_json) == type('') or search_json == None:
-        response_text = 'Please try Again!'
-        print('Please try Again!')
+        response_text = 'Please try again! Provide information that is relevant to blockchain bots only'
     else:
         
         if search_json["bot_id"]:
-            print('Searching with bot_id')
             response_text = weave.search_with_botId(search_json["description"], search_json["bot_id"])
+            # Reset the GPTConnect conversation
+            norf.refresh_conversation()
         else:
             response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])
         print("send result")
-    # old_input = user_input
 
-    # norf = JsonGPT(user_input)
-    # weave = WeaviateSearch()
-    # search_json = norf.getJsonObjectSearch()
 
-    # print(f'{user_input=}')
     is_first_response = request.args.get('isFirstResponse') == 'true'
 
     if is_first_response:
-        response_text = "Hi, I am Botweiser! Here to help you find your perfect blockchain security bot."
-    # else:
-        # try:
-    #         # openai_response = openai.chat.completions.create(
-    #         #     model="gpt-3.5-turbo",
-    #         #     messages=[
-    #         #         {"role": "system", "content": "You are a helpful assistant."},
-    #         #         {"role": "user", "content": user_input},
-    #         #     ]
-    #         # )
-    #         # # Extract the actual message content from the response
-    #         # print(openai_response)
-    #         # response_text = openai_response.choices[0].message.content
-    #         # print(f'{response_text=}')
-    #         while True:
-    #             if type(search_json) == type('') or search_json == None:
-    #                 print('Please try Again!')
-    #             else:
-    #                 results = weave.search_with_prompt(search_json["description"])
-    #                 print("send result")
-    #             user_input = request.args.get('userInput')
-    #             while old_input == user_input:
-    #                 user_input = request.args.get('userInput')
-    #             old_input = user_input
-    #             search_json = norf.recieve_chat(user_input)
-    #             print(f'{user_input=}')
-
-        # except Exception as e:
-        #     response_text = "An error occurred: " + str(e)
-
-    # print(f"{response_text=}")
-    print(f"{response_text=}")
+        response_text = "Hello, I'm Botweiser! My purpose is to assist you in discovering the ideal blockchain security bot for your needs.\nPlease share any specific details or preferences you have, and I'll guide you through finding the perfect match."
+    
     return jsonify({"responseText": response_text})
 
 if __name__ == '__main__':

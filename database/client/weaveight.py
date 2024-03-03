@@ -118,5 +118,7 @@ class WeaviateSearch:
         
         if not response.get("data"):
             return "Bot_id Not found"
+        
+        response_json = json.dumps(response, indent=2)
 
-        return response
+        return response_json
