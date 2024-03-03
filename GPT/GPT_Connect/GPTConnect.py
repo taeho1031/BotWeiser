@@ -39,11 +39,11 @@ class JsonGPT:
             "properties": {
                 "bot_id":{
                     "type": "string",
-                    "description": "hexadecimal Id, if not specified leave as null"
+                    "description": "hexadecimal Id, if not specified leave as None"
                 },
                 "description":{
                     "type": "string",
-                    "description": "Provide general description of possible blockchain bot from the user prompt."
+                    "description": "Provide general description of possible blockchain bot from the user prompt. If bot id is not None, make description None"
                 },
                 "timestamp":{
                     "type": "string",
@@ -82,3 +82,6 @@ class JsonGPT:
             print(f"Error decoding JSON: {e}")
             return None
     
+    def refresh_conversation(self):
+        self.query = ""
+        self.conversation = []
