@@ -60,7 +60,7 @@ export const Response = ({ userInput, isFirstResponse }) => {
                 <BotCard
                   id={botData.bot_id}
                   name={botData.name}
-                  chain_ids={botData.chainIds.join(", ")}
+                  chain_ids={botData.chainIds}
                   description={botData.description}
                 />
                 <hr />

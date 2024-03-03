@@ -30,3 +30,33 @@
 .BotCard__description {
   padding-top: 20px;
 }
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-color: #1b1b1c;
+  width: 95%;
+  margin: 1vh 0 2vh 0;
+  padding: 15px;
+}
+
+.logo {
+  margin-right: 10px; 
+}
+
+.logo img {
+  margin-right: 5px; 
+}
+
+.BotCard__id {
+  margin-top: 5px; 
+}
+

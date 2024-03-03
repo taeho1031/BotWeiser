@@ -3,33 +3,71 @@
 
 import React from "react";
 import "./BotCard.css";
+import eth from "..\\src\\assets\\icons\\eth.png";
+import avax from "..\\src\\assets\\icons\\avax.png";
+import matic from "..\\src\\assets\\icons\\matic.png";
+import op from "..\\src\\assets\\icons\\op.png";
+import celo from "..\\src\\assets\\icons\\celo.png";
+import arb from "..\\src\\assets\\icons\\arb.png";
+import bsc from "..\\src\\assets\\icons\\bsc.png";
+import ftm from "..\\src\\assets\\icons\\ftm.png";
 
 // Functional component BotCard, displaying details of a specific bot.
 export const BotCard = ({ id, name, chain_ids, description }) => {
   // URL for the bot's dedicated page.
   const botUrl = `https://app.forta.network/bot/${id}`;
 
+  // chain ID to icon image mapping
+  const getIconFileName = (chainId) => {
+    const fileNameMapping = {
+        1: eth,
+        42114: avax,
+        5: eth,
+        137: matic,
+        10: op,
+        43114: avax,
+        42220: celo,
+        42161: arb,
+        56: bsc,
+        250: ftm
+    };
+    return fileNameMapping[chainId] || "forta-logo-white-circle.png";
+};
+
   // Render the BotCard with details such as name, description, id, and chain_ids.
   return (
+    // Inside the BotCard component's return statement
     <div className="wrapper">
-      {/* Link to the bot's dedicated page */}
-      <a
-        className="BotCard__title"
-        href={botUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div>{name}</div>
-      </a>
+      <div className="title-container">
+        <a
+          className="BotCard__title"
+          href={botUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* Bot Name */}
+          {name}
+        </a>
 
-      {/* Description of the bot */}
-      <div className="BotCard__description">{description}</div>
+        {/* Blockchain Logo */}
+        <div className="logo">
+          {chain_ids.map((chainId, index) => (
+            <img
+              key={index}
+              src={getIconFileName(chainId)}
+              alt={`Icon for ${chainId}`}
+              width={25}
+              height={25}
+            />
+          ))}
+        </div>
+      </div>
 
       {/* Bot ID */}
-      <div>{id}</div>
+      <div className="BotCard__id">{id}</div>
 
-      {/* Chain IDs associated with the bot */}
-      <div>{chain_ids}</div>
+      {/* Description of the Bot */}
+      <div className="BotCard__description">{description}</div>
     </div>
   );
 };
