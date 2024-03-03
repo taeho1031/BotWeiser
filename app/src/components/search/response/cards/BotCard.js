@@ -3,6 +3,7 @@
 
 import React from "react";
 import "./BotCard.css";
+import clipboard from "../../../../assets/icons/clipboard.png";
 import eth from "../../../../assets/icons/eth.png";
 import avax from "../../../../assets/icons/avax.png";
 import matic from "../../../../assets/icons/matic.png";

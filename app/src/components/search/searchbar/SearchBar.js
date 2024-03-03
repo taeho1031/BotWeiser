@@ -5,7 +5,7 @@ import TextareaAutosize from "react-textarea-autosize";
 export const SearchBar = ({ onUserInput }) => {
   const [userInput, setUserInput] = useState("");
   const [placeholder, setPlaceholder] = useState("");
-  const phrases = ["Ask the Assistant...", "I want a scam bot on Ethereum blochcain", 'Can you find me a money-laundering bot?'];
+  const phrases = ["Ask the Assistant...", "I want a scam bot on Ethereum blockchain", 'Can you find me a money-laundering bot?'];
 
   useEffect(() => {
     let phraseIndex = 0;
