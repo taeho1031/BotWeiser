@@ -5,36 +5,37 @@
   width: 80%;
   height: 100%;
   color: white;
-  .response-container {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 100%;
-    justify-content: left;
-    overflow-y: auto; /* Enable vertical scrolling */
-    height: 20vh;
-    padding: 10px;
-  }
+}
 
-  .searchbar-container {
-    padding: 10px;
-    width: 90%;
-    display: flex;
-  }
+.search-block-container .response-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: left;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 20vh;
+  padding: 10px;
+}
 
-  /* Style the scrollbar track */
-  .response-container::-webkit-scrollbar {
-    width: 3px; /* Set the width of the scrollbar */
-  }
+.search-block-container .searchbar-container {
+  padding: 10px;
+  width: 90%;
+  display: flex;
+}
 
-  /* Style the scrollbar handle */
-  .response-container::-webkit-scrollbar-thumb {
-    background-color: #9fd3c7; /* Set the color of the scrollbar handle */
-    border-radius: 6px; /* Optional: Add rounded corners to the scrollbar handle */
-  }
+/* Style the scrollbar track */
+.search-block-container .response-container::-webkit-scrollbar {
+  width: 3px; /* Set the width of the scrollbar */
+}
 
-  /* Style the scrollbar track on hover */
-  .response-container::-webkit-scrollbar-track:hover {
-    background-color: transparent; /* Set the color of the scrollbar track on hover */
-  }
+/* Style the scrollbar handle */
+.search-block-container .response-container::-webkit-scrollbar-thumb {
+  background-color: #9fd3c7; /* Set the color of the scrollbar handle */
+  border-radius: 6px; /* Optional: Add rounded corners to the scrollbar handle */
+}
+
+/* Style the scrollbar track on hover */
+.search-block-container .response-container::-webkit-scrollbar-track:hover {
+  background-color: transparent; /* Set the color of the scrollbar track on hover */
 }

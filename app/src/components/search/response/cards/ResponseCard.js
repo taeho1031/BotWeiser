@@ -25,7 +25,7 @@ export const ResponseCard = ({ children, isBot }) => {
       <div className="response-card-body">
         {/* Header indicating whether the response is from a bot or the user */}
         <div className="response-card-header">
-          {isBot ? <text>Bot:</text> : <text>You:</text>}
+          {isBot ? <text>BotWeiser:</text> : <text>You:</text>}
         </div>
 
         {/* Body containing the actual response content */}

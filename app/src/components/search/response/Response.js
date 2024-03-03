@@ -4,11 +4,35 @@
 import React, { useState, useEffect } from "react";
 import { ResponseCard } from "./cards/ResponseCard";
 import { BotCard } from "./cards/BotCard";
-
+import './Response.css'
 export const Response = ({ userInput, isFirstResponse }) => {
   // State variable to manage the content of the response.
   const [responseContent, setResponseContent] = useState(null);
+  const [showFullDescriptions, setShowFullDescriptions] = useState({});
+  const [showFullAdditional, setShowFullAdditional] = useState({});
 
+  const toggleDescriptionVisibility = (botId) => {
+    setShowFullDescriptions((prev) => ({
+      ...prev,
+      [botId]: !prev[botId],
+    }));
+  };
+
+  const toggleAdditionalVisibility = (botId) => {
+    setShowFullAdditional((prevShow) => ({
+      ...prevShow,
+      [botId]: !prevShow[botId],
+    }));
+  };
+
+  // const [showFullDescriptions, setShowFullDescriptions] = useState({});
+
+  // const toggleDescriptionVisibility = (botId) => {
+  //   setShowFullDescriptions((prevShowFullDescriptions) => ({
+  //     ...prevShowFullDescriptions,
+  //     [botId]: !prevShowFullDescriptions[botId],
+  //   }));
+  // };
   // Effect hook to fetch response data when user input or isFirstResponse changes.
   useEffect(() => {
     const fetchData = async () => {
@@ -40,6 +64,7 @@ export const Response = ({ userInput, isFirstResponse }) => {
   // Try parsing JSON response content; handle errors.
   try {
     responseData = JSON.parse(responseContent);
+    console.log("Description:", responseData.description);
   } catch (error) {
     console.error("Error parsing JSON: ", error);
     responseData = null;
@@ -53,9 +78,14 @@ export const Response = ({ userInput, isFirstResponse }) => {
         responseData.data &&
         responseData.data.Get &&
         responseData.data.Get.FortaBot ? (
-          responseData.data.Get.FortaBot.map((botData, index) => (
-            <div key={index}>
-              <>
+          responseData.data.Get.FortaBot.map((botData, index) => {
+            // Debugging: Log each bot's description to the console
+            const showFull = showFullAdditional[botData.bot_id];
+
+            console.log(`Bot ${index} Description:`, `${botData._additional.generate.singleResult}`);
+
+            return (
+              <div key={index}>
                 {/* Render BotCard component with bot details */}
                 <BotCard
                   id={botData.bot_id}
@@ -65,14 +95,15 @@ export const Response = ({ userInput, isFirstResponse }) => {
                 />
                 <hr />
                 {/* Render additional bot details as HTML */}
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: botData._additional.generate.singleResult,
-                  }}
-                />
-              </>
-            </div>
-          ))
+                <div className={`additional-details ${showFull ? 'additional-details--expanded' : ''}`}
+        dangerouslySetInnerHTML={{ __html: botData._additional.generate.singleResult }} 
+      />
+                <button className = {'read_more_button'} onClick={() => toggleAdditionalVisibility(botData.bot_id)}>
+                  {showFull ? 'Show Less...' : 'Show More...'}
+                </button>
+              </div>
+            );
+          })
         ) : (
           // Render simple paragraph for non-bot responses
           <p>{responseContent}</p>

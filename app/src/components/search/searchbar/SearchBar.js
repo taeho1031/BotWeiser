@@ -1,42 +1,75 @@
-// File: SearchBar.js
-// Description: This file defines the SearchBar component, which provides a text input area with dynamic resizing for user input.
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./SearchBar.css";
 import TextareaAutosize from "react-textarea-autosize";
 
 export const SearchBar = ({ onUserInput }) => {
-  // State variable to track user input.
   const [userInput, setUserInput] = useState("");
+  const [placeholder, setPlaceholder] = useState("");
+  const phrases = ["Ask the Assistant...", "I want a scam bot on Ethereum blochcain", 'Can you find me a money-laundering bot?'];
 
-  // Event handler for input change.
+  useEffect(() => {
+    let phraseIndex = 0;
+    let letterIndex = 0;
+    let isDeleting = false;
+    let timer = null;
+
+    const typeWriter = () => {
+      const currentPhrase = phrases[phraseIndex];
+      const updatePlaceholder = (text) => setPlaceholder(text);
+
+      if (isDeleting) {
+        // Update for deletion
+        if (letterIndex > 0) {
+          letterIndex--;
+          updatePlaceholder(currentPhrase.slice(0, letterIndex));
+          timer = setTimeout(typeWriter, speedBackward);
+        } else {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          timer = setTimeout(typeWriter, delayBeforeStart);
+        }
+      } else {
+        // Update for typing
+        if (letterIndex < currentPhrase.length) {
+          letterIndex++;
+          updatePlaceholder(currentPhrase.slice(0, letterIndex));
+          timer = setTimeout(typeWriter, speedForward);
+        } else {
+          isDeleting = true;
+          timer = setTimeout(typeWriter, pauseEnd);
+        }
+      }
+    };
+
+    timer = setTimeout(typeWriter, delayBeforeStart);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Control variables
+  const speedForward = 100; // Typing speed (milliseconds per character)
+  const speedBackward = 100; // Deleting speed (milliseconds per character)
+  const pauseEnd = 2000; // Delay between finishing typing and starting deleting
+  const delayBeforeStart = 500; // Delay before starting to type a new phrase
+
   const handleChange = (e) => {
     setUserInput(e.target.value);
   };
 
-  // Event handler for Enter key press. Calls the onUserInput callback and resets user input.
   const handleKeyPress = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
-      e.preventDefault(); // Prevent the default behavior of the Enter key
+      e.preventDefault();
       onUserInput(userInput);
       setUserInput("");
     }
   };
 
-  // Constants for defining minimum and maximum rows in the textarea.
   const minRows = 1;
   const maxRows = 5;
 
-  // Calculate the number of lines in the textarea.
-  const numLines = userInput.split(/\r*\n/).length;
-
-  // Determine whether the content overflows to enable scrolling.
-  const isOverflowing = numLines > maxRows;
-
-  // Render the TextareaAutosize component with specified styles and event handlers.
   return (
     <TextareaAutosize
-      placeholder="Ask the Assistant..."
+      placeholder={placeholder}
       value={userInput}
       onChange={handleChange}
       onKeyDown={handleKeyPress}
@@ -44,14 +77,15 @@ export const SearchBar = ({ onUserInput }) => {
       maxRows={maxRows}
       style={{
         fontSize: "0.9rem",
-        color: "white",
+        color: "black",
         width: "100%",
         padding: "7px",
         resize: "none",
-        overflowY: isOverflowing ? "scroll" : "hidden",
-        border: "2px solid white", // Add your border color here
-        borderRadius: "5px", // Optional: Add border-radius for rounded corners
+        overflowY: "hidden",
+        border: "2px solid white",
+        borderRadius: "5px",
         transition: "border 0.3s",
+        backgroundColor: "white",
       }}
       onBlur={(e) => (e.target.style.outline = "none")}
     />

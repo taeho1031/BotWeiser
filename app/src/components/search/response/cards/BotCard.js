@@ -3,14 +3,14 @@
 
 import React from "react";
 import "./BotCard.css";
-import eth from "..\\src\\assets\\icons\\eth.png";
-import avax from "..\\src\\assets\\icons\\avax.png";
-import matic from "..\\src\\assets\\icons\\matic.png";
-import op from "..\\src\\assets\\icons\\op.png";
-import celo from "..\\src\\assets\\icons\\celo.png";
-import arb from "..\\src\\assets\\icons\\arb.png";
-import bsc from "..\\src\\assets\\icons\\bsc.png";
-import ftm from "..\\src\\assets\\icons\\ftm.png";
+import eth from "../../../../assets/icons/eth.png";
+import avax from "../../../../assets/icons/avax.png";
+import matic from "../../../../assets/icons/matic.png";
+import op from "../../../../assets/icons/op.png";
+import celo from "../../../../assets/icons/celo.png";
+import arb from "../../../../assets/icons/arb.png";
+import bsc from "../../../../assets/icons/bsc.png";
+import ftm from "../../../../assets/icons/ftm.png";
 
 // Functional component BotCard, displaying details of a specific bot.
 export const BotCard = ({ id, name, chain_ids, description }) => {
