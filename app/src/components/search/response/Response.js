@@ -45,8 +45,6 @@ export const Response = ({ userInput, isFirstResponse }) => {
     responseData = null;
   }
 
-  console.log(responseData);
-
   // Render the ResponseCard with BotCard components based on response data.
   return (
     <ResponseCard isBot={true}>
@@ -77,7 +75,7 @@ export const Response = ({ userInput, isFirstResponse }) => {
           ))
         ) : (
           // Render simple paragraph for non-bot responses
-          <p>{responseContent}</p>
+          <p dangerouslySetInnerHTML={{ __html: responseContent }}></p>
         )
       ) : (
         // Render loading message during data fetch

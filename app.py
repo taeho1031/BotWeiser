@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Markup
 from flask_cors import CORS
 import openai
 from openai import AsyncOpenAI
@@ -33,7 +33,7 @@ def get_response():
     is_first_response = request.args.get('isFirstResponse') == 'true'
 
     if is_first_response:
-        response_text = "Hello, I'm Botweiser! My purpose is to assist you in discovering the ideal blockchain security bot for your needs.\nPlease share any specific details or preferences you have, and I'll guide you through finding the perfect match."
+        response_text = Markup("Hello, I'm Botweiser! My purpose is to assist you in discovering the ideal blockchain security bot for your needs.<br>Please share any specific details or preferences you have, and I'll guide you through finding the perfect match.<br>You can also search by specific id of blockchain bot one at a time.")
     
     return jsonify({"responseText": response_text})
 
