@@ -20,9 +20,9 @@ def get_response():
     if type(search_json) == type('') or search_json == None:
         response_text = 'Please try again! Provide information that is relevant to blockchain bots only'
     else:
-        
+
         if search_json["bot_id"]:
-            response_text = weave.search_with_botId(search_json["description"], search_json["bot_id"])
+            response_text = weave.search_with_botId(search_json["bot_id"])
             # Reset the GPTConnect conversation
             norf.refresh_conversation()
         else:

@@ -43,7 +43,7 @@ class JsonGPT:
                 },
                 "description":{
                     "type": "string",
-                    "description": "Provide general description of possible blockchain bot from the user prompt."
+                    "description": "Provide general description of possible blockchain bot from the user prompt. If bot id is not None, make description None"
                 },
                 "timestamp":{
                     "type": "string",

@@ -92,14 +92,13 @@ class WeaviateSearch:
                 .with_limit(limit)
                 .do()
             )
-            # print(f"2{response=}")
         
         
         response_json = json.dumps(response, indent=2)
 
         return response_json
     
-    def search_with_botId(self, concepts, bot_id, limit = 1):
+    def search_with_botId(self, bot_id, limit = 1):
         
         idFilter = {
             "path": ["bot_id"], 
@@ -108,15 +107,15 @@ class WeaviateSearch:
         }
         
         response = (
-                self.client.query
-                .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
-                .with_where(idFilter)
-                .with_generate(single_prompt="Summarize {description} a single short paragraph in 3-5 sentences.")
-                .with_limit(limit)
-                .do()
-            )
+            self.client.query
+            .get("FortaBot", ['bot_id', "name", 'timestamp', 'chainIds', "_additional { certainty }"])
+            .with_where(idFilter)
+            .with_generate(single_prompt="Summarize {description} a single short paragraph in 3-5 sentences.")
+            .with_limit(limit)
+            .do()
+        )
         
-        if not response.get("data"):
+        if not response.get("data") or not response["data"]["Get"]["FortaBot"]:
             return "Bot_id Not found"
         
         response_json = json.dumps(response, indent=2)
