@@ -2,3 +2,19 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+.additional-details {
+  max-height: 54px;
+  overflow: hidden;
+  color: white;
+}
+
+.additional-details--expanded {
+  max-height: none;
+}
+
+.read_more_button{
+  border-width: 0px;
+  font-size: 1em;
+  cursor: pointer;
+  color: #1affd9;
+}

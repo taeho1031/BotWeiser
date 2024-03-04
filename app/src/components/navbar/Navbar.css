@@ -15,31 +15,50 @@ nav .MenuItem {
   list-style: none;
   margin: 0;
   padding-left: 40vw;
+  font-weight: bold;
+
 }
 
 nav .MenuItem li {
   margin-left: 2vw;
+  font-weight: bold;
+
 }
 
 nav .MenuItem a {
   text-decoration: none;
   color: grey;
+  font-weight: bold;
+
 }
 
 nav .MenuItem a:hover {
   color: white;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
+.WalletConnector{
+  background-image: linear-gradient(87.45deg, #1affd9, #4cd2ff 101.45%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+  display: inline;
+  }
+
 nav button {
-  color: skyblue;
+  color: #1affd9;
   background-color: black;
-  border: 1px solid;
   border-radius: 36px;
   padding: 12px 24px;
   margin-left: 2vw;
+  border: 1px solid #4cd2ff;
+  font-weight: bold;
+
 }
+
 
 nav button:hover {
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
-  color: skyblue;
+  color: #1affd9;
 }
