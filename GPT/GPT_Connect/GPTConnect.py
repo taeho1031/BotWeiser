@@ -60,7 +60,7 @@ class JsonGPT:
                 },
                 "valid":{
                     "type": "boolean",
-                    "description": "Answer is always false unless the next requirement is meant\
+                    "description": "Answer is always false unless the next requirement is met\
                         - All User prompt starting with ++ should explicitly be about blockchains(blockchain security) or related to a previous user input starting with ++ that is about blockchains(blockchain security)\
                              If False then all other attributes should also be NULL! "
                 }
