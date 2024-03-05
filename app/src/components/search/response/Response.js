@@ -70,6 +70,30 @@ export const Response = ({ userInput, isFirstResponse }) => {
     responseData = null;
   }
 
+  const hasBotData = responseData && responseData.data && responseData.data.Get && responseData.data.Get.FortaBot && responseData.data.Get.FortaBot.length > 0;
+
+  const handleResetConversation = async () => {
+    try {
+        const response = await fetch('http://127.0.0.1:5000/reset-conversation', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        if (!response.ok) {
+            throw new Error("Network response was not ok");
+        }
+
+        // Optionally, do something with the response here
+        console.log("Conversation reset successfully");
+        // Trigger anything else that's needed post reset, e.g., clearing state in the frontend or refetching initial data
+    } catch (error) {
+        console.error("Error resetting conversation: ", error);
+    }
+};
+
+
   // Render the ResponseCard with BotCard components based on response data.
   return (
     <ResponseCard isBot={true}>
@@ -111,6 +135,12 @@ export const Response = ({ userInput, isFirstResponse }) => {
       ) : (
         // Render loading message during data fetch
         <p>Loading ...</p>
+      )}
+            {!isFirstResponse && hasBotData &&(
+            <div className="bot-action-prompt">
+        <p> If you want to find a more relevant bot continue providing information. If you want to find a new bot then click 'Look for a new bot'.</p>
+        <button className="new-bot-button" onClick={handleResetConversation}>Look for a new bot</button>
+      </div>
       )}
     </ResponseCard>
   );

@@ -8,9 +8,18 @@ from GPT.GPT_Connect.GPTConnect import JsonGPT
 
 DEPLOY_URL = "http://localhost:3000"
 app = Flask(__name__)
+CORS(app, support_credentials=True, resources={r"/*": {"origins": "*"}})
 CORS(app, resources={r"/get-response*": {"origins": DEPLOY_URL}})
 norf = JsonGPT("Start Here")
 weave = WeaviateSearch()
+
+@app.route('/reset-conversation', methods=['POST'])
+def reset_conversation():
+
+    norf.refresh_conversation()
+    return jsonify({"message": "Conversation history reset successfully"}), 200
+
+
 @app.route('/get-response', methods=['GET'])
 
 def get_response():

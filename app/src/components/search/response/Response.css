@@ -18,3 +18,15 @@
   cursor: pointer;
   color: #1affd9;
 }
+
+.new-bot-button{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  box-align: center;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+
+}
+
