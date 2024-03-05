@@ -24,7 +24,7 @@ class JsonGPT:
         print(f"{json_ans=}")
         if json_ans['valid'] == False:
             self.query = prev_query
-            return 'Please write a sentence that is relevant'
+            return json_ans
         else:
             self.conversation.append(input)
             return json_ans
@@ -60,7 +60,9 @@ class JsonGPT:
                 },
                 "valid":{
                     "type": "boolean",
-                    "description": "if the user prompt is not related to blockchain networks(bots) at all or lines of user prompt starting with ++ are not related to previous lines, is set to False or otherwise True. If False, set all other attributes to Null"
+                    "description": "Answer is always false unless the next requirement is met\
+                        - All User prompt starting with ++ should explicitly be about blockchains(blockchain security) or related to a previous user input starting with ++ that is about blockchains(blockchain security)\
+                             If False then all other attributes should also be NULL! "
                 }
             }
         }
