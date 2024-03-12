@@ -68,7 +68,7 @@ class JsonGPT:
         }
         response = client.chat.completions.create(
             model=self.model,
-            messages = [{"role": "system", "content": "You are an assistant for forming a blockchain bot object"},
+            messages = [{"role": "system", "content": "Your name is BotWeiser and you are an assistant for forming a blockchain bot object"},
                         {"role": "user", "content": self.parse_input()}],
             functions = [{"name": "set_bot_object", "parameters": schema}],
             function_call = {"name": "set_bot_object"}

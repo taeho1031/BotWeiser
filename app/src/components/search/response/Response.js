@@ -8,15 +8,8 @@ import './Response.css'
 export const Response = ({ userInput, isFirstResponse }) => {
   // State variable to manage the content of the response.
   const [responseContent, setResponseContent] = useState(null);
-  const [showFullDescriptions, setShowFullDescriptions] = useState({});
   const [showFullAdditional, setShowFullAdditional] = useState({});
 
-  const toggleDescriptionVisibility = (botId) => {
-    setShowFullDescriptions((prev) => ({
-      ...prev,
-      [botId]: !prev[botId],
-    }));
-  };
 
   const toggleAdditionalVisibility = (botId) => {
     setShowFullAdditional((prevShow) => ({
@@ -103,6 +96,8 @@ export const Response = ({ userInput, isFirstResponse }) => {
         responseData.data.Get &&
         responseData.data.Get.FortaBot ? (
           responseData.data.Get.FortaBot.map((botData, index) => {
+            const delay = index * 0.5; 
+
             // Debugging: Log each bot's description to the console
             const showFull = showFullAdditional[botData.bot_id];
 
@@ -116,15 +111,11 @@ export const Response = ({ userInput, isFirstResponse }) => {
                   name={botData.name}
                   chain_ids={botData.chainIds}
                   description={botData.description}
+                  additionalInfo={botData._additional.generate.singleResult}
+                  showFull={showFull}
+                  toggleVisibility={() => toggleAdditionalVisibility(botData.bot_id)}
+                  delay={delay}
                 />
-                <hr />
-                {/* Render additional bot details as HTML */}
-                <div className={`additional-details ${showFull ? 'additional-details--expanded' : ''}`}
-        dangerouslySetInnerHTML={{ __html: botData._additional.generate.singleResult }} 
-      />
-                <button className = {'read_more_button'} onClick={() => toggleAdditionalVisibility(botData.bot_id)}>
-                  {showFull ? 'Show Less...' : 'Show More...'}
-                </button>
               </div>
             );
           })
@@ -138,7 +129,7 @@ export const Response = ({ userInput, isFirstResponse }) => {
       )}
             {!isFirstResponse && hasBotData &&(
             <div className="bot-action-prompt">
-        <p> If you want to find a more relevant bot continue providing information. If you want to find a new bot then click 'Look for a new bot'.</p>
+        <p> If you want to find a more relevant bot continue providing more information. If you want to restart your conversation click 'Look for a new bot'.</p>
         <button className="new-bot-button" onClick={handleResetConversation}>Look for a new bot</button>
       </div>
       )}

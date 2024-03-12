@@ -21,7 +21,6 @@ def reset_conversation():
 
 
 @app.route('/get-response', methods=['GET'])
-
 def get_response():
     user_input = request.args.get('userInput')
     is_first_response = request.args.get('isFirstResponse') == 'true'
@@ -36,7 +35,6 @@ def get_response():
         response_text = 'Please try again! Provide information that is relevant to blockchain bots only'
     elif search_json["bot_id"]:
         response_text = weave.search_with_botId(search_json["bot_id"])
-        # Reset the GPTConnect conversation
         norf.refresh_conversation()
     else:
         response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])

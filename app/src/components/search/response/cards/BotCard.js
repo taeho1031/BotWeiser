@@ -14,10 +14,12 @@ import bsc from "../../../../assets/icons/bsc.png";
 import ftm from "../../../../assets/icons/ftm.png";
 
 // Functional component BotCard, displaying details of a specific bot.
-export const BotCard = ({ id, name, chain_ids, description }) => {
+export const BotCard = ({ id, name, chain_ids, description, additionalInfo, showFull, toggleVisibility, delay }) => {
   // URL for the bot's dedicated page.
   const botUrl = `https://app.forta.network/bot/${id}`;
-
+  const styleWithDelay = {
+    animationDelay: `${delay}s`,
+  };
   const copyToClipboard = (text) => {
     navigator.clipboard
       .writeText(text)
@@ -49,7 +51,7 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
   // Render the BotCard with details such as name, description, id, and chain_ids.
   return (
     // Inside the BotCard component's return statement
-    <div className="wrapper">
+    <div className="wrapper fadeInDelayed" style={styleWithDelay}>
       <div className="title-container">
         <a
           className="BotCard__title"
@@ -96,6 +98,11 @@ export const BotCard = ({ id, name, chain_ids, description }) => {
 
       {/* Description of the Bot */}
       <div className="BotCard__description">{description}</div>
+
+      <div className={`additional-details ${showFull ? 'additional-details--expanded' : ''}`} dangerouslySetInnerHTML={{ __html: additionalInfo }} />
+      <button className="read_more_button" onClick={toggleVisibility}>
+        {showFull ? 'Show Less...' : 'Show More...'}
+      </button>
     </div>
   );
 };
