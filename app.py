@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import openai
 from openai import AsyncOpenAI
+import json
 
 from database.client.weaveight import WeaviateSearch
 from GPT.GPT_Connect.GPTConnect import JsonGPT
@@ -39,6 +40,13 @@ def get_response():
     else:
         response_text = weave.search_with_prompt(search_json["description"], search_json["chainIds"])
         print("send result")
+        
+        trial = json.loads(response_text)
+
+        if  "data" in trial.keys() and len(trial["data"]["Get"]["FortaBot"]) < 1:
+            response_text = "There aren't any results. Please try again by specifying a blockchain network."
+
+
 
     return jsonify({"responseText": response_text})
 
