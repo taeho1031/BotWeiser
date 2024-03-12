@@ -4,12 +4,12 @@
 import React, { useState, useEffect } from "react";
 import { ResponseCard } from "./cards/ResponseCard";
 import { BotCard } from "./cards/BotCard";
-import './Response.css'
+import './Response.css';
+
 export const Response = ({ userInput, isFirstResponse }) => {
-  // State variable to manage the content of the response.
   const [responseContent, setResponseContent] = useState(null);
   const [showFullAdditional, setShowFullAdditional] = useState({});
-
+  const [checkboxMessage, setCheckboxMessage] = useState('');
 
   const toggleAdditionalVisibility = (botId) => {
     setShowFullAdditional((prevShow) => ({
@@ -18,22 +18,53 @@ export const Response = ({ userInput, isFirstResponse }) => {
     }));
   };
 
-  // const [showFullDescriptions, setShowFullDescriptions] = useState({});
+  const [placeholder, setPlaceholder] = useState("");
 
-  // const toggleDescriptionVisibility = (botId) => {
-  //   setShowFullDescriptions((prevShowFullDescriptions) => ({
-  //     ...prevShowFullDescriptions,
-  //     [botId]: !prevShowFullDescriptions[botId],
-  //   }));
-  // };
-  // Effect hook to fetch response data when user input or isFirstResponse changes.
+  useEffect(() => {
+    const phrases = [
+      "Fetching data...", "Please wait...", "Compiling responses..."
+    ];
+    let phraseIndex = 0;
+    let letterIndex = 0;
+    let isDeleting = false;
+    let timer = null;
+
+    const typeWriter = () => {
+      const currentPhrase = phrases[phraseIndex];
+      const updatePlaceholder = (text) => setPlaceholder(text);
+
+      if (isDeleting) {
+        if (letterIndex > 0) {
+          letterIndex--;
+          updatePlaceholder(currentPhrase.slice(0, letterIndex));
+          timer = setTimeout(typeWriter, 50);
+        } else {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          timer = setTimeout(typeWriter, 500);
+        }
+      } else {
+        if (letterIndex < currentPhrase.length) {
+          letterIndex++;
+          updatePlaceholder(currentPhrase.slice(0, letterIndex));
+          timer = setTimeout(typeWriter, 100);
+        } else {
+          isDeleting = true;
+          timer = setTimeout(typeWriter, 500);
+        }
+      }
+    };
+
+    timer = setTimeout(typeWriter, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://127.0.0.1:5000/get-response?userInput=${encodeURIComponent(
-            userInput
-          )}&isFirstResponse=${isFirstResponse}`
+          `http://127.0.0.1:5000/get-response?userInput=${encodeURIComponent(userInput)}&isFirstResponse=${isFirstResponse}`
         );
 
         if (!response.ok) {
@@ -51,43 +82,46 @@ export const Response = ({ userInput, isFirstResponse }) => {
     fetchData();
   }, [userInput, isFirstResponse]);
 
-  // Variable to store parsed response data.
-  let responseData;
+  const handleCheckboxChange = (event) => {
+    const isChecked = event.target.checked;
+    setCheckboxMessage(isChecked ? 'clicked' : '');
+  
+    // Send the checkbox status to the backend
+    const sendCheckboxStatusToBackend = async (status) => {
+      try {
+        const response = await fetch('http://127.0.0.1:5000/update-checkbox-status', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ status }),
+        });
+  
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+  
+        const responseData = await response.json();
+        console.log(responseData.message); // For debug purposes
+      } catch (error) {
+        console.error('Error sending checkbox status:', error);
+      }
+    };
+  
+    sendCheckboxStatusToBackend(isChecked ? 'clicked' : '');
+  };
+  
 
-  // Try parsing JSON response content; handle errors.
-  try {
-    responseData = JSON.parse(responseContent);
-    console.log("Description:", responseData.description);
-  } catch (error) {
-    console.error("Error parsing JSON: ", error);
-    responseData = null;
+  let responseData;
+  if (responseContent && typeof responseContent === 'string' && responseContent.trim().startsWith('{')) {
+    try {
+      responseData = JSON.parse(responseContent);
+    } catch (error) {
+      console.error("Error parsing JSON: ", error);
+      responseData = undefined; 
+    }
   }
 
-  const hasBotData = responseData && responseData.data && responseData.data.Get && responseData.data.Get.FortaBot && responseData.data.Get.FortaBot.length > 0;
-
-  const handleResetConversation = async () => {
-    try {
-        const response = await fetch('http://127.0.0.1:5000/reset-conversation', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
-
-        if (!response.ok) {
-            throw new Error("Network response was not ok");
-        }
-
-        // Optionally, do something with the response here
-        console.log("Conversation reset successfully");
-        // Trigger anything else that's needed post reset, e.g., clearing state in the frontend or refetching initial data
-    } catch (error) {
-        console.error("Error resetting conversation: ", error);
-    }
-};
-
-
-  // Render the ResponseCard with BotCard components based on response data.
   return (
     <ResponseCard isBot={true}>
       {responseContent ? (
@@ -95,43 +129,57 @@ export const Response = ({ userInput, isFirstResponse }) => {
         responseData.data &&
         responseData.data.Get &&
         responseData.data.Get.FortaBot ? (
-          responseData.data.Get.FortaBot.map((botData, index) => {
-            const delay = index * 0.5; 
+          <>
+            {responseData.data.Get.FortaBot.map((botData, index) => {
+              const delay = index * 0.5;
+              const showFull = showFullAdditional[botData.bot_id];
 
-            // Debugging: Log each bot's description to the console
-            const showFull = showFullAdditional[botData.bot_id];
+              return (
+                <div key={index}>
+                  <BotCard
+                    id={botData.bot_id}
+                    name={botData.name}
+                    chain_ids={botData.chainIds}
+                    description={botData.description}
+                    additionalInfo={botData._additional.generate.singleResult}
+                    showFull={showFull}
+                    toggleVisibility={() => toggleAdditionalVisibility(botData.bot_id)}
+                    delay={delay}
+                  />
+                </div>
+              );
+            })}
+            {!isFirstResponse && (
+              <div className="bot-action-prompt">
+                <p>If you want to find a more relevant bot continue providing more information. If you want to look for a new bot or search by Bot ID then toggle the button below and continue!</p>
 
-            console.log(`Bot ${index} Description:`, `${botData._additional.generate.singleResult}`);
-
-            return (
-              <div key={index}>
-                {/* Render BotCard component with bot details */}
-                <BotCard
-                  id={botData.bot_id}
-                  name={botData.name}
-                  chain_ids={botData.chainIds}
-                  description={botData.description}
-                  additionalInfo={botData._additional.generate.singleResult}
-                  showFull={showFull}
-                  toggleVisibility={() => toggleAdditionalVisibility(botData.bot_id)}
-                  delay={delay}
-                />
+                <label className="switch">
+                  <input type="checkbox" onChange={handleCheckboxChange}/>
+                  <span className="slider round"></span>
+                </label>
               </div>
-            );
-          })
+            )}
+          </>
         ) : (
-          // Render simple paragraph for non-bot responses
-          <p dangerouslySetInnerHTML={{ __html: responseContent }}></p>
+          <>
+            <p dangerouslySetInnerHTML={{ __html: responseContent }}></p>
+            {!isFirstResponse && (
+              <div className="bot-action-prompt">
+                <p>If you want to find a more relevant bot continue providing more information. If you want to look for a new bot then toggle the button below and continue!</p>
+
+                {checkboxMessage && <p>{checkboxMessage}</p>}
+                <label className="switch">
+                  <input type="checkbox" onChange={handleCheckboxChange}/>
+                  <span className="slider round"></span>
+                </label>
+              </div>
+            )}
+          </>
         )
       ) : (
-        // Render loading message during data fetch
-        <p>Loading ...</p>
-      )}
-            {!isFirstResponse && hasBotData &&(
-            <div className="bot-action-prompt">
-        <p> If you want to find a more relevant bot continue providing more information. If you want to restart your conversation click 'Look for a new bot'.</p>
-        <button className="new-bot-button" onClick={handleResetConversation}>Look for a new bot</button>
-      </div>
+        <div className="typewriter-container">        
+          <p>{placeholder}</p>
+        </div>
       )}
     </ResponseCard>
   );
