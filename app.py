@@ -13,21 +13,34 @@ CORS(app, support_credentials=True, resources={r"/*": {"origins": "*"}})
 CORS(app, resources={r"/get-response*": {"origins": DEPLOY_URL}})
 norf = JsonGPT("Start Here")
 weave = WeaviateSearch()
+checkbox_status = ''
 
-@app.route('/reset-conversation', methods=['POST'])
-def reset_conversation():
-
-    norf.refresh_conversation()
-    return jsonify({"message": "Conversation history reset successfully"}), 200
+@app.route('/update-checkbox-status', methods=['POST'])
+def update_checkbox_status():
+    global checkbox_status 
+    data = request.get_json()
+    checkbox_status = data.get('status', '')
+    
+    print(f'Checkbox status updated to: {checkbox_status}')
+    
+    return jsonify({"message": f"Checkbox status updated: {checkbox_status}"}), 200
 
 
 @app.route('/get-response', methods=['GET'])
 def get_response():
+    global checkbox_status
     user_input = request.args.get('userInput')
     is_first_response = request.args.get('isFirstResponse') == 'true'
+
+    if checkbox_status =='clicked':
+        norf.refresh_conversation()
+        checkbox_status=''
+        print("conversation reset")
+
     if is_first_response:
         response_text = "Hello, I'm Botweiser! My purpose is to assist you in discovering the ideal blockchain security bot for your needs. Please share any specific details or preferences you have. You can also search by specific id of blockchain bot one at a time."
         norf.refresh_conversation()
+        
         return jsonify({"responseText": response_text})
 
     search_json = norf.recieve_chat(user_input)
