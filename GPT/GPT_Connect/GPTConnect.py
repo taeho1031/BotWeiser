@@ -52,7 +52,7 @@ class JsonGPT:
                 "chainIds":{
                     "type": "array",
                     "items": {"type": "integer"},
-                    "description": "Specify the relevant chain ID. If none found NULL"
+                    "description": "Only Specify relevant chain IDs that have explicitly been mentioned. If none found NULL"
                 },
                 "name":{
                     "type": "string",
