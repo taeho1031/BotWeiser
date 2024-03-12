@@ -61,3 +61,13 @@
   margin-top: 5px; 
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeInDelayed {
+  animation-name: fadeIn;
+  animation-duration: 1s; 
+  animation-fill-mode: both;
+}
