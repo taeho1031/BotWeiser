@@ -15,4 +15,3 @@
 ![FortaInfinity Final Presentation-14](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/0cf85ada-dde9-44da-bdf9-fc0158c9dbad)
 ![FortaInfinity Final Presentation-15](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/f9d90caf-333e-485e-a4de-a19f7b694cef)
 ![FortaInfinity Final Presentation-16](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/d0ef6720-4c50-48fd-8061-f3da8548cb52)
-![FortaInfinity Final Presentation-17](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/3bd0a961-0c62-4c61-a1a2-ab0b430b3af6)
