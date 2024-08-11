@@ -1,5 +1,4 @@
 ﻿# Forta-BotWeiser
-![FortaInfinity Final Presentation-01](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/20cfdc32-905f-4197-bdbb-abcb6317ca82)
 ![FortaInfinity Final Presentation-02](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/649848d8-929a-4b8b-b13e-225a29d744f0)
 ![FortaInfinity Final Presentation-03](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/a374dc25-1b23-4db9-a865-bbed103e8915)
 ![FortaInfinity Final Presentation-04](https://github.com/FortaInfinity/FortaInfinity-BotWeiser/assets/65512890/f8ebcf52-47a4-4eda-ab20-ea16fe111a68)
